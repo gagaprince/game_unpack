@@ -1,0 +1,27 @@
+
+touch.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 54, 12
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 96, 24
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

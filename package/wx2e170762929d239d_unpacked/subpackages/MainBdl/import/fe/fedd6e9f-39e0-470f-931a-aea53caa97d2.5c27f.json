@@ -1,0 +1,22 @@
+[
+  1,
+  ["146c1a966"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "欢喜收下",
+      "rect": [3, 383, 374, 127],
+      "offset": [0, 0],
+      "originalSize": [374, 127],
+      "rotated": 1,
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

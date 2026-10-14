@@ -1,0 +1,879 @@
+[
+  1,
+  [
+    "fdoJXLgx1GAa2UhGATlj3o",
+    "66P82KMqxIgovwkt4THCK/@6c48a",
+    "b4o6Khqx1FcLkpFpA9Zol0@6c48a",
+    "bexUn2phdIPZZrq20JB3GA@6c48a",
+    "7dj5uJT9FMn6OrOOx83tfK@f9941",
+    "8d+uYy7pVAD5gCf0PM09gg@f9941",
+    "14Or/qbI5HTJCVZOUX8Bfl@f9941",
+    "39WYDjsOxGm6wuC4+lJ+J3@f9941",
+    "bexUn2phdIPZZrq20JB3GA@f9941",
+    "b4o6Khqx1FcLkpFpA9Zol0@f9941",
+    "66P82KMqxIgovwkt4THCK/@f9941",
+    "3fthf6UDRNyZ73JoRZ7oD1@f9941",
+    "daeS2L4zNAGr1+CFjvtBNS@f9941",
+    "02l5Z/GdhBd6BMpYR4Ub8+@f9941",
+    "ceBw5Bcd1CCIz5BqEB+OM/@f9941"
+  ],
+  [
+    "node",
+    "_customMaterial",
+    "_spriteFrame",
+    "_textureSource",
+    "root",
+    "icon",
+    "data",
+    "_parent"
+  ],
+  [
+    [
+      "cc.Node",
+      [
+        "_name",
+        "_layer",
+        "_active",
+        "_components",
+        "_prefab",
+        "_parent",
+        "_lpos",
+        "_children",
+        "_lscale"
+      ],
+      0,
+      9,
+      4,
+      1,
+      5,
+      2,
+      5
+    ],
+    [
+      "cc.Sprite",
+      [
+        "_sizeMode",
+        "_type",
+        "node",
+        "__prefab",
+        "_customMaterial",
+        "_spriteFrame",
+        "_color"
+      ],
+      1,
+      1,
+      4,
+      6,
+      6,
+      5
+    ],
+    [
+      "cc.Widget",
+      [
+        "_alignFlags",
+        "_right",
+        "_top",
+        "_originalWidth",
+        "_originalHeight",
+        "_bottom",
+        "node",
+        "__prefab"
+      ],
+      -3,
+      1,
+      4
+    ],
+    "cc.SpriteFrame",
+    ["cc.UIOpacity", ["_opacity", "node", "__prefab"], 2, 1, 4],
+    ["cc.Prefab", ["_name"], 2],
+    [
+      "cc.Node",
+      [
+        "_name",
+        "_active",
+        "_layer",
+        "_parent",
+        "_components",
+        "_prefab",
+        "_lpos",
+        "_lscale"
+      ],
+      0,
+      1,
+      12,
+      4,
+      5,
+      5
+    ],
+    ["cc.CompPrefabInfo", ["fileId"], 2],
+    ["cc.UITransform", ["node", "__prefab", "_contentSize"], 3, 1, 4, 5],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "instance",
+        "targetOverrides",
+        "nestedPrefabInstanceRoots",
+        "root",
+        "asset"
+      ],
+      -1,
+      1,
+      1
+    ],
+    [
+      "cc.Button",
+      [
+        "_transition",
+        "_zoomScale",
+        "node",
+        "__prefab",
+        "_hoverColor",
+        "_pressedColor"
+      ],
+      1,
+      1,
+      4,
+      5,
+      5
+    ],
+    ["43bb6fKayNBYbX8U1vE9wAT", ["node", "__prefab"], 3, 1, 4],
+    ["cc.BlockInputEvents", ["node", "__prefab"], 3, 1, 4],
+    [
+      "cc.Label",
+      [
+        "_string",
+        "_actualFontSize",
+        "_fontSize",
+        "_lineHeight",
+        "_overflow",
+        "_underlineHeight",
+        "_enableOutline",
+        "_outlineWidth",
+        "node",
+        "__prefab",
+        "_customMaterial"
+      ],
+      -5,
+      1,
+      4,
+      6
+    ],
+    ["cc.LabelOutline", ["node", "__prefab"], 3, 1, 4],
+    ["f5322BTOHxO4pccMz2DMzcP", ["node", "__prefab", "icon"], 3, 1, 4, 1]
+  ],
+  [
+    [7, 0, 2],
+    [8, 0, 1, 2, 1],
+    [9, 0, 1, 2, 3, 4, 5, 5],
+    [4, 1, 2, 1],
+    [0, 0, 1, 5, 3, 4, 6, 8, 3],
+    [2, 0, 6, 7, 2],
+    [1, 0, 2, 3, 4, 5, 2],
+    [1, 2, 3, 4, 5, 1],
+    [0, 0, 1, 7, 3, 4, 3],
+    [0, 0, 1, 5, 3, 4, 6, 3],
+    [0, 0, 1, 5, 7, 3, 4, 3],
+    [10, 0, 1, 2, 3, 4, 5, 3],
+    [11, 0, 1, 1],
+    [5, 0, 2],
+    [0, 0, 1, 5, 7, 3, 4, 6, 3],
+    [0, 0, 1, 5, 3, 4, 3],
+    [0, 0, 2, 1, 5, 3, 4, 6, 4],
+    [6, 0, 1, 2, 3, 4, 5, 6, 7, 4],
+    [2, 0, 1, 2, 6, 7, 4],
+    [2, 0, 3, 4, 6, 7, 4],
+    [2, 0, 5, 6, 7, 3],
+    [4, 0, 1, 2, 2],
+    [1, 1, 0, 2, 3, 4, 5, 3],
+    [1, 1, 2, 3, 4, 5, 2],
+    [1, 0, 2, 3, 6, 4, 5, 2],
+    [1, 0, 2, 3, 2],
+    [12, 0, 1, 1],
+    [13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9],
+    [14, 0, 1, 1],
+    [15, 0, 1, 2, 1]
+  ],
+  [
+    [
+      [
+        {
+          "name": "解锁槽位",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 223,
+            "height": 54
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 223,
+            "height": 54
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "vertices": {
+            "rawPosition": [
+              -111.5,
+              -27,
+              0,
+              111.5,
+              -27,
+              0,
+              -111.5,
+              27,
+              0,
+              111.5,
+              27,
+              0
+            ],
+            "indexes": [0, 1, 2, 2, 1, 3],
+            "uv": [0, 54, 223, 54, 0, 0, 223, 0],
+            "nuv": [0, 0, 1, 0, 0, 1, 1, 1],
+            "minPos": {
+              "x": -111.5,
+              "y": -27,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 111.5,
+              "y": 27,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [3],
+      0,
+      [0],
+      [3],
+      [1]
+    ],
+    [
+      [
+        {
+          "name": "消除多组",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 224,
+            "height": 54
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 224,
+            "height": 54
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "vertices": {
+            "rawPosition": [-112, -27, 0, 112, -27, 0, -112, 27, 0, 112, 27, 0],
+            "indexes": [0, 1, 2, 2, 1, 3],
+            "uv": [0, 54, 224, 54, 0, 0, 224, 0],
+            "nuv": [0, 0, 1, 0, 0, 1, 1, 1],
+            "minPos": {
+              "x": -112,
+              "y": -27,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 112,
+              "y": 27,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [3],
+      0,
+      [0],
+      [3],
+      [2]
+    ],
+    [
+      [
+        {
+          "name": "解锁所有",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 223,
+            "height": 54
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 223,
+            "height": 54
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "vertices": {
+            "rawPosition": [
+              -111.5,
+              -27,
+              0,
+              111.5,
+              -27,
+              0,
+              -111.5,
+              27,
+              0,
+              111.5,
+              27,
+              0
+            ],
+            "indexes": [0, 1, 2, 2, 1, 3],
+            "uv": [0, 54, 223, 54, 0, 0, 223, 0],
+            "nuv": [0, 0, 1, 0, 0, 1, 1, 1],
+            "minPos": {
+              "x": -111.5,
+              "y": -27,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 111.5,
+              "y": 27,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [3],
+      0,
+      [0],
+      [3],
+      [3]
+    ],
+    [
+      [
+        [13, "GbzPropSpecialLayer"],
+        [
+          8,
+          "GbzPropSpecialLayer",
+          33554432,
+          [-5, -6],
+          [
+            [5, 45, -2, [0, "33VK2Vu0FEmoj7M7yUBUS4"]],
+            [3, -3, [0, "16oIAwEqBNPJRgII/Yv7bK"]],
+            [1, -4, [0, "6bTChq8mRPxqZKb6fP1NAJ"], [5, 750, 1334]]
+          ],
+          [2, "75wYrXejtA3L1v736YtRVp", null, null, null, -1, 0]
+        ],
+        [
+          8,
+          "bg",
+          33554432,
+          [-11, -12, -13, -14, -15, -16, -17, -18],
+          [
+            [22, 1, 0, -7, [0, "8eQZN2cT9A3pfcYQ3D1Hpb"], 19, 20],
+            [5, 18, -8, [0, "53YB9GG9NBvL7Hds9u5RBX"]],
+            [3, -9, [0, "7ad5K1drpI75r8EJMLcAOH"]],
+            [1, -10, [0, "04X2K8pxtKPr3RKDfYu8Rz"], [5, 540, 700]]
+          ],
+          [2, "52aqjwQEBHgb11ihtUUkZc", null, null, null, 1, 0]
+        ],
+        [
+          14,
+          "videobtn_get",
+          33554432,
+          2,
+          [-24, -25],
+          [
+            [23, 1, -19, [0, "90tPAH9FVMeYvAmIuizVBV"], 16, 17],
+            [
+              11,
+              3,
+              0.9,
+              -20,
+              [0, "92UaraSW9PEZGnHcyN2sji"],
+              [4, 4294967295],
+              [4, 4292072403]
+            ],
+            [12, -21, [0, "f21SDm9WRK+bkVNc/h3S96"]],
+            [3, -22, [0, "fcZ7cVuyhMzKi/Xie1vHED"]],
+            [1, -23, [0, "c3zAcVnShBwaULWjb4HAVY"], [5, 286, 116]]
+          ],
+          [2, "4d35ZWWbpEJ7VQ+mX5Vy4B", null, null, null, 1, 0],
+          [1, 0, -250, 0]
+        ],
+        [
+          9,
+          "btnClose",
+          33554432,
+          2,
+          [
+            [6, 0, -26, [0, "e8/BpgJ1RPKa0kSKHuKukS"], 2, 3],
+            [
+              18,
+              33,
+              -27.189999999999948,
+              -27.600000000000023,
+              -27,
+              [0, "13LTAd0HRMFr9Kd1zu73lk"]
+            ],
+            [
+              11,
+              3,
+              0.9,
+              -28,
+              [0, "e5Jp9ODhBGt7l3ZvwNS+7u"],
+              [4, 4294967295],
+              [4, 4292072403]
+            ],
+            [12, -29, [0, "dfGE9IIW5NS6vicqecIC+c"]],
+            [3, -30, [0, "4ayTOiJuRPO5zzDDLvoVTy"]],
+            [1, -31, [0, "f5R9/Ph4lLWL5ZOU2Nqbyl"], [5, 79.2, 79.2]]
+          ],
+          [2, "f5dUKuMttHS4KQZBoO19Cf", null, null, null, 1, 0],
+          [1, 257.5899999999999, 338, 0]
+        ],
+        [
+          15,
+          "bgshade",
+          33554432,
+          1,
+          [
+            [24, 0, -32, [0, "42yXuqYWFCVYpjGIphp6xv"], [4, 4278190080], 0, 1],
+            [19, 45, 100, 1625, -33, [0, "beeLhuPFxC+I6/CKXQxnFF"]],
+            [26, -34, [0, "e7FbkugXdIeJ7SxEJiICt1"]],
+            [21, 200, -35, [0, "53x2XIeqJE9L4CoA1PXO/8"]],
+            [1, -36, [0, "80SegqwplNa7ErKNwuVsWX"], [5, 750, 1334]]
+          ],
+          [2, "3ajnNdLf5HeJpss793jrdT", null, null, null, 1, 0]
+        ],
+        [
+          9,
+          "dirLa",
+          33554432,
+          2,
+          [
+            [
+              27,
+              "解锁所有槽位",
+              31,
+              30,
+              30,
+              2,
+              0,
+              true,
+              5,
+              -37,
+              [0, "c4WIFPU7tJ4o9ZedSJfi4l"],
+              18
+            ],
+            [20, 20, 150.628, -38, [0, "ffcisakBlBNLwgI7wIKLzj"]],
+            [3, -39, [0, "65WYQouSpNU6OpAiXqI1Bi"]],
+            [1, -40, [0, "74iF2r2JlIR7tNf717d4wq"], [5, 400, 100]],
+            [28, -41, [0, "9fFkFB7BFCm5wjP+rfs16t"]]
+          ],
+          [2, "fcmFBxwtFLVbElm+c4kULu", null, null, null, 1, 0],
+          [1, 0, -149.372, 0]
+        ],
+        [
+          10,
+          "style",
+          33554432,
+          1,
+          [-45],
+          [
+            [5, 45, -42, [0, "b6y+11GgVGzYHz8HsyiORw"]],
+            [3, -43, [0, "24FvOhl81IRYS9SEiM6Wjb"]],
+            [1, -44, [0, "08FbXcQXZJp61mUU19nVKA"], [5, 750, 1334]]
+          ],
+          [2, "a8CxziESNAe6sHeUJJNkAX", null, null, null, 1, 0]
+        ],
+        [
+          10,
+          "panel",
+          33554432,
+          7,
+          [2],
+          [
+            [5, 45, -46, [0, "5bXuZUSq1LDZP0YEVA8tZM"]],
+            [3, -47, [0, "cckTieDTpBF44M9D7Zuugq"]],
+            [1, -48, [0, "b5cmMT5KxPQ4eBtXJSnpPN"], [5, 750, 1334]]
+          ],
+          [2, "71x2G8CdtOEo335s0K+BRb", null, null, null, 1, 0]
+        ],
+        [
+          17,
+          "视频",
+          false,
+          33554432,
+          3,
+          [
+            [
+              -49,
+              [29, -51, [0, "e5R6cE0zFMCIQvoPte0HZF"], -50],
+              [3, -52, [0, "f2IHq0gkNNgrWgFfssMbAl"]],
+              [1, -53, [0, "e4dqcGqixJHockOLOafgrF"], [5, 110, 108]]
+            ],
+            1,
+            4,
+            4,
+            4
+          ],
+          [2, "1aqLQsqupPcYfF2Ccqyakr", null, null, null, 1, 0],
+          [1, -57.799, 4, 0],
+          [1, 0.5, 0.5, 1]
+        ],
+        [
+          4,
+          "propIcon0",
+          33554432,
+          2,
+          [
+            [7, -54, [0, "fa504EOS9HqL6SBBS/UHJs"], 4, 5],
+            [3, -55, [0, "ef9m5enaNJMoRJjt/jgiIq"]],
+            [1, -56, [0, "bakVlARMRFLKzPBEr3WgVM"], [5, 498, 480]]
+          ],
+          [2, "c2BXOmtMlOrqatvd7arYix", null, null, null, 1, 0],
+          [1, -5.572, 57.822, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          4,
+          "propIcon1",
+          33554432,
+          2,
+          [
+            [7, -57, [0, "a4Vu/3lPZF94p+CIIS2nUb"], 6, 7],
+            [3, -58, [0, "31BQQt1k1MC5A8gK3ceVIx"]],
+            [1, -59, [0, "39XaSfGgZINoFEEo9ZIUwd"], [5, 517, 485]]
+          ],
+          [2, "58215h319NlKrvFJCDGJdu", null, null, null, 1, 0],
+          [1, -5.572, 57.822, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          4,
+          "titleLa0",
+          33554432,
+          2,
+          [
+            [6, 0, -60, [0, "2bWTgAFYRF47EN7qeB9z+8"], 8, 9],
+            [3, -61, [0, "2da69ern1ItpvAErzgt16B"]],
+            [
+              1,
+              -62,
+              [0, "79sd4SlzdFK6FhnBd3vStH"],
+              [5, 302.05122448979597, 76.44]
+            ]
+          ],
+          [2, "69TJPvTlpPRYyni33Vxf1M", null, null, null, 1, 0],
+          [1, 0, 298.932, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          4,
+          "titleLa1",
+          33554432,
+          2,
+          [
+            [6, 0, -63, [0, "b6drXtf+BJto/uBEtnz3sK"], 10, 11],
+            [3, -64, [0, "40pZTXFHFI44luig9Ixp6q"]],
+            [
+              1,
+              -65,
+              [0, "82yvtry3RB5Jm60zmvFhuf"],
+              [5, 303.4057142857143, 76.44]
+            ]
+          ],
+          [2, "344BD8KL1Hh6O/jyUMJSiO", null, null, null, 1, 0],
+          [1, 0, 298.932, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          4,
+          "titleLa2",
+          33554432,
+          2,
+          [
+            [6, 0, -66, [0, "8cPVt4Ts1KB4inI0HWXszd"], 12, 13],
+            [3, -67, [0, "86JIS2/bBIobdxq0nu+zvL"]],
+            [
+              1,
+              -68,
+              [0, "cf9v4qsVlHP6B2UJdzkEAp"],
+              [5, 302.05122448979597, 76.44]
+            ]
+          ],
+          [2, "1cBmRLP1BJWomYB5w4+VGP", null, null, null, 1, 0],
+          [1, 0, 298.932, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          16,
+          "使用",
+          false,
+          33554432,
+          3,
+          [
+            [7, -69, [0, "8awkiR04FJxZhgU8LdwabQ"], 14, 15],
+            [3, -70, [0, "d4yBgn5+pBgaps8GoipEYQ"]],
+            [1, -71, [0, "f8nZPUtOJNVqo/TBj8Zq+H"], [5, 87, 40]]
+          ],
+          [2, "01wCLpH4VCNrFSQf7Iilxs", null, null, null, 1, 0],
+          [1, 37.919, 4, 0]
+        ],
+        [25, 0, 9, [0, "64jtBiPaFMVbAnkGeXr8xN"]]
+      ],
+      0,
+      [
+        0,
+        4,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        5,
+        0,
+        -2,
+        7,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        -1,
+        4,
+        0,
+        -2,
+        10,
+        0,
+        -3,
+        11,
+        0,
+        -4,
+        12,
+        0,
+        -5,
+        13,
+        0,
+        -6,
+        14,
+        0,
+        -7,
+        3,
+        0,
+        -8,
+        6,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        -1,
+        9,
+        0,
+        -2,
+        15,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        7,
+        0,
+        0,
+        7,
+        0,
+        0,
+        7,
+        0,
+        -1,
+        8,
+        0,
+        0,
+        8,
+        0,
+        0,
+        8,
+        0,
+        0,
+        8,
+        0,
+        -1,
+        16,
+        0,
+        5,
+        16,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        11,
+        0,
+        0,
+        11,
+        0,
+        0,
+        11,
+        0,
+        0,
+        12,
+        0,
+        0,
+        12,
+        0,
+        0,
+        12,
+        0,
+        0,
+        13,
+        0,
+        0,
+        13,
+        0,
+        0,
+        13,
+        0,
+        0,
+        14,
+        0,
+        0,
+        14,
+        0,
+        0,
+        14,
+        0,
+        0,
+        15,
+        0,
+        0,
+        15,
+        0,
+        0,
+        15,
+        0,
+        6,
+        1,
+        2,
+        7,
+        8,
+        71
+      ],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 16],
+      [1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 2],
+      [0, 4, 0, 5, 0, 6, 0, 7, 0, 8, 0, 9, 0, 10, 0, 11, 0, 12, 0, 0, 13, 0, 14]
+    ]
+  ]
+]

@@ -1,0 +1,57 @@
+[
+  1,
+  ["17934a4ea"],
+  ["_textureSetter"],
+  [
+    "cc.SpriteFrame",
+    ["cc.AnimationClip", ["_name", "_duration", "wrapMode", "curveData"], -1]
+  ],
+  [[1, 0, 1, 2, 3, 5]],
+  [
+    [
+      [
+        {
+          "name": "旋转光芒",
+          "rect": [216, 3, 274, 274],
+          "offset": [0, 0],
+          "originalSize": [274, 274],
+          "capInsets": [0, 0, 0, 0]
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        [
+          0,
+          "rota",
+          2.5166666666666666,
+          2,
+          {
+            "props": {
+              "angle": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 2.5166666666666666,
+                  "value": 360
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      0,
+      0,
+      [],
+      [],
+      []
+    ]
+  ]
+]

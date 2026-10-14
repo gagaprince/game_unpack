@@ -1,0 +1,111 @@
+[
+  1,
+  ["fdoJXLgx1GAa2UhGATlj3o", "f3ZvdxrTJNObH1R6Efhghs@f9941"],
+  ["node", "_customMaterial", "_spriteFrame", "root", "data"],
+  [
+    ["cc.Prefab", ["_name"], 2],
+    [
+      "cc.Node",
+      ["_name", "_layer", "_components", "_prefab", "_lpos"],
+      1,
+      9,
+      4,
+      5
+    ],
+    [
+      "cc.Sprite",
+      ["node", "__prefab", "_customMaterial", "_spriteFrame"],
+      3,
+      1,
+      4,
+      6,
+      6
+    ],
+    ["cc.CompPrefabInfo", ["fileId"], 2],
+    ["cc.RigidBody2D", ["enabledContactListener", "node", "__prefab"], 2, 1, 4],
+    ["cc.UIOpacity", ["node", "__prefab"], 3, 1, 4],
+    ["cc.UITransform", ["node", "__prefab", "_contentSize"], 3, 1, 4, 5],
+    ["cc.PolygonCollider2D", ["node", "__prefab", "_points"], 3, 1, 4, 12],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "instance",
+        "targetOverrides",
+        "nestedPrefabInstanceRoots",
+        "root",
+        "asset"
+      ],
+      -1,
+      1,
+      1
+    ]
+  ],
+  [
+    [3, 0, 2],
+    [0, 0, 2],
+    [1, 0, 1, 2, 3, 4, 3],
+    [2, 0, 1, 2, 3, 1],
+    [4, 0, 1, 2, 2],
+    [5, 0, 1, 1],
+    [6, 0, 1, 2, 1],
+    [7, 0, 1, 2, 1],
+    [8, 0, 1, 2, 3, 4, 5, 5]
+  ],
+  [
+    [1, "fruit23"],
+    [
+      2,
+      "fruit23",
+      2,
+      [
+        [3, -2, [0, "aci7UYHf5Eo6qUkJQILoFW"], 0, 1],
+        [4, true, -3, [0, "03J01ANpdN1p9ukliLmIaP"]],
+        [5, -4, [0, "41qR19icBCtK9o5ouQfrbi"]],
+        [6, -5, [0, "6d0FKC4v1EsIF7Kt/0gtN0"], [5, 166, 169]],
+        [
+          7,
+          -6,
+          [0, "d3Ou0Rrm5M8JomDeuvFr9w"],
+          [
+            [
+              [0, -38.3, 77.4],
+              [0, -83.5, 25.5],
+              [0, -78.4, -38.9],
+              [0, -50.3, -54.5],
+              [0, -46.5, -70.2],
+              [0, -6, -80.1],
+              [0, 36, -78.5],
+              [0, 70.1, -37],
+              [0, 77.7, -14],
+              [0, 78, -13.5],
+              [0, 74.3, 29],
+              [0, 47.5, 62.7],
+              [0, 0.9, 83.2]
+            ],
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        ]
+      ],
+      [8, "08kpEAhUtAlIKQbyfIuCd0", null, null, null, -1, 0],
+      [1, -69.259, 36.359, 0]
+    ]
+  ],
+  0,
+  [0, 3, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 4, 1, 6],
+  [0, 0],
+  [1, 2],
+  [0, 1]
+]

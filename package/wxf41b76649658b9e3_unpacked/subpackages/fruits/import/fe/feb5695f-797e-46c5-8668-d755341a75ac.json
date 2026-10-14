@@ -1,0 +1,114 @@
+[
+  1,
+  ["fdoJXLgx1GAa2UhGATlj3o", "1don2lj65L2IdhaZB0JWE+@f9941"],
+  ["node", "_customMaterial", "_spriteFrame", "root", "data"],
+  [
+    ["cc.Prefab", ["_name"], 2],
+    ["cc.Node", ["_name", "_layer", "_components", "_prefab"], 1, 9, 4],
+    [
+      "cc.Sprite",
+      ["node", "__prefab", "_customMaterial", "_spriteFrame"],
+      3,
+      1,
+      4,
+      6,
+      6
+    ],
+    ["cc.CompPrefabInfo", ["fileId"], 2],
+    ["cc.RigidBody2D", ["enabledContactListener", "node", "__prefab"], 2, 1, 4],
+    [
+      "cc.PolygonCollider2D",
+      ["node", "__prefab", "_offset", "_points"],
+      3,
+      1,
+      4,
+      5,
+      12
+    ],
+    ["cc.UIOpacity", ["node", "__prefab"], 3, 1, 4],
+    ["cc.UITransform", ["node", "__prefab", "_contentSize"], 3, 1, 4, 5],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "instance",
+        "targetOverrides",
+        "nestedPrefabInstanceRoots",
+        "root",
+        "asset"
+      ],
+      -1,
+      1,
+      1
+    ]
+  ],
+  [
+    [3, 0, 2],
+    [0, 0, 2],
+    [1, 0, 1, 2, 3, 3],
+    [2, 0, 1, 2, 3, 1],
+    [4, 0, 1, 2, 2],
+    [5, 0, 1, 2, 3, 1],
+    [6, 0, 1, 1],
+    [7, 0, 1, 2, 1],
+    [8, 0, 1, 2, 3, 4, 5, 5]
+  ],
+  [
+    [1, "fruit30"],
+    [
+      2,
+      "fruit30",
+      2,
+      [
+        [3, -2, [0, "99CVBT8z5MhZO2MeNmwYLp"], 0, 1],
+        [4, true, -3, [0, "30OVrb8edFZ6XaQEYVZLqA"]],
+        [
+          5,
+          -4,
+          [0, "e8fcJwNeFITZ+gOsUjJf9u"],
+          [0, 0, -1.9000000000000004],
+          [
+            [
+              [0, -41.1, 78.2],
+              [0, -61.8, 62.5],
+              [0, -67.2, 40.6],
+              [0, -83.1, 0.8],
+              [0, -75.5, -56.6],
+              [0, -47.6, -74.2],
+              [0, -27.8, -78.7],
+              [0, 3.3, -71.4],
+              [0, 23.1, -58.7],
+              [0, 61.5, -49.4],
+              [0, 72.4, -19.8],
+              [0, 78.2, 28.8],
+              [0, 61, 53],
+              [0, 12.6, 84.8]
+            ],
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        ],
+        [6, -5, [0, "fcytI3TX9Ao6jFB8iPhI4u"]],
+        [7, -6, [0, "93/zNrvpdH3rx81DSG+Nh4"], [5, 166, 174]]
+      ],
+      [8, "ffW8fmRt9EyJ5Nnhe7yAn6", null, null, null, -1, 0]
+    ]
+  ],
+  0,
+  [0, 3, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 4, 1, 6],
+  [0, 0],
+  [1, 2],
+  [0, 1]
+]

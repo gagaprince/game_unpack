@@ -1,0 +1,21 @@
+[
+  1,
+  ["8a4+seOetBJLAHozB2+TYk"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "nail",
+      "rect": [4, 2, 179, 163],
+      "offset": [1, 0],
+      "originalSize": [185, 167],
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

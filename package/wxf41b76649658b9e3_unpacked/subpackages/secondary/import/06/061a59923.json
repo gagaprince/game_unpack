@@ -1,0 +1,177 @@
+[
+  1,
+  [
+    "136e71b88@6c48a",
+    "868g+VvJ5Cz7XK8QLmnZjs@f9941",
+    "75iLK5+nRHjYntG9pb0dUN@f9941",
+    "1crPOxCepAt7NVIm93UB/M@f9941",
+    "20P9jFO+1GSqxIUcxF/zpc@f9941"
+  ],
+  ["_textureSource"],
+  ["cc.SpriteFrame", "cc.SpriteAtlas"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "复活",
+          "rect": {
+            "x": 316,
+            "y": 477,
+            "width": 160,
+            "height": 78
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 160,
+            "height": 78
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "复活02",
+          "rect": {
+            "x": 316,
+            "y": 561,
+            "width": 100,
+            "height": 45
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 100,
+            "height": 45
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "AutoAtlas",
+          "spriteFrames": [
+            "心",
+            "868g+VvJ5Cz7XK8QLmnZjs@f9941",
+            "reviveUI3",
+            "75iLK5+nRHjYntG9pb0dUN@f9941",
+            "复活",
+            "1crPOxCepAt7NVIm93UB/M@f9941",
+            "复活02",
+            "20P9jFO+1GSqxIUcxF/zpc@f9941"
+          ]
+        }
+      ],
+      [1],
+      0,
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [1, 2, 3, 4]
+    ],
+    [
+      [
+        {
+          "name": "reviveUI3",
+          "rect": {
+            "x": 3,
+            "y": 477,
+            "width": 307,
+            "height": 113
+          },
+          "offset": {
+            "x": 0,
+            "y": -1
+          },
+          "originalSize": {
+            "width": 309,
+            "height": 117
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "心",
+          "rect": {
+            "x": 3,
+            "y": 3,
+            "width": 468,
+            "height": 483
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 468,
+            "height": 483
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

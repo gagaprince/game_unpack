@@ -1,0 +1,744 @@
+[
+  1,
+  [
+    "19758db27@6c48a",
+    "7fpBDolYJEsYcjWJbLe3E+@f9941",
+    "97MPml/plPf4vPsnBljv6D@f9941",
+    "feJ+TH7lREjpf76QvtkBQ7@f9941",
+    "942wrMqttJQIHf8tpFDfRz@f9941",
+    "ffF87Q5ZFGCYs8TP4S9bDP@f9941",
+    "0cEsBRxLxNhaxbKZV2Lp5M@f9941",
+    "c2GYYuNLNJ67PSHUVHyD2I@f9941",
+    "db71rubFhPR5UOWu/9JSS0@f9941",
+    "9373WQDANMoby2Ox3e7DAG@f9941",
+    "97Xfo3/yxO853V/5wKlIIZ@f9941",
+    "5dRmsirBNHnKal91v7Va5T@f9941",
+    "16Kql9AXdJnZQu6lqp3fmH@f9941",
+    "161YWKf7NGb5LEldjfn/ix@f9941",
+    "51m0vdG11Bq7JVrtCgrz/B@f9941",
+    "a1PI1nI8JAFIw0wg0bSYMZ@f9941",
+    "78nDptDM5OXIfkzEF2aLSL@f9941",
+    "ccO+Ywd75KrpBdXfN6VM+S@f9941",
+    "bb9ZcKx0JEApSs6Ac8mKr1@f9941",
+    "66npEXYHNDCrIz5FDc/8qK@f9941",
+    "1eISO/Z2ZLqpuWG0J1oHT7@f9941",
+    "5bLrqKOj1P34g1JeNGmQb+@f9941",
+    "3bj7lq1spLTaKrU2WoydYG@f9941",
+    "d7Za+ixklBWpzHKrFYs9Ib@f9941",
+    "e8pk3DmgpMP4ObshYIuMSX@f9941",
+    "4bO99c9m9HCYfkZ7ek2GOe@f9941",
+    "28llln+EVOSpj7quFaLz6/@f9941"
+  ],
+  ["_textureSource"],
+  ["cc.SpriteFrame", "cc.SpriteAtlas"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "shan2",
+          "rect": {
+            "x": 651,
+            "y": 689,
+            "width": 271,
+            "height": 369
+          },
+          "offset": {
+            "x": 7,
+            "y": -9.5
+          },
+          "originalSize": {
+            "width": 319,
+            "height": 388
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "数量底",
+          "rect": {
+            "x": 91,
+            "y": 941,
+            "width": 64,
+            "height": 49
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 64,
+            "height": 49
+          },
+          "rotated": false,
+          "capInsets": [26, 8, 30, 17],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "shan23",
+          "rect": {
+            "x": 860,
+            "y": 3,
+            "width": 296,
+            "height": 120
+          },
+          "offset": {
+            "x": 0,
+            "y": -23
+          },
+          "originalSize": {
+            "width": 298,
+            "height": 166
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "cao2",
+          "rect": {
+            "x": 860,
+            "y": 305,
+            "width": 131,
+            "height": 161
+          },
+          "offset": {
+            "x": 1.5,
+            "y": -8.5
+          },
+          "originalSize": {
+            "width": 134,
+            "height": 178
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "car",
+          "rect": {
+            "x": 3,
+            "y": 941,
+            "width": 82,
+            "height": 51
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 82,
+            "height": 53
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "失败",
+          "rect": {
+            "x": 860,
+            "y": 559,
+            "width": 161,
+            "height": 77
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 161,
+            "height": 77
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "特效",
+          "rect": {
+            "x": 3,
+            "y": 3,
+            "width": 671,
+            "height": 669
+          },
+          "offset": {
+            "x": 2.5,
+            "y": 0.5
+          },
+          "originalSize": {
+            "width": 680,
+            "height": 680
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "jianzu",
+          "rect": {
+            "x": 971,
+            "y": 966,
+            "width": 42,
+            "height": 55
+          },
+          "offset": {
+            "x": 0.5,
+            "y": -1
+          },
+          "originalSize": {
+            "width": 69,
+            "height": 57
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "reviveUI1",
+          "rect": {
+            "x": 523,
+            "y": 678,
+            "width": 317,
+            "height": 122
+          },
+          "offset": {
+            "x": 0,
+            "y": -1.5
+          },
+          "originalSize": {
+            "width": 317,
+            "height": 125
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "白色底板",
+          "rect": {
+            "x": 680,
+            "y": 3,
+            "width": 680,
+            "height": 174
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 680,
+            "height": 174
+          },
+          "rotated": true,
+          "capInsets": [120, 135, 157, 15],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "进度底",
+          "rect": {
+            "x": 3,
+            "y": 907,
+            "width": 503,
+            "height": 28
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 503,
+            "height": 28
+          },
+          "rotated": false,
+          "capInsets": [16, 11, 15, 14],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "已集齐",
+          "rect": {
+            "x": 860,
+            "y": 442,
+            "width": 132,
+            "height": 111
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 132,
+            "height": 111
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "AutoAtlas",
+          "spriteFrames": [
+            "特效",
+            "7fpBDolYJEsYcjWJbLe3E+@f9941",
+            "白色底板",
+            "97MPml/plPf4vPsnBljv6D@f9941",
+            "shengli",
+            "feJ+TH7lREjpf76QvtkBQ7@f9941",
+            "reviveUI1",
+            "942wrMqttJQIHf8tpFDfRz@f9941",
+            "进度",
+            "ffF87Q5ZFGCYs8TP4S9bDP@f9941",
+            "shan2",
+            "0cEsBRxLxNhaxbKZV2Lp5M@f9941",
+            "收集中",
+            "c2GYYuNLNJ67PSHUVHyD2I@f9941",
+            "next",
+            "db71rubFhPR5UOWu/9JSS0@f9941",
+            "jianzu",
+            "9373WQDANMoby2Ox3e7DAG@f9941",
+            "进度底",
+            "97Xfo3/yxO853V/5wKlIIZ@f9941",
+            "car",
+            "5dRmsirBNHnKal91v7Va5T@f9941",
+            "数量底",
+            "16Kql9AXdJnZQu6lqp3fmH@f9941",
+            "shan23",
+            "161YWKf7NGb5LEldjfn/ix@f9941",
+            "cao2",
+            "51m0vdG11Bq7JVrtCgrz/B@f9941",
+            "已集齐",
+            "a1PI1nI8JAFIw0wg0bSYMZ@f9941",
+            "失败",
+            "78nDptDM5OXIfkzEF2aLSL@f9941",
+            "sahn5",
+            "ccO+Ywd75KrpBdXfN6VM+S@f9941",
+            "ku",
+            "bb9ZcKx0JEApSs6Ac8mKr1@f9941",
+            "shan4",
+            "66npEXYHNDCrIz5FDc/8qK@f9941",
+            "获得物品",
+            "1eISO/Z2ZLqpuWG0J1oHT7@f9941",
+            "shan1",
+            "5bLrqKOj1P34g1JeNGmQb+@f9941",
+            "cao1",
+            "3bj7lq1spLTaKrU2WoydYG@f9941",
+            "cao4",
+            "d7Za+ixklBWpzHKrFYs9Ib@f9941",
+            "cao3",
+            "e8pk3DmgpMP4ObshYIuMSX@f9941",
+            "budeliao",
+            "4bO99c9m9HCYfkZ7ek2GOe@f9941",
+            "zhanpai",
+            "28llln+EVOSpj7quFaLz6/@f9941"
+          ]
+        }
+      ],
+      [1],
+      0,
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    ],
+    [
+      [
+        {
+          "name": "收集中",
+          "rect": {
+            "x": 651,
+            "y": 966,
+            "width": 156,
+            "height": 52
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 156,
+            "height": 52
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "next",
+          "rect": {
+            "x": 813,
+            "y": 966,
+            "width": 152,
+            "height": 45
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 152,
+            "height": 45
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "shengli",
+          "rect": {
+            "x": 3,
+            "y": 678,
+            "width": 514,
+            "height": 223
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 698,
+            "height": 223
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "进度",
+          "rect": {
+            "x": 3,
+            "y": 1001,
+            "width": 489,
+            "height": 18
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 489,
+            "height": 18
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

@@ -1,0 +1,21 @@
+[
+  1,
+  ["afkECscrhFjKpiGd31ykzG"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "返回主页",
+      "rect": [0, 0, 535, 181],
+      "offset": [0, 0],
+      "originalSize": [535, 181],
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

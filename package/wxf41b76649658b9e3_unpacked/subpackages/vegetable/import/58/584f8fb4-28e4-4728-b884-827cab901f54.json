@@ -1,0 +1,92 @@
+[
+  1,
+  ["fdoJXLgx1GAa2UhGATlj3o", "9fcQX92w9LnZThU2n5yzkk@f9941"],
+  ["node", "_customMaterial", "_spriteFrame", "root", "data"],
+  [
+    ["cc.Prefab", ["_name"], 2],
+    [
+      "cc.Node",
+      ["_name", "_layer", "_components", "_prefab", "_lpos", "_lscale"],
+      1,
+      9,
+      4,
+      5,
+      5
+    ],
+    [
+      "cc.Sprite",
+      ["node", "__prefab", "_customMaterial", "_spriteFrame"],
+      3,
+      1,
+      4,
+      6,
+      6
+    ],
+    ["cc.CompPrefabInfo", ["fileId"], 2],
+    [
+      "cc.RigidBody2D",
+      ["enabledContactListener", "_gravityScale", "node", "__prefab"],
+      1,
+      1,
+      4
+    ],
+    [
+      "cc.PolygonCollider2D",
+      ["_friction", "_restitution", "_points", "node", "__prefab", "_offset"],
+      0,
+      1,
+      4,
+      5
+    ],
+    ["cc.UIOpacity", ["node", "__prefab"], 3, 1, 4],
+    ["cc.UITransform", ["node", "__prefab", "_contentSize"], 3, 1, 4, 5],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "instance",
+        "targetOverrides",
+        "nestedPrefabInstanceRoots",
+        "root",
+        "asset"
+      ],
+      -1,
+      1,
+      1
+    ]
+  ],
+  [
+    [3, 0, 2],
+    [0, 0, 2],
+    [1, 0, 1, 2, 3, 4, 5, 3],
+    [2, 0, 1, 2, 3, 1],
+    [4, 0, 1, 2, 3, 3],
+    [5, 0, 1, 2, 3, 4, 5, 4],
+    [6, 0, 1, 1],
+    [7, 0, 1, 2, 1],
+    [8, 0, 1, 2, 3, 4, 5, 5]
+  ],
+  [
+    [1, "vegetable9"],
+    [
+      2,
+      "vegetable9",
+      1,
+      [
+        [3, -2, [0, "1fuj+S4MtKeLST4SGqkfWn"], 0, 1],
+        [4, true, 0, -3, [0, "48RQlVCi5Cnrfh28+xbZS8"]],
+        [5, 0, 0.1, [], -4, [0, "b5+PPhIchCMI+vjBxfSeYb"], [0, 3.9, 1.1]],
+        [6, -5, [0, "3aEGGQrlpF6p6FkBSrAB2v"]],
+        [7, -6, [0, "72JufWuv1KIIR64AFGjPfC"], [5, 113, 132]]
+      ],
+      [8, "19QZL5U29M2qgqcNJaF7rF", null, null, null, -1, 0],
+      [1, 174.347, 174.425, 0],
+      [1, 0.75, 0.75, 1]
+    ]
+  ],
+  0,
+  [0, 3, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 4, 1, 6],
+  [0, 0],
+  [1, 2],
+  [0, 1]
+]

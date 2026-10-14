@@ -1,0 +1,21 @@
+[
+  1,
+  ["1b7c97f3f"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "UI_sl_5",
+      "rect": [3, 380, 329, 329],
+      "offset": [0, 0],
+      "originalSize": [329, 329],
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

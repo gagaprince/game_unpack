@@ -1,0 +1,674 @@
+[
+  1,
+  ["1cd651320@6c48a"],
+  ["_textureSource"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "打乱2",
+          "rect": {
+            "x": 3,
+            "y": 3,
+            "width": 517,
+            "height": 485
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 517,
+            "height": 485
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "piao1",
+          "rect": {
+            "x": 751,
+            "y": 886,
+            "width": 1,
+            "height": 1
+          },
+          "offset": {
+            "x": 6.5,
+            "y": -10.5
+          },
+          "originalSize": {
+            "width": 14,
+            "height": 22
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "piao3",
+          "rect": {
+            "x": 734,
+            "y": 960,
+            "width": 14,
+            "height": 22
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 14,
+            "height": 22
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "第",
+          "rect": {
+            "x": 679,
+            "y": 857,
+            "width": 29,
+            "height": 30
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 29,
+            "height": 30
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "消除2",
+          "rect": {
+            "x": 3,
+            "y": 494,
+            "width": 517,
+            "height": 485
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 517,
+            "height": 485
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "水果篮02",
+          "rect": {
+            "x": 679,
+            "y": 659,
+            "width": 152,
+            "height": 51
+          },
+          "offset": {
+            "x": -0.5,
+            "y": 9.5
+          },
+          "originalSize": {
+            "width": 207,
+            "height": 108
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "水果篮01",
+          "rect": {
+            "x": 913,
+            "y": 694,
+            "width": 207,
+            "height": 108
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 207,
+            "height": 108
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "提示",
+          "rect": {
+            "x": 913,
+            "y": 374,
+            "width": 314,
+            "height": 105
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 314,
+            "height": 105
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "snow1",
+          "rect": {
+            "x": 751,
+            "y": 857,
+            "width": 23,
+            "height": 22
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 23,
+            "height": 22
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "piao2",
+          "rect": {
+            "x": 734,
+            "y": 988,
+            "width": 14,
+            "height": 22
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 14,
+            "height": 22
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "筐1",
+          "rect": {
+            "x": 756,
+            "y": 941,
+            "width": 234,
+            "height": 59
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 234,
+            "height": 59
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "nd_bg",
+          "rect": {
+            "x": 913,
+            "y": 3,
+            "width": 365,
+            "height": 93
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 365,
+            "height": 93
+          },
+          "rotated": true,
+          "capInsets": [70, 0, 70, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "关卡数字底",
+          "rect": {
+            "x": 494,
+            "y": 894,
+            "width": 256,
+            "height": 60
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 256,
+            "height": 60
+          },
+          "rotated": false,
+          "capInsets": [47, 17, 103, 23],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "筐2",
+          "rect": {
+            "x": 494,
+            "y": 960,
+            "width": 234,
+            "height": 46
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 234,
+            "height": 46
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "云2",
+          "rect": {
+            "x": 786,
+            "y": 3,
+            "width": 932,
+            "height": 121
+          },
+          "offset": {
+            "x": 2,
+            "y": 2.5
+          },
+          "originalSize": {
+            "width": 984,
+            "height": 132
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "提示底图",
+          "rect": {
+            "x": 526,
+            "y": 3,
+            "width": 650,
+            "height": 254
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 650,
+            "height": 254
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "关",
+          "rect": {
+            "x": 715,
+            "y": 857,
+            "width": 29,
+            "height": 30
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 29,
+            "height": 30
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "剩余",
+          "rect": {
+            "x": 679,
+            "y": 817,
+            "width": 67,
+            "height": 34
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 67,
+            "height": 34
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "propBtn1",
+          "rect": {
+            "x": 494,
+            "y": 659,
+            "width": 229,
+            "height": 179
+          },
+          "offset": {
+            "x": 0.5,
+            "y": 3
+          },
+          "originalSize": {
+            "width": 230,
+            "height": 205
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

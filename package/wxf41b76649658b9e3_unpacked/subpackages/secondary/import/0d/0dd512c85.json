@@ -1,0 +1,944 @@
+[
+  1,
+  [
+    "fdoJXLgx1GAa2UhGATlj3o",
+    "7dj5uJT9FMn6OrOOx83tfK@f9941",
+    "8d+uYy7pVAD5gCf0PM09gg@f9941",
+    "39WYDjsOxGm6wuC4+lJ+J3@f9941",
+    "1btzb5fD9BT7o5QyznABBC@f9941",
+    "43uk59W2NH6Jq+k5ZzJRCR@f9941",
+    "ee017uV4VEjajaHyexGa7y@f9941",
+    "3fthf6UDRNyZ73JoRZ7oD1@f9941",
+    "daeS2L4zNAGr1+CFjvtBNS@f9941",
+    "bcCTiznEVCF6Q8wYc/iFW6@f9941",
+    "f5bHnyBJhKUquPjb/625dn@f9941",
+    "02l5Z/GdhBd6BMpYR4Ub8+@f9941",
+    "ceBw5Bcd1CCIz5BqEB+OM/@f9941",
+    "3fthf6UDRNyZ73JoRZ7oD1@6c48a",
+    "43uk59W2NH6Jq+k5ZzJRCR@6c48a",
+    "bcCTiznEVCF6Q8wYc/iFW6@6c48a",
+    "ee017uV4VEjajaHyexGa7y@6c48a",
+    "f5bHnyBJhKUquPjb/625dn@6c48a"
+  ],
+  [
+    "node",
+    "_spriteFrame",
+    "_customMaterial",
+    "_textureSource",
+    "root",
+    "icon",
+    "data",
+    "_parent"
+  ],
+  [
+    [
+      "cc.Node",
+      [
+        "_name",
+        "_layer",
+        "_active",
+        "_components",
+        "_prefab",
+        "_parent",
+        "_lpos",
+        "_children",
+        "_lscale"
+      ],
+      0,
+      9,
+      4,
+      1,
+      5,
+      2,
+      5
+    ],
+    [
+      "cc.Sprite",
+      [
+        "_sizeMode",
+        "_type",
+        "node",
+        "__prefab",
+        "_spriteFrame",
+        "_customMaterial",
+        "_color"
+      ],
+      1,
+      1,
+      4,
+      6,
+      6,
+      5
+    ],
+    "cc.SpriteFrame",
+    [
+      "cc.Widget",
+      [
+        "_alignFlags",
+        "_horizontalCenter",
+        "_right",
+        "_top",
+        "_originalWidth",
+        "_originalHeight",
+        "node",
+        "__prefab"
+      ],
+      -3,
+      1,
+      4
+    ],
+    ["cc.UIOpacity", ["_opacity", "node", "__prefab"], 2, 1, 4],
+    ["cc.Prefab", ["_name"], 2],
+    [
+      "cc.Node",
+      [
+        "_name",
+        "_active",
+        "_layer",
+        "_parent",
+        "_components",
+        "_prefab",
+        "_lpos",
+        "_lscale"
+      ],
+      0,
+      1,
+      12,
+      4,
+      5,
+      5
+    ],
+    ["cc.CompPrefabInfo", ["fileId"], 2],
+    ["cc.UITransform", ["node", "__prefab", "_contentSize"], 3, 1, 4, 5],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "instance",
+        "targetOverrides",
+        "nestedPrefabInstanceRoots",
+        "root",
+        "asset"
+      ],
+      -1,
+      1,
+      1
+    ],
+    [
+      "cc.Button",
+      [
+        "_transition",
+        "_zoomScale",
+        "node",
+        "__prefab",
+        "_hoverColor",
+        "_pressedColor"
+      ],
+      1,
+      1,
+      4,
+      5,
+      5
+    ],
+    ["43bb6fKayNBYbX8U1vE9wAT", ["node", "__prefab"], 3, 1, 4],
+    ["cc.BlockInputEvents", ["node", "__prefab"], 3, 1, 4],
+    ["f5322BTOHxO4pccMz2DMzcP", ["node", "__prefab", "icon"], 3, 1, 4, 1]
+  ],
+  [
+    [7, 0, 2],
+    [8, 0, 1, 2, 1],
+    [9, 0, 1, 2, 3, 4, 5, 5],
+    [4, 1, 2, 1],
+    [0, 0, 1, 5, 3, 4, 6, 8, 3],
+    [3, 0, 6, 7, 2],
+    [1, 0, 2, 3, 5, 4, 2],
+    [1, 2, 3, 5, 4, 1],
+    [0, 0, 1, 5, 7, 3, 4, 3],
+    [1, 2, 3, 4, 1],
+    [10, 0, 1, 2, 3, 4, 5, 3],
+    [11, 0, 1, 1],
+    [5, 0, 2],
+    [0, 0, 1, 7, 3, 4, 3],
+    [0, 0, 1, 7, 3, 4, 6, 3],
+    [0, 0, 1, 5, 7, 3, 4, 6, 3],
+    [0, 0, 1, 5, 3, 4, 6, 3],
+    [0, 0, 1, 5, 3, 4, 3],
+    [0, 0, 2, 1, 5, 3, 4, 6, 4],
+    [6, 0, 1, 2, 3, 4, 5, 6, 7, 4],
+    [3, 0, 1, 6, 7, 3],
+    [3, 0, 2, 3, 6, 7, 4],
+    [3, 0, 4, 5, 6, 7, 4],
+    [4, 0, 1, 2, 2],
+    [1, 1, 0, 2, 3, 5, 4, 3],
+    [1, 1, 2, 3, 5, 4, 2],
+    [1, 0, 2, 3, 6, 5, 4, 2],
+    [1, 0, 2, 3, 2],
+    [12, 0, 1, 1],
+    [13, 0, 1, 2, 1]
+  ],
+  [
+    [
+      [
+        [12, "GbzGetItemLayer"],
+        [
+          13,
+          "GbzGetItemLayer",
+          33554432,
+          [-5, -6],
+          [
+            [5, 45, -2, [0, "33VK2Vu0FEmoj7M7yUBUS4"]],
+            [3, -3, [0, "16oIAwEqBNPJRgII/Yv7bK"]],
+            [1, -4, [0, "6bTChq8mRPxqZKb6fP1NAJ"], [5, 750, 1334]]
+          ],
+          [2, "75wYrXejtA3L1v736YtRVp", null, null, null, -1, 0]
+        ],
+        [
+          14,
+          "bg",
+          33554432,
+          [-11, -12, -13, -14, -15, -16, -17, -18],
+          [
+            [24, 1, 0, -7, [0, "8eQZN2cT9A3pfcYQ3D1Hpb"], 18, 19],
+            [20, 18, -2.706, -8, [0, "53YB9GG9NBvL7Hds9u5RBX"]],
+            [3, -9, [0, "7ad5K1drpI75r8EJMLcAOH"]],
+            [1, -10, [0, "04X2K8pxtKPr3RKDfYu8Rz"], [5, 545, 700]]
+          ],
+          [2, "52aqjwQEBHgb11ihtUUkZc", null, null, null, 1, 0],
+          [1, -2.706, 0, 0]
+        ],
+        [
+          15,
+          "videobtn_get",
+          33554432,
+          2,
+          [-24, -25],
+          [
+            [25, 1, -19, [0, "90tPAH9FVMeYvAmIuizVBV"], 14, 15],
+            [
+              10,
+              3,
+              0.9,
+              -20,
+              [0, "92UaraSW9PEZGnHcyN2sji"],
+              [4, 4294967295],
+              [4, 4292072403]
+            ],
+            [11, -21, [0, "f21SDm9WRK+bkVNc/h3S96"]],
+            [3, -22, [0, "fcZ7cVuyhMzKi/Xie1vHED"]],
+            [1, -23, [0, "c3zAcVnShBwaULWjb4HAVY"], [5, 286, 116]]
+          ],
+          [2, "4d35ZWWbpEJ7VQ+mX5Vy4B", null, null, null, 1, 0],
+          [1, 0, -240, 0]
+        ],
+        [
+          16,
+          "btnClose",
+          33554432,
+          2,
+          [
+            [6, 0, -26, [0, "e8/BpgJ1RPKa0kSKHuKukS"], 2, 3],
+            [
+              21,
+              33,
+              -13.148999999999965,
+              -29.01699999999999,
+              -27,
+              [0, "13LTAd0HRMFr9Kd1zu73lk"]
+            ],
+            [
+              10,
+              3,
+              0.9,
+              -28,
+              [0, "e5Jp9ODhBGt7l3ZvwNS+7u"],
+              [4, 4294967295],
+              [4, 4292072403]
+            ],
+            [11, -29, [0, "dfGE9IIW5NS6vicqecIC+c"]],
+            [3, -30, [0, "4ayTOiJuRPO5zzDDLvoVTy"]],
+            [1, -31, [0, "f5R9/Ph4lLWL5ZOU2Nqbyl"], [5, 69.3, 69.3]]
+          ],
+          [2, "f5dUKuMttHS4KQZBoO19Cf", null, null, null, 1, 0],
+          [1, 250.99899999999994, 344.367, 0]
+        ],
+        [
+          17,
+          "bgshade",
+          33554432,
+          1,
+          [
+            [26, 0, -32, [0, "42yXuqYWFCVYpjGIphp6xv"], [4, 4278190080], 0, 1],
+            [22, 45, 100, 1625, -33, [0, "beeLhuPFxC+I6/CKXQxnFF"]],
+            [28, -34, [0, "e7FbkugXdIeJ7SxEJiICt1"]],
+            [23, 200, -35, [0, "53x2XIeqJE9L4CoA1PXO/8"]],
+            [1, -36, [0, "80SegqwplNa7ErKNwuVsWX"], [5, 750, 1334]]
+          ],
+          [2, "3ajnNdLf5HeJpss793jrdT", null, null, null, 1, 0]
+        ],
+        [
+          8,
+          "style",
+          33554432,
+          1,
+          [-40],
+          [
+            [5, 45, -37, [0, "b6y+11GgVGzYHz8HsyiORw"]],
+            [3, -38, [0, "24FvOhl81IRYS9SEiM6Wjb"]],
+            [1, -39, [0, "08FbXcQXZJp61mUU19nVKA"], [5, 750, 1334]]
+          ],
+          [2, "a8CxziESNAe6sHeUJJNkAX", null, null, null, 1, 0]
+        ],
+        [
+          8,
+          "panel",
+          33554432,
+          6,
+          [2],
+          [
+            [5, 45, -41, [0, "5bXuZUSq1LDZP0YEVA8tZM"]],
+            [3, -42, [0, "cckTieDTpBF44M9D7Zuugq"]],
+            [1, -43, [0, "b5cmMT5KxPQ4eBtXJSnpPN"], [5, 750, 1334]]
+          ],
+          [2, "71x2G8CdtOEo335s0K+BRb", null, null, null, 1, 0]
+        ],
+        [
+          19,
+          "视频",
+          false,
+          33554432,
+          3,
+          [
+            [
+              -44,
+              [29, -46, [0, "e5R6cE0zFMCIQvoPte0HZF"], -45],
+              [3, -47, [0, "f2IHq0gkNNgrWgFfssMbAl"]],
+              [1, -48, [0, "e4dqcGqixJHockOLOafgrF"], [5, 110, 108]]
+            ],
+            1,
+            4,
+            4,
+            4
+          ],
+          [2, "1aqLQsqupPcYfF2Ccqyakr", null, null, null, 1, 0],
+          [1, -57.799, 4, 0],
+          [1, 0.5, 0.5, 1]
+        ],
+        [
+          4,
+          "propIcon0",
+          33554432,
+          2,
+          [
+            [7, -49, [0, "fa504EOS9HqL6SBBS/UHJs"], 4, 5],
+            [3, -50, [0, "ef9m5enaNJMoRJjt/jgiIq"]],
+            [1, -51, [0, "bakVlARMRFLKzPBEr3WgVM"], [5, 517, 485]]
+          ],
+          [2, "c2BXOmtMlOrqatvd7arYix", null, null, null, 1, 0],
+          [1, 0, 57.804, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          4,
+          "propIcon1",
+          33554432,
+          2,
+          [
+            [7, -52, [0, "a4Vu/3lPZF94p+CIIS2nUb"], 6, 7],
+            [3, -53, [0, "31BQQt1k1MC5A8gK3ceVIx"]],
+            [1, -54, [0, "39XaSfGgZINoFEEo9ZIUwd"], [5, 517, 485]]
+          ],
+          [2, "58215h319NlKrvFJCDGJdu", null, null, null, 1, 0],
+          [1, 0, 57.804, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          4,
+          "titleLa0",
+          33554432,
+          2,
+          [
+            [6, 0, -55, [0, "2bWTgAFYRF47EN7qeB9z+8"], 8, 9],
+            [3, -56, [0, "2da69ern1ItpvAErzgt16B"]],
+            [
+              1,
+              -57,
+              [0, "79sd4SlzdFK6FhnBd3vStH"],
+              [5, 146.11428571428573, 75.66857142857143]
+            ]
+          ],
+          [2, "69TJPvTlpPRYyni33Vxf1M", null, null, null, 1, 0],
+          [1, 0, 302.8109999999999, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          4,
+          "titleLa1",
+          33554432,
+          2,
+          [
+            [6, 0, -58, [0, "b6drXtf+BJto/uBEtnz3sK"], 10, 11],
+            [3, -59, [0, "40pZTXFHFI44luig9Ixp6q"]],
+            [
+              1,
+              -60,
+              [0, "82yvtry3RB5Jm60zmvFhuf"],
+              [5, 143.45766233766236, 74.26730158730156]
+            ]
+          ],
+          [2, "344BD8KL1Hh6O/jyUMJSiO", null, null, null, 1, 0],
+          [1, 0, 302.8109999999999, 0],
+          [1, 0.7, 0.7, 1]
+        ],
+        [
+          18,
+          "使用",
+          false,
+          33554432,
+          3,
+          [
+            [7, -61, [0, "8awkiR04FJxZhgU8LdwabQ"], 12, 13],
+            [3, -62, [0, "d4yBgn5+pBgaps8GoipEYQ"]],
+            [1, -63, [0, "f8nZPUtOJNVqo/TBj8Zq+H"], [5, 87, 40]]
+          ],
+          [2, "01wCLpH4VCNrFSQf7Iilxs", null, null, null, 1, 0],
+          [1, 37.919, 4, 0]
+        ],
+        [
+          4,
+          "propInfo0",
+          33554432,
+          2,
+          [
+            [1, -64, [0, "09yxjk0r1IS4c0D6psphxs"], [5, 278, 52]],
+            [9, -65, [0, "7cbsKPpDZF/qdTmUPn+e0m"], 16]
+          ],
+          [2, "157eVtsqdDqZ9nBRnASnmA", null, null, null, 1, 0],
+          [1, 0, -146.229, 0],
+          [1, 0.6, 0.6, 1]
+        ],
+        [
+          4,
+          "propInfo1",
+          33554432,
+          2,
+          [
+            [1, -66, [0, "abX3umPONNTJkosHQ9WLXu"], [5, 325, 52]],
+            [9, -67, [0, "b4OBsEP4BOOZh6r2nDCGnh"], 17]
+          ],
+          [2, "cfY3aeX5FH4qMRVjdUHVkK", null, null, null, 1, 0],
+          [1, 0, -146.229, 0],
+          [1, 0.6, 0.6, 1]
+        ],
+        [27, 0, 8, [0, "64jtBiPaFMVbAnkGeXr8xN"]]
+      ],
+      0,
+      [
+        0,
+        4,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        5,
+        0,
+        -2,
+        6,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        -1,
+        4,
+        0,
+        -2,
+        9,
+        0,
+        -3,
+        10,
+        0,
+        -4,
+        11,
+        0,
+        -5,
+        12,
+        0,
+        -6,
+        3,
+        0,
+        -7,
+        14,
+        0,
+        -8,
+        15,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        -1,
+        8,
+        0,
+        -2,
+        13,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        -1,
+        7,
+        0,
+        0,
+        7,
+        0,
+        0,
+        7,
+        0,
+        0,
+        7,
+        0,
+        -1,
+        16,
+        0,
+        5,
+        16,
+        0,
+        0,
+        8,
+        0,
+        0,
+        8,
+        0,
+        0,
+        8,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        11,
+        0,
+        0,
+        11,
+        0,
+        0,
+        11,
+        0,
+        0,
+        12,
+        0,
+        0,
+        12,
+        0,
+        0,
+        12,
+        0,
+        0,
+        13,
+        0,
+        0,
+        13,
+        0,
+        0,
+        13,
+        0,
+        0,
+        14,
+        0,
+        0,
+        14,
+        0,
+        0,
+        15,
+        0,
+        0,
+        15,
+        0,
+        6,
+        1,
+        2,
+        7,
+        7,
+        67
+      ],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 16],
+      [2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 1, 2, 1, 2, 1],
+      [0, 1, 0, 2, 0, 3, 0, 4, 0, 5, 0, 6, 0, 7, 0, 8, 9, 10, 0, 11, 0, 12]
+    ],
+    [
+      [
+        {
+          "name": "使用",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 87,
+            "height": 40
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 87,
+            "height": 40
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "vertices": {
+            "rawPosition": [
+              -43.5,
+              -20,
+              0,
+              43.5,
+              -20,
+              0,
+              -43.5,
+              20,
+              0,
+              43.5,
+              20,
+              0
+            ],
+            "indexes": [0, 1, 2, 2, 1, 3],
+            "uv": [0, 40, 87, 40, 0, 0, 87, 0],
+            "nuv": [0, 0, 1, 0, 0, 1, 1, 1],
+            "minPos": {
+              "x": -43.5,
+              "y": -20,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 43.5,
+              "y": 20,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [2],
+      0,
+      [0],
+      [3],
+      [13]
+    ],
+    [
+      [
+        {
+          "name": "消除字",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 110,
+            "height": 54
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 110,
+            "height": 54
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "vertices": {
+            "rawPosition": [-55, -27, 0, 55, -27, 0, -55, 27, 0, 55, 27, 0],
+            "indexes": [0, 1, 2, 2, 1, 3],
+            "uv": [0, 54, 110, 54, 0, 0, 110, 0],
+            "nuv": [0, 0, 1, 0, 0, 1, 1, 1],
+            "minPos": {
+              "x": -55,
+              "y": -27,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 55,
+              "y": 27,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [2],
+      0,
+      [0],
+      [3],
+      [14]
+    ],
+    [
+      [
+        {
+          "name": "propInfo1",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 278,
+            "height": 52
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 278,
+            "height": 52
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "vertices": {
+            "rawPosition": [-139, -26, 0, 139, -26, 0, -139, 26, 0, 139, 26, 0],
+            "indexes": [0, 1, 2, 2, 1, 3],
+            "uv": [0, 52, 278, 52, 0, 0, 278, 0],
+            "nuv": [0, 0, 1, 0, 0, 1, 1, 1],
+            "minPos": {
+              "x": -139,
+              "y": -26,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 139,
+              "y": 26,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [2],
+      0,
+      [0],
+      [3],
+      [15]
+    ],
+    [
+      [
+        {
+          "name": "打乱",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 108,
+            "height": 53
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 108,
+            "height": 53
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "vertices": {
+            "rawPosition": [
+              -54,
+              -26.5,
+              0,
+              54,
+              -26.5,
+              0,
+              -54,
+              26.5,
+              0,
+              54,
+              26.5,
+              0
+            ],
+            "indexes": [0, 1, 2, 2, 1, 3],
+            "uv": [0, 53, 108, 53, 0, 0, 108, 0],
+            "nuv": [0, 0, 1, 0, 0, 1, 1, 1],
+            "minPos": {
+              "x": -54,
+              "y": -26.5,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 54,
+              "y": 26.5,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [2],
+      0,
+      [0],
+      [3],
+      [16]
+    ],
+    [
+      [
+        {
+          "name": "propInfo2",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 325,
+            "height": 52
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 325,
+            "height": 52
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "vertices": {
+            "rawPosition": [
+              -162.5,
+              -26,
+              0,
+              162.5,
+              -26,
+              0,
+              -162.5,
+              26,
+              0,
+              162.5,
+              26,
+              0
+            ],
+            "indexes": [0, 1, 2, 2, 1, 3],
+            "uv": [0, 52, 325, 52, 0, 0, 325, 0],
+            "nuv": [0, 0, 1, 0, 0, 1, 1, 1],
+            "minPos": {
+              "x": -162.5,
+              "y": -26,
+              "z": 0
+            },
+            "maxPos": {
+              "x": 162.5,
+              "y": 26,
+              "z": 0
+            }
+          },
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [2],
+      0,
+      [0],
+      [3],
+      [17]
+    ]
+  ]
+]

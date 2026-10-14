@@ -1,0 +1,236 @@
+
+nail.png
+size: 185,167
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+luosi1
+  rotate: false
+  xy: 113, 2
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+luosichu1
+  rotate: true
+  xy: 2, 4
+  size: 52, 54
+  orig: 52, 54
+  offset: 0, 0
+  index: -1
+luosichu2
+  rotate: false
+  xy: 113, 95
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+luosichu3
+  rotate: true
+  xy: 2, 58
+  size: 107, 109
+  orig: 109, 109
+  offset: 1, 0
+  index: -1
+luosichu4
+  rotate: false
+  xy: 58, 2
+  size: 52, 54
+  orig: 52, 54
+  offset: 0, 0
+  index: -1
+
+nail2.png
+size: 692,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+换色/天蓝色1
+  rotate: false
+  xy: 2, 74
+  size: 108, 109
+  orig: 109, 109
+  offset: 1, 0
+  index: -1
+换色/天蓝色2
+  rotate: false
+  xy: 2, 2
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/天蓝色3
+  rotate: true
+  xy: 506, 141
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+换色/橙色1
+  rotate: false
+  xy: 112, 74
+  size: 108, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+换色/橙色2
+  rotate: false
+  xy: 74, 2
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/橙色3
+  rotate: true
+  xy: 599, 106
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+换色/粉色1
+  rotate: false
+  xy: 2, 185
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+换色/粉色2
+  rotate: false
+  xy: 146, 2
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/粉色3
+  rotate: true
+  xy: 506, 95
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+换色/紫色1
+  rotate: false
+  xy: 223, 185
+  size: 107, 109
+  orig: 109, 109
+  offset: 1, 0
+  index: -1
+换色/紫色2
+  rotate: false
+  xy: 218, 2
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/紫色3
+  rotate: true
+  xy: 599, 60
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+换色/红色1
+  rotate: false
+  xy: 113, 185
+  size: 108, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+换色/红色2
+  rotate: false
+  xy: 290, 2
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/红色3
+  rotate: true
+  xy: 506, 49
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+换色/绿色1
+  rotate: false
+  xy: 332, 185
+  size: 107, 109
+  orig: 109, 109
+  offset: 1, 0
+  index: -1
+换色/绿色2
+  rotate: false
+  xy: 362, 2
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/绿色3
+  rotate: true
+  xy: 599, 14
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+换色/蓝色1
+  rotate: false
+  xy: 332, 74
+  size: 107, 109
+  orig: 109, 109
+  offset: 1, 0
+  index: -1
+换色/蓝色2
+  rotate: false
+  xy: 434, 2
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/蓝色3
+  rotate: true
+  xy: 506, 3
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+换色/褐色1
+  rotate: false
+  xy: 222, 74
+  size: 108, 109
+  orig: 109, 109
+  offset: 1, 0
+  index: -1
+换色/褐色2
+  rotate: false
+  xy: 617, 224
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/褐色3
+  rotate: false
+  xy: 441, 203
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1
+换色/黄色1
+  rotate: true
+  xy: 506, 187
+  size: 107, 109
+  orig: 109, 109
+  offset: 1, 0
+  index: -1
+换色/黄色2
+  rotate: false
+  xy: 617, 152
+  size: 70, 70
+  orig: 109, 109
+  offset: 20, 22
+  index: -1
+换色/黄色3
+  rotate: false
+  xy: 441, 110
+  size: 44, 91
+  orig: 55, 91
+  offset: 6, 0
+  index: -1

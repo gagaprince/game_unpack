@@ -1,0 +1,42 @@
+[
+  1,
+  ["c1iATBVEZKn7lpkq+bxNIl", "1b7c97f3f"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "icon_lock",
+          "rect": [0, 0, 62, 77],
+          "offset": [0, 0],
+          "originalSize": [62, 77],
+          "capInsets": [0, 0, 0, 0]
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "gbz_screw_core",
+          "rect": [3, 964, 56, 58],
+          "offset": [-0.5, 0.5],
+          "originalSize": [61, 61],
+          "rotated": 1,
+          "capInsets": [0, 0, 0, 0]
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [1]
+    ]
+  ]
+]

@@ -1,0 +1,21 @@
+[
+  1,
+  ["19034f163"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "UI_sb_4",
+      "rect": [338, 673, 329, 329],
+      "offset": [0, 0],
+      "originalSize": [329, 329],
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

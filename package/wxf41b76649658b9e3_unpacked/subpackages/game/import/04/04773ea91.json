@@ -1,0 +1,671 @@
+[
+  1,
+  [
+    "1f8a0df40@6c48a",
+    "9229aoRMFFE7DVDQLAr539@f9941",
+    "ddv0tKqrBN377DZlCFPjsc@f9941",
+    "612FTtgZ1FGLu/Dk/MIp6N@f9941",
+    "ebYmMKbflM0qPcGrrDK/R0@f9941",
+    "13s8PlLDhARLP5CQITO+ng@f9941",
+    "25FoJDiAJLSovcV7r34MY/@f9941",
+    "19JqZ+9O9KjotDcNN0GuBd@f9941",
+    "89XM/AjllIXKmI1zKgoyzG@f9941",
+    "efVRC8RIVJpasuDjFHj1Ya@f9941",
+    "94lQpI1XxH4aU23QDFrzgP@f9941",
+    "868/kjGkZBrZBN5E7knH29@f9941",
+    "8fzZC4T+tK8aMbH/hZv/wq@f9941",
+    "a2yP0EuIRHrqPAzlJKo6Ig@f9941",
+    "bbeWe7YCdF95a0/fkWo9yi@f9941",
+    "e2ZBWGXg9Nk4nKlhEX6AmG@f9941",
+    "84z7Tp4m9BU7Tch7oRE1l/@f9941",
+    "41u7A+/i1IUbSCwqIz6taW@f9941"
+  ],
+  ["_textureSource"],
+  ["cc.SpriteFrame", "cc.SpriteAtlas"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "eff1",
+          "rect": {
+            "x": 63,
+            "y": 315,
+            "width": 37,
+            "height": 37
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 37,
+            "height": 37
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "qipao",
+          "rect": {
+            "x": 115,
+            "y": 3,
+            "width": 115,
+            "height": 115
+          },
+          "offset": {
+            "x": 0.5,
+            "y": -0.5
+          },
+          "originalSize": {
+            "width": 128,
+            "height": 128
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "eff0",
+          "rect": {
+            "x": 106,
+            "y": 315,
+            "width": 37,
+            "height": 37
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 37,
+            "height": 37
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "新建项目",
+          "rect": {
+            "x": 212,
+            "y": 206,
+            "width": 32,
+            "height": 31
+          },
+          "offset": {
+            "x": 0,
+            "y": 0.5
+          },
+          "originalSize": {
+            "width": 32,
+            "height": 32
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "AutoAtlas",
+          "spriteFrames": [
+            "新建项目 (1)",
+            "9229aoRMFFE7DVDQLAr539@f9941",
+            "naiyou2",
+            "ddv0tKqrBN377DZlCFPjsc@f9941",
+            "shuye2",
+            "612FTtgZ1FGLu/Dk/MIp6N@f9941",
+            "naiyou",
+            "ebYmMKbflM0qPcGrrDK/R0@f9941",
+            "eff1",
+            "13s8PlLDhARLP5CQITO+ng@f9941",
+            "eff0",
+            "25FoJDiAJLSovcV7r34MY/@f9941",
+            "qipao",
+            "19JqZ+9O9KjotDcNN0GuBd@f9941",
+            "shuye",
+            "89XM/AjllIXKmI1zKgoyzG@f9941",
+            "shuye3",
+            "efVRC8RIVJpasuDjFHj1Ya@f9941",
+            "砖Eff",
+            "94lQpI1XxH4aU23QDFrzgP@f9941",
+            "eff2",
+            "868/kjGkZBrZBN5E7knH29@f9941",
+            "eff5",
+            "8fzZC4T+tK8aMbH/hZv/wq@f9941",
+            "eff4",
+            "a2yP0EuIRHrqPAzlJKo6Ig@f9941",
+            "eff3",
+            "bbeWe7YCdF95a0/fkWo9yi@f9941",
+            "eff6",
+            "e2ZBWGXg9Nk4nKlhEX6AmG@f9941",
+            "xue",
+            "84z7Tp4m9BU7Tch7oRE1l/@f9941",
+            "新建项目",
+            "41u7A+/i1IUbSCwqIz6taW@f9941"
+          ]
+        }
+      ],
+      [1],
+      0,
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    ],
+    [
+      [
+        {
+          "name": "shuye2",
+          "rect": {
+            "x": 3,
+            "y": 333,
+            "width": 17,
+            "height": 54
+          },
+          "offset": {
+            "x": 0,
+            "y": 0.5
+          },
+          "originalSize": {
+            "width": 17,
+            "height": 55
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "xue",
+          "rect": {
+            "x": 212,
+            "y": 167,
+            "width": 33,
+            "height": 37
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 33,
+            "height": 37
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "eff2",
+          "rect": {
+            "x": 138,
+            "y": 250,
+            "width": 37,
+            "height": 37
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 37,
+            "height": 37
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "shuye",
+          "rect": {
+            "x": 236,
+            "y": 3,
+            "width": 17,
+            "height": 54
+          },
+          "offset": {
+            "x": 0,
+            "y": 0.5
+          },
+          "originalSize": {
+            "width": 17,
+            "height": 55
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "eff5",
+          "rect": {
+            "x": 149,
+            "y": 293,
+            "width": 37,
+            "height": 37
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 37,
+            "height": 37
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "新建项目 (1)",
+          "rect": {
+            "x": 3,
+            "y": 3,
+            "width": 106,
+            "height": 256
+          },
+          "offset": {
+            "x": 1,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 256,
+            "height": 256
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "砖Eff",
+          "rect": {
+            "x": 115,
+            "y": 124,
+            "width": 120,
+            "height": 91
+          },
+          "offset": {
+            "x": 2,
+            "y": -1
+          },
+          "originalSize": {
+            "width": 134,
+            "height": 111
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "eff4",
+          "rect": {
+            "x": 181,
+            "y": 250,
+            "width": 37,
+            "height": 37
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 37,
+            "height": 37
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "eff3",
+          "rect": {
+            "x": 192,
+            "y": 293,
+            "width": 37,
+            "height": 37
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 37,
+            "height": 37
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "naiyou2",
+          "rect": {
+            "x": 3,
+            "y": 265,
+            "width": 52,
+            "height": 62
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 52,
+            "height": 62
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "eff6",
+          "rect": {
+            "x": 212,
+            "y": 124,
+            "width": 37,
+            "height": 37
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 37,
+            "height": 37
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "naiyou",
+          "rect": {
+            "x": 61,
+            "y": 265,
+            "width": 71,
+            "height": 44
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 71,
+            "height": 44
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "shuye3",
+          "rect": {
+            "x": 236,
+            "y": 63,
+            "width": 17,
+            "height": 54
+          },
+          "offset": {
+            "x": 0,
+            "y": 0.5
+          },
+          "originalSize": {
+            "width": 17,
+            "height": 55
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

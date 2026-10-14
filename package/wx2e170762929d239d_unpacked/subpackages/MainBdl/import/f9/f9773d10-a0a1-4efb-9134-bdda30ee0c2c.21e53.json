@@ -1,0 +1,21 @@
+[
+  1,
+  ["1155bc032"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "gbz_cover4",
+      "rect": [3, 612, 250, 243],
+      "offset": [-1, -4],
+      "originalSize": [260, 283],
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

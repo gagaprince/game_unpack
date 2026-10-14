@@ -1,0 +1,22 @@
+[
+  1,
+  ["1baad67c7"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "Share",
+      "rect": [123, 3, 125, 141],
+      "offset": [0, 0],
+      "originalSize": [125, 141],
+      "rotated": 1,
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

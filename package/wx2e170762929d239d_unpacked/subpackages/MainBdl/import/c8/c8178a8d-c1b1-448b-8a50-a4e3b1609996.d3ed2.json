@@ -1,0 +1,21 @@
+[
+  1,
+  ["20PNVEg0lBf7hML0g7go6d"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "UI_db4",
+      "rect": [0, 0, 978, 1006],
+      "offset": [0, 0],
+      "originalSize": [978, 1006],
+      "capInsets": [35, 242, 35, 56]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

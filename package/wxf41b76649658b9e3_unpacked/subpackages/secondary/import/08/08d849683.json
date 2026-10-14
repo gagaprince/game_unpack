@@ -1,0 +1,215 @@
+[
+  1,
+  [
+    "15a686e4b@6c48a",
+    "29kJv9qq5OvZsRRrur1h8A@f9941",
+    "57s6qEqqRBqYYTF0H8GCkS@f9941",
+    "baTtOVWrlKRK0tpINwKw2B@f9941",
+    "e9/sla5H5A6o4f/zu09ZMI@f9941",
+    "93aj8urudEVJ8WbQavewMO@f9941"
+  ],
+  ["_textureSource"],
+  ["cc.SpriteFrame", "cc.SpriteAtlas"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "滑动底",
+          "rect": {
+            "x": 3,
+            "y": 3,
+            "width": 246,
+            "height": 44
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 246,
+            "height": 44
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "AutoAtlas",
+          "spriteFrames": [
+            "滑动底",
+            "29kJv9qq5OvZsRRrur1h8A@f9941",
+            "图标底",
+            "57s6qEqqRBqYYTF0H8GCkS@f9941",
+            "使用中",
+            "baTtOVWrlKRK0tpINwKw2B@f9941",
+            "名字底",
+            "e9/sla5H5A6o4f/zu09ZMI@f9941",
+            "选中",
+            "93aj8urudEVJ8WbQavewMO@f9941"
+          ]
+        }
+      ],
+      [1],
+      0,
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0],
+      [1, 2, 3, 4, 5]
+    ],
+    [
+      [
+        {
+          "name": "图标底",
+          "rect": {
+            "x": 255,
+            "y": 3,
+            "width": 64,
+            "height": 64
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 64,
+            "height": 64
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "选中",
+          "rect": {
+            "x": 3,
+            "y": 163,
+            "width": 418,
+            "height": 146
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 418,
+            "height": 146
+          },
+          "rotated": false,
+          "capInsets": [198, 70, 198, 51],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "使用中",
+          "rect": {
+            "x": 325,
+            "y": 3,
+            "width": 82,
+            "height": 80
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 82,
+            "height": 80
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "名字底",
+          "rect": {
+            "x": 3,
+            "y": 89,
+            "width": 391,
+            "height": 68
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 391,
+            "height": 68
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

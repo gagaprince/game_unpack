@@ -1,0 +1,29 @@
+[
+  1,
+  [
+    "74Bop/VYFFzrmlTzoWQHqg@f9941",
+    "75Nb1j6sBDwokFVHBSI5lN@f9941",
+    "f4qHrPbV9JmaCnrifENs7T@f9941"
+  ],
+  ["_textureSource"],
+  ["cc.SpriteAtlas"],
+  0,
+  [
+    {
+      "name": "AutoAtlas",
+      "spriteFrames": [
+        "小草莓",
+        "74Bop/VYFFzrmlTzoWQHqg@f9941",
+        "加载条底",
+        "75Nb1j6sBDwokFVHBSI5lN@f9941",
+        "加载条",
+        "f4qHrPbV9JmaCnrifENs7T@f9941"
+      ]
+    }
+  ],
+  [0],
+  0,
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 1, 2]
+]

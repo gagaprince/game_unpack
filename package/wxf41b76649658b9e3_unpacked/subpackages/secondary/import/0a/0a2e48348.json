@@ -1,0 +1,405 @@
+[
+  1,
+  [
+    "19c9b5cab@6c48a",
+    "75cmHttAhBgomF1HzyDGoI@f9941",
+    "d0JK57PAhMPZI1s+E7Qybu@f9941",
+    "59z1oNmc1OL7kVgSsIQ6He@f9941",
+    "acs5qB3h9DWI4+bOJK52Kh@f9941",
+    "92bV/D8vFKsJSshypnp3Nx@f9941",
+    "6eMuwA1KBAQZjKCeQu1e4M@f9941",
+    "65SpEbSEhH75cRsc76eqrs@f9941",
+    "fb/gmKfUJCuJL0rY6SdTuV@f9941",
+    "7evUXDFOFFDrdLWD2QtpOn@f9941",
+    "32TSe/8BFN3rl/mudJ1VSd@f9941"
+  ],
+  ["_textureSource"],
+  ["cc.SpriteFrame", "cc.SpriteAtlas"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "去订阅",
+          "rect": {
+            "x": 3,
+            "y": 410,
+            "width": 133,
+            "height": 40
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 133,
+            "height": 40
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "获得奖励",
+          "rect": {
+            "x": 3,
+            "y": 49,
+            "width": 180,
+            "height": 40
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 180,
+            "height": 40
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "客服",
+          "rect": {
+            "x": 162,
+            "y": 237,
+            "width": 86,
+            "height": 94
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 86,
+            "height": 94
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "图层 16",
+          "rect": {
+            "x": 3,
+            "y": 141,
+            "width": 126,
+            "height": 153
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 126,
+            "height": 153
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "进入侧边栏",
+          "rect": {
+            "x": 3,
+            "y": 3,
+            "width": 215,
+            "height": 40
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 215,
+            "height": 40
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "游戏圈",
+          "rect": {
+            "x": 161,
+            "y": 337,
+            "width": 86,
+            "height": 94
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 86,
+            "height": 94
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "AutoAtlas",
+          "spriteFrames": [
+            "进入侧边栏",
+            "75cmHttAhBgomF1HzyDGoI@f9941",
+            "图鉴进度条-1",
+            "d0JK57PAhMPZI1s+E7Qybu@f9941",
+            "获得奖励",
+            "59z1oNmc1OL7kVgSsIQ6He@f9941",
+            "已领取",
+            "acs5qB3h9DWI4+bOJK52Kh@f9941",
+            "添加桌面",
+            "92bV/D8vFKsJSshypnp3Nx@f9941",
+            "图层 16",
+            "6eMuwA1KBAQZjKCeQu1e4M@f9941",
+            "客服",
+            "65SpEbSEhH75cRsc76eqrs@f9941",
+            "排行榜",
+            "fb/gmKfUJCuJL0rY6SdTuV@f9941",
+            "游戏圈",
+            "7evUXDFOFFDrdLWD2QtpOn@f9941",
+            "去订阅",
+            "32TSe/8BFN3rl/mudJ1VSd@f9941"
+          ]
+        }
+      ],
+      [1],
+      0,
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    ],
+    [
+      [
+        {
+          "name": "添加桌面",
+          "rect": {
+            "x": 3,
+            "y": 95,
+            "width": 178,
+            "height": 40
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 178,
+            "height": 40
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "已领取",
+          "rect": {
+            "x": 189,
+            "y": 80,
+            "width": 151,
+            "height": 46
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 151,
+            "height": 46
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "图鉴进度条-1",
+          "rect": {
+            "x": 224,
+            "y": 3,
+            "width": 71,
+            "height": 10
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 71,
+            "height": 10
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "排行榜",
+          "rect": {
+            "x": 3,
+            "y": 273,
+            "width": 131,
+            "height": 152
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 131,
+            "height": 152
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

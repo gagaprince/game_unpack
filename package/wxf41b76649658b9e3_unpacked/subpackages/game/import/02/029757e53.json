@@ -1,0 +1,481 @@
+[
+  1,
+  [
+    "13279acdb@6c48a",
+    "22vbXfQJBBFpcpqZ2wyUrk@f9941",
+    "f0Z+4bIxxEIrWNViA3ftkx@f9941",
+    "0dFXOs5YBJzZL339zUX734@f9941",
+    "b4J8u9efBAN4m1qzaSHYWH@f9941",
+    "28WtrjwPBF7bWeeEAqP75B@f9941",
+    "92lWSeZipE5oJM1Vl/HHPa@f9941",
+    "e9ZrmGItNCkrtYJYzuyTS9@f9941",
+    "18ujyvfbpIbZU4JlLdDief@f9941",
+    "decCEelRBNwb5VMA89GQ1J@f9941",
+    "43iXWeeEBEBq3S4B7ae9Cu@f9941",
+    "91RC2Sb35NOKpqYX0BLpiU@f9941",
+    "c6/j+hYThHDJ58YWxSkubE@f9941"
+  ],
+  ["_textureSource"],
+  ["cc.SpriteFrame", "cc.SpriteAtlas"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "雪花大",
+          "rect": {
+            "x": 172,
+            "y": 121,
+            "width": 120,
+            "height": 140
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 120,
+            "height": 140
+          },
+          "rotated": true,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "向左大",
+          "rect": {
+            "x": 118,
+            "y": 346,
+            "width": 107,
+            "height": 94
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 107,
+            "height": 94
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "中间大",
+          "rect": {
+            "x": 3,
+            "y": 3,
+            "width": 163,
+            "height": 116
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 163,
+            "height": 116
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "向右大",
+          "rect": {
+            "x": 135,
+            "y": 247,
+            "width": 109,
+            "height": 93
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 109,
+            "height": 93
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "黑洞",
+          "rect": {
+            "x": 3,
+            "y": 356,
+            "width": 92,
+            "height": 92
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 92,
+            "height": 92
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "AutoAtlas",
+          "spriteFrames": [
+            "中间大",
+            "22vbXfQJBBFpcpqZ2wyUrk@f9941",
+            "中间",
+            "f0Z+4bIxxEIrWNViA3ftkx@f9941",
+            "雪花大",
+            "0dFXOs5YBJzZL339zUX734@f9941",
+            "未知",
+            "b4J8u9efBAN4m1qzaSHYWH@f9941",
+            "向右大",
+            "28WtrjwPBF7bWeeEAqP75B@f9941",
+            "xiangxia大",
+            "92lWSeZipE5oJM1Vl/HHPa@f9941",
+            "向右",
+            "e9ZrmGItNCkrtYJYzuyTS9@f9941",
+            "向左大",
+            "18ujyvfbpIbZU4JlLdDief@f9941",
+            "向左",
+            "decCEelRBNwb5VMA89GQ1J@f9941",
+            "黑洞",
+            "43iXWeeEBEBq3S4B7ae9Cu@f9941",
+            "小雪",
+            "91RC2Sb35NOKpqYX0BLpiU@f9941",
+            "xiangxia",
+            "c6/j+hYThHDJ58YWxSkubE@f9941"
+          ]
+        }
+      ],
+      [1],
+      0,
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    ],
+    [
+      [
+        {
+          "name": "小雪",
+          "rect": {
+            "x": 101,
+            "y": 446,
+            "width": 91,
+            "height": 47
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 91,
+            "height": 47
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "xiangxia大",
+          "rect": {
+            "x": 250,
+            "y": 247,
+            "width": 88,
+            "height": 113
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 88,
+            "height": 113
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "未知",
+          "rect": {
+            "x": 3,
+            "y": 125,
+            "width": 126,
+            "height": 126
+          },
+          "offset": {
+            "x": -0.5,
+            "y": 0.5
+          },
+          "originalSize": {
+            "width": 135,
+            "height": 127
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "xiangxia",
+          "rect": {
+            "x": 3,
+            "y": 454,
+            "width": 91,
+            "height": 47
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 91,
+            "height": 47
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "向左",
+          "rect": {
+            "x": 231,
+            "y": 366,
+            "width": 107,
+            "height": 94
+          },
+          "offset": {
+            "x": 0,
+            "y": 0.5
+          },
+          "originalSize": {
+            "width": 149,
+            "height": 117
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "向右",
+          "rect": {
+            "x": 3,
+            "y": 257,
+            "width": 109,
+            "height": 93
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "originalSize": {
+            "width": 149,
+            "height": 117
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "中间",
+          "rect": {
+            "x": 172,
+            "y": 3,
+            "width": 159,
+            "height": 112
+          },
+          "offset": {
+            "x": 0,
+            "y": 0.5
+          },
+          "originalSize": {
+            "width": 163,
+            "height": 131
+          },
+          "rotated": false,
+          "capInsets": [0, 0, 0, 0],
+          "packable": true,
+          "pixelsToUnit": 100,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "meshType": 0
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

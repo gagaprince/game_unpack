@@ -1,0 +1,22 @@
+[
+  1,
+  ["1d6bc3489"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "gbz_box3",
+      "rect": [3, 259, 250, 340],
+      "offset": [-1, -0.5],
+      "originalSize": [262, 341],
+      "rotated": 1,
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]

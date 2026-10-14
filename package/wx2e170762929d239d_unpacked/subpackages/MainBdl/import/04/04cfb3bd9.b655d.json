@@ -1,0 +1,43 @@
+[
+  1,
+  ["1e0bccac2"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    [
+      [
+        {
+          "name": "16爱心边",
+          "rect": [3, 3, 218, 179],
+          "offset": [0, 0],
+          "originalSize": [218, 179],
+          "rotated": 1,
+          "capInsets": [0, 0, 0, 0]
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ],
+    [
+      [
+        {
+          "name": "15爱心",
+          "rect": [3, 227, 202, 163],
+          "offset": [0, 0],
+          "originalSize": [202, 163],
+          "rotated": 1,
+          "capInsets": [0, 0, 0, 0]
+        }
+      ],
+      [0],
+      0,
+      [0],
+      [0],
+      [0]
+    ]
+  ]
+]

@@ -1,0 +1,78 @@
+[
+  1,
+  ["fdoJXLgx1GAa2UhGATlj3o", "43iXWeeEBEBq3S4B7ae9Cu@f9941"],
+  ["node", "_customMaterial", "_spriteFrame", "root", "data"],
+  [
+    ["cc.Prefab", ["_name"], 2],
+    ["cc.Node", ["_name", "_layer", "_components", "_prefab"], 1, 9, 4],
+    [
+      "cc.Sprite",
+      ["node", "__prefab", "_customMaterial", "_spriteFrame"],
+      3,
+      1,
+      4,
+      6,
+      6
+    ],
+    ["cc.CompPrefabInfo", ["fileId"], 2],
+    ["cc.RigidBody2D", ["_type", "_gravityScale", "node", "__prefab"], 1, 1, 4],
+    [
+      "cc.CircleCollider2D",
+      ["_sensor", "_friction", "_radius", "node", "__prefab"],
+      0,
+      1,
+      4
+    ],
+    ["cc.UIOpacity", ["node", "__prefab"], 3, 1, 4],
+    ["cc.UITransform", ["node", "__prefab", "_contentSize"], 3, 1, 4, 5],
+    ["a2e1eTGSSZHyI7JJkoNfs7j", ["node", "__prefab"], 3, 1, 4],
+    [
+      "cc.PrefabInfo",
+      [
+        "fileId",
+        "instance",
+        "targetOverrides",
+        "nestedPrefabInstanceRoots",
+        "root",
+        "asset"
+      ],
+      -1,
+      1,
+      1
+    ]
+  ],
+  [
+    [3, 0, 2],
+    [0, 0, 2],
+    [1, 0, 1, 2, 3, 3],
+    [2, 0, 1, 2, 3, 1],
+    [4, 0, 1, 2, 3, 3],
+    [5, 0, 1, 2, 3, 4, 4],
+    [6, 0, 1, 1],
+    [7, 0, 1, 2, 1],
+    [8, 0, 1, 1],
+    [9, 0, 1, 2, 3, 4, 5, 5]
+  ],
+  [
+    [1, "holeBg"],
+    [
+      2,
+      "holeBg",
+      33554432,
+      [
+        [3, -2, [0, "d8SVcMKEFKoI+z4hJbmmGf"], 0, 1],
+        [4, 0, 0, -3, [0, "7ec/XDA3JCpI9juSBcWCQw"]],
+        [5, true, 0, 45, -4, [0, "6fdptW5gZKVYppp8aZj6v0"]],
+        [6, -5, [0, "b4E5K/MuNAm5rs85PqHxIC"]],
+        [7, -6, [0, "6fhhz/vixOD7zG7xO3UT7C"], [5, 92, 92]],
+        [8, -7, [0, "28OP37WJdJRoXO0GPyBu8d"]]
+      ],
+      [9, "75R5gzSm9K/Jrs6DSVCeGH", null, null, null, -1, 0]
+    ]
+  ],
+  0,
+  [0, 3, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 4, 1, 7],
+  [0, 0],
+  [1, 2],
+  [0, 1]
+]

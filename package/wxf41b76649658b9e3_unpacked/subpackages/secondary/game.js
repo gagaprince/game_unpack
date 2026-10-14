@@ -1,0 +1,48 @@
+var global = (function() {
+    return this
+})();
+if (!global && typeof GameGlobal !== 'undefined') global = GameGlobal;
+var pluginInfoMap = {};;
+global.requirePlugin = global.requirePlugin || function(path) {
+    var position = path.indexOf('/');
+    var alias = '';
+    var pagePath = '';
+    if (position !== -1) {
+        alias = path.substr(0, position);
+        pagePath = path.substr(position + 1, path.length);
+    } else {
+        alias = path;
+    }
+    if (pluginInfoMap.hasOwnProperty(alias)) {
+        var realPath = '';
+        if (pagePath.length === 0) {
+            realPath = '__plugin__/' + pluginInfoMap[alias].appid;
+            return require(realPath);
+        } else {
+            realPath = '__plugin__/' + pluginInfoMap[alias].appid + '/' + pagePath;
+            return require(realPath);
+        }
+    } else {
+        console.error('not found alias: ', alias);
+        throw new Error('Plugin ' + alias + ' is not defined.')
+    }
+};
+define("subpackages/secondary/game.js", function(require, module, exports) {
+    "use strict";
+    var e, r;
+    System.register("chunks:///_virtual/secondary", [], (function() {
+        return {
+            execute: function() {}
+        }
+    })), e = "virtual:///prerequisite-imports/secondary", r = "chunks:///_virtual/secondary", System.register(e, [r], (function(e, r) {
+        return {
+            setters: [function(r) {
+                var t = {};
+                for (var n in r) "default" !== n && "__esModule" !== n && (t[n] = r[n]);
+                e(t)
+            }],
+            execute: function() {}
+        }
+    }));
+});
+require("subpackages/secondary/game.js");

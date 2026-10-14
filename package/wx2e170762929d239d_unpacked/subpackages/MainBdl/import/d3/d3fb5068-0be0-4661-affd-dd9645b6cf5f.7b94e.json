@@ -1,0 +1,21 @@
+[
+  1,
+  ["360AobikBI56L33Uuac4/O"],
+  ["_textureSetter"],
+  ["cc.SpriteFrame"],
+  0,
+  [
+    {
+      "name": "hole",
+      "rect": [1, 0, 35, 36],
+      "offset": [0.5, 0],
+      "originalSize": [36, 36],
+      "capInsets": [0, 0, 0, 0]
+    }
+  ],
+  [0],
+  0,
+  [0],
+  [0],
+  [0]
+]
