@@ -84,6 +84,7 @@ def main():
             "skipped": len(report.skipped),
             "skipped_builtin": sum(1 for x in report.skipped if x[1] == "builtin-engine-asset"),
             "missing_native": len(report.missing_native),
+            "no_pil_passthrough": len(report.no_pil_passthrough),
             "failed": len(report.failed),
             "scripts": len(manifest),
             "legacy_scripts": sorted(report.legacy_script_ids),

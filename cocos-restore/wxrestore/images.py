@@ -10,8 +10,6 @@ so re-imported full-frame sprites look identical.
 """
 import struct
 
-from PIL import Image
-
 
 def image_size(path):
     with open(path, "rb") as f:
@@ -38,6 +36,7 @@ def image_size(path):
 
 
 def crop_frame(sf_data, atlas_path):
+    from PIL import Image
     rect = sf_data["rect"]
     x, y, w, h = int(rect["x"]), int(rect["y"]), int(rect["width"]), int(rect["height"])
     atlas = Image.open(atlas_path).convert("RGBA")

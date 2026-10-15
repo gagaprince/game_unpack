@@ -41,6 +41,7 @@ class Report:
         self.skipped = []
         self.missing_native = []
         self.failed = []
+        self.no_pil_passthrough = []
         self.script_ids = set()
         self.legacy_script_ids = set()
         self.script_fields = {}
@@ -195,27 +196,46 @@ class Writer:
     def _write_image(self, e):
         bname = self._bundle_of(e)
         rel_no_ext = self._rel_for_entry(e, bname, sub="_images")
-        img = None
         ext = e.native_ext or ".png"
         cropped = False
+        img = None
         if e.native:
+            ext = os.path.splitext(e.native)[1] or ext
             try:
                 from PIL import Image
                 img = Image.open(e.native)
                 img.load()
-                ext = os.path.splitext(e.native)[1]
             except Exception:
                 img = None
+        if img is None and e.native:
+            # Pillow unavailable: pass standalone native files through byte-for-byte.
+            # Dimensions are parsed from the PNG/JPEG header without third-party libs.
+            size = images.image_size(e.native)
+            if size is None:
+                self.report.failed.append((e.uuid, "image-size", e.path))
+                return
+            w, h = size
+            dst = os.path.join(self.out, rel_no_ext + ext)
+            self._copy(e.native, dst)
+            name = os.path.basename(rel_no_ext)
+            has_alpha = ext.lower() not in (".jpg", ".jpeg")
+            self._write_json(dst + ".meta",
+                             metas.image_meta(e.uuid, name, w, h, ext, has_alpha))
+            self.report.no_pil_passthrough.append((e.uuid, rel_no_ext + ext))
+            return
         if img is None and e.sf_data and e.texture_source:
-            atlas = self.entries.get(e.texture_source)
-            if atlas and atlas.native:
-                img = images.crop_frame(e.sf_data, atlas.native)
-                ext = ".png"
-                cropped = True
+            try:
+                atlas = self.entries.get(e.texture_source)
+                if atlas and atlas.native:
+                    img = images.crop_frame(e.sf_data, atlas.native)
+                    ext = ".png"
+                    cropped = True
+            except ImportError:
+                self.report.failed.append((e.uuid, "atlas-crop-needs-Pillow", e.path))
+                return
         if img is None:
             self.report.missing_native.append((e.uuid, e.path))
             return
-        # normalize mode
         if ext.lower() in (".jpg", ".jpeg"):
             has_alpha = img.mode in ("RGBA", "LA", "P") and (img.mode != "P")
             src_img = img.convert("RGB")

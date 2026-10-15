@@ -1,0 +1,17 @@
+# wxrestore Python 依赖
+#
+# 说明：
+# - 还原工具本身只使用 Python 3.9+ 标准库（argparse/json/os/re/hashlib/
+#   struct/shutil/random/string 等），不装任何第三方包也能运行。
+# - 唯一的第三方依赖是 Pillow，且为【可选】：仅"图集裁帧"需要。
+#   不安装时，独立图片/音频/Prefab/场景/脚本壳等全部正常还原，
+#   只有仅存在于图集中、需要裁剪的帧会在 restore-report.json 的
+#   failed 中标注为 atlas-crop-needs-Pillow。
+#
+# 安装方式：
+#   python3 -m pip install -r requirements.txt
+#   （macOS 若报 externally-managed，改用：python3 -m pip install --user -r requirements.txt）
+#
+# 最低版本 9.0（仅用到 Image.open/crop/rotate/new/paste 等基础能力）；
+# 已在 Pillow 11.3.0 上验证通过。
+pillow>=9.0
