@@ -1,0 +1,990 @@
+{
+  "source": "/Users/zidong.wang/aiwork/game_unpack/package/wxf41b76649658b9e3_unpacked",
+  "bundles_on_disk": [
+    "fruits",
+    "game",
+    "internal",
+    "main",
+    "secondary",
+    "start-scene",
+    "vegetable"
+  ],
+  "declared_subpackages": [],
+  "missing_bundles": [],
+  "counts": {
+    "written_files": 930,
+    "cropped_from_atlas": 14,
+    "skipped": 115,
+    "missing_native": 0,
+    "failed": 0,
+    "scripts": 24,
+    "legacy_scripts": [
+      "920f995b--b39-4-4b-74-8-daf-4fc1f35dea4b",
+      "bdfdd713--e66-3-43-95-b-add-e06292781271"
+    ]
+  },
+  "cropped": [
+    [
+      "fruits/水果图标/柚子.png",
+      "13b140acb"
+    ],
+    [
+      "fruits/水果图标/苹果.png",
+      "13b140acb"
+    ],
+    [
+      "fruits/水果图标/菠萝.png",
+      "13b140acb"
+    ],
+    [
+      "game/sprite/Home/排行榜/段位/06.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/第三.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/段位/02.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/段位/04.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/第二.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/段位/05.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/下一关.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/段位/01.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/底板.png",
+      "14968b39d"
+    ],
+    [
+      "game/sprite/Home/排行榜/段位/03.png",
+      "14968b39d"
+    ],
+    [
+      "vegetable/蔬菜/西红柿.png",
+      "1b53cbfd2"
+    ]
+  ],
+  "skipped_assets": [
+    [
+      "04f923b60",
+      "cc.EffectAsset",
+      ""
+    ],
+    [
+      "1c02ae6f-4492-4915-b8f8-7492a3b1e4cd",
+      "builtin-engine-asset",
+      "db:/internal/effects/internal/builtin-graphics"
+    ],
+    [
+      "50f4348b-c883-4e2f-8f11-ce233b859fa1",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/ui-alpha-test-material"
+    ],
+    [
+      "5c601d96-e4c7-4698-991b-7ee674b11079",
+      "builtin-engine-asset",
+      "db:/internal/effects/pipeline/copy-pass"
+    ],
+    [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0",
+      "builtin-engine-asset",
+      "db:/internal/effects/for2d/builtin-sprite"
+    ],
+    [
+      "6a2d0734-bd9e-4ddf-946e-caa52498cb75",
+      "builtin-engine-asset",
+      "db:/internal/effects/pipeline/post-process/tone-mapping"
+    ],
+    [
+      "810e96e4-e456-4468-9b59-f4e8f39732c0",
+      "builtin-engine-asset",
+      "db:/internal/effects/internal/builtin-clear-stencil"
+    ],
+    [
+      "871c3b6c-7379-419d-bda3-794b239ab90d",
+      "builtin-engine-asset",
+      "db:/internal/effects/util/profiler"
+    ],
+    [
+      "8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/default-clear-stencil"
+    ],
+    [
+      "970b0598-bcb0-4714-91fb-2e81440dccd8",
+      "builtin-engine-asset",
+      "db:/internal/effects/util/splash-screen"
+    ],
+    [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+      "builtin-engine-asset",
+      "db:/internal/effects/builtin-unlit"
+    ],
+    [
+      "b5d6115f-0370-4d7c-aad3-c194cc71cf98",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/default-spine-material"
+    ],
+    [
+      "bcd64cc6-2dd9-43f6-abbe-66318d332032",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/missing-effect-material"
+    ],
+    [
+      "c27215d8-6835-4b68-bfbb-bdeac6100c04",
+      "builtin-engine-asset",
+      "db:/internal/effects/for2d/builtin-spine"
+    ],
+    [
+      "d930590d-bb92-4cc8-8bd1-23cd027f9edf",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/missing-material"
+    ],
+    [
+      "dd3a144d-ab7f-41f0-82b8-2e43a090d496",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/ui-sprite-gray-alpha-sep-material"
+    ],
+    [
+      "e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/ui-base-material"
+    ],
+    [
+      "efe8e2a3-eace-427b-b4f1-cb8a937ec77d",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/ui-sprite-gray-material"
+    ],
+    [
+      "f0416e68-0200-4b77-a926-4f9d16e494da",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/ui-graphics-material"
+    ],
+    [
+      "f92806d7-1768-443f-afe8-12bcde84d0f0",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/ui-sprite-alpha-sep-material"
+    ],
+    [
+      "fda095cb-831d-4601-ad94-846013963de8",
+      "builtin-engine-asset",
+      "db:/internal/default_materials/ui-sprite-material"
+    ],
+    [
+      "098e8e875",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "fd8ec536-a354-4a17-9c74-4f3883c378c8",
+      "builtin-engine-asset",
+      "db:/internal/default_renderpipeline/builtin-forward"
+    ],
+    [
+      "1576d2539",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "03b140acb",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "13b140acb",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "029757e53",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "02cbee84f",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "04773ea91",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "04968b39d",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "04b4a92a9",
+      "cc.Prefab",
+      ""
+    ],
+    [
+      "04e1cdfc0",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "05022141f",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0521be4ca",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "057dd490e",
+      "cc.SpriteAtlas",
+      ""
+    ],
+    [
+      "05a2909d9",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "05c09eb89",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "06e827f07",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0838d4908",
+      "cc.Prefab",
+      ""
+    ],
+    [
+      "08cb88a9b",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "093f7d5c1",
+      "cc.SpriteAtlas",
+      ""
+    ],
+    [
+      "09c9b5cab",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0b83b75b7",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0d785ed53",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0d7de5000",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0e3beba0-9f72-4874-a8cf-fcbf38df1b68",
+      "cc.SpriteAtlas",
+      "sprite/关卡界面/场景/AutoAtlas"
+    ],
+    [
+      "0de4192ed",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0e63cd2ff",
+      null,
+      ""
+    ],
+    [
+      "11998803-a133-4175-972b-a407cbe4f79f",
+      "cc.SpriteAtlas",
+      "sprite/通用/AutoAtlas"
+    ],
+    [
+      "13279acdb",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1412c1554",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "14968b39d",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "16d740a7b",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "192355ded",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "192c223c9",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1e779c8c-6d9d-4d1c-9d91-d981ea2c5306",
+      "cc.SpriteAtlas",
+      "resUI/texture/AutoAtlas"
+    ],
+    [
+      "19a8e4c2e",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "19c9b5cab",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1cd651320",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1d302ce4f",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1ed33f821",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1f8a0df40",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "20835ba4-6145-4fbc-a58a-051ce700aa3e",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "24a704da-2867-446d-8d1a-5e920c75e09d",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "24c419ea-63a8-4ea1-a9d0-7fc469489bbc",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "4b704736-2ea5-4a26-a66a-c1716700473e",
+      "cc.SpriteAtlas",
+      "resUI/关卡界面/AutoAtlas"
+    ],
+    [
+      "45f91734-da10-41dd-9927-6d9bb67c656b",
+      "cc.SpriteAtlas",
+      "resUI/lightning/AutoAtlas"
+    ],
+    [
+      "4e018309-efc7-48f5-9e0b-5fcd7d812668",
+      "cc.SpriteAtlas",
+      "resUI/eff/AutoAtlas"
+    ],
+    [
+      "3e024fae-b96d-4e44-b2c0-a92e2de525b8",
+      "cc.EffectAsset",
+      ""
+    ],
+    [
+      "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "bd1bcaba-bd7d-4a71-b143-997c882383e4",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "727e741a-e3cf-4216-9dac-ee0fdb7090d1",
+      "cc.Material",
+      ""
+    ],
+    [
+      "79f5c935-b882-4a49-b88a-bf0af47fc68a",
+      "cc.EffectAsset",
+      ""
+    ],
+    [
+      "8dd8124e-76e9-47c9-92dd-b5ea18309708",
+      "cc.SpriteAtlas",
+      "sprite/关卡界面/icons/AutoAtlas"
+    ],
+    [
+      "8fe3732d-d0ee-4b50-a2f3-f21998529671",
+      "cc.SpriteAtlas",
+      "resUI/主界面/AutoAtlas"
+    ],
+    [
+      "951249e0-9f16-456d-8b85-a6ca954da16b",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "86f25d5c-9de5-454f-a5f9-ee16603e6701",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "b141145d-4108-41aa-810d-96be1dadf9d6",
+      "cc.SpriteAtlas",
+      "resUI/加载页/AutoAtlas"
+    ],
+    [
+      "b6c5f405-bebc-4c01-9165-52cf10836692",
+      "cc.Material",
+      ""
+    ],
+    [
+      "f12a23c4-b924-4322-a260-3d982428f1e8",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "fc29e4b6-7c08-4b4f-ba2e-4da18783f63b",
+      "cc.SpriteAtlas",
+      "resUI/通用/AutoAtlas"
+    ],
+    [
+      "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+      "builtin-engine-asset",
+      ""
+    ],
+    [
+      "015c5c071",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0257e119c",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "032b73a3c",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0412c1554",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "042d26726",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "061315c16",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "061a59923",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "07d2a86ef",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "08d849683",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "08e94673d",
+      null,
+      ""
+    ],
+    [
+      "092c223c9",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0a2e48348",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0cd651320",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0d302ce4f",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0dd512c85",
+      "cc.Prefab",
+      ""
+    ],
+    [
+      "0ed7d1ce1",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0ef03f2a0",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "0f7393dfc",
+      "cc.Prefab",
+      ""
+    ],
+    [
+      "136e71b88",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "15a686e4b",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "19758db27",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1a9f94df3",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1cd67a247",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "1d686bc56",
+      "cc.ImageAsset",
+      ""
+    ],
+    [
+      "3fb45329-850b-4b1c-9ae5-ccfa659724a1",
+      "cc.SpriteAtlas",
+      "resUI/主题/AutoAtlas"
+    ],
+    [
+      "534b256c-7424-475c-bffa-1f764d2edad9",
+      "cc.SpriteAtlas",
+      "resUI/设置/AutoAtlas"
+    ],
+    [
+      "59e03b36-e7a8-4386-af05-29c82dba04d3",
+      "cc.SpriteAtlas",
+      "resUI/复活/AutoAtlas"
+    ],
+    [
+      "8d7ec78f-0dfb-4cb9-9367-46fd3f2235fb",
+      "cc.SpriteAtlas",
+      "sprite/Home/主界面/AutoAtlas"
+    ],
+    [
+      "943e5534-6d90-472a-8637-6be75201e8bd",
+      "cc.SpriteAtlas",
+      "resUI/通用/AutoAtlas"
+    ],
+    [
+      "bd8b2b89-5e0c-4875-8429-ee7b6df6a695",
+      "cc.SpriteAtlas",
+      "resUI/胜利失败/AutoAtlas"
+    ],
+    [
+      "0b53cbfd2",
+      "cc.SpriteFrame",
+      ""
+    ],
+    [
+      "1b53cbfd2",
+      "cc.ImageAsset",
+      ""
+    ]
+  ],
+  "missing_native": [],
+  "failed": [],
+  "scripts": {
+    "03816qQeA1F2r9hRCq/fvhw": {
+      "file": "scripts/restored/RestoredComponent_000.ts",
+      "uuid": "03816a90-780d-45da-bf61-442abf7ef870",
+      "class": "RestoredComponent_000",
+      "legacy": false,
+      "fields": {}
+    },
+    "0ff578h29lFgpVQKY68qLZB": {
+      "file": "scripts/restored/RestoredComponent_001.ts",
+      "uuid": "0ff57f21-dbd9-4582-9550-298ebca8b641",
+      "class": "RestoredComponent_001",
+      "legacy": false,
+      "fields": {
+        "bg": [
+          "node"
+        ]
+      }
+    },
+    "11693VhkEJPOrhUFuX9JSB1": {
+      "file": "scripts/restored/RestoredComponent_002.ts",
+      "uuid": "11693561-9042-4f3a-b854-16e5fd252075",
+      "class": "RestoredComponent_002",
+      "legacy": false,
+      "fields": {
+        "logoFrames": [
+          "array"
+        ],
+        "icon": [
+          "node"
+        ]
+      }
+    },
+    "262778VlvxPEKK1dLw7LFiu": {
+      "file": "scripts/restored/RestoredComponent_003.ts",
+      "uuid": "26277f15-96fc-4f10-a2b5-74bc3b2c58ae",
+      "class": "RestoredComponent_003",
+      "legacy": false,
+      "fields": {
+        "createPoint": [
+          "node"
+        ]
+      }
+    },
+    "28ebf3XjF1IfIgnSzzCjMhD": {
+      "file": "scripts/restored/RestoredComponent_004.ts",
+      "uuid": "28ebfdd7-8c5d-487c-8827-4b3cc28cc843",
+      "class": "RestoredComponent_004",
+      "legacy": false,
+      "fields": {
+        "fruit": [
+          "node"
+        ],
+        "fruitName": [
+          "node"
+        ],
+        "fruitSprite": [
+          "node"
+        ],
+        "noNum": [
+          "node"
+        ],
+        "newTip": [
+          "node"
+        ],
+        "parent": [
+          "node"
+        ]
+      }
+    },
+    "43bb6fKayNBYbX8U1vE9wAT": {
+      "file": "scripts/restored/RestoredComponent_005.ts",
+      "uuid": "43bb67ca-6b23-4161-b5fc-535bc4f70013",
+      "class": "RestoredComponent_005",
+      "legacy": false,
+      "fields": {}
+    },
+    "5f7f5WXEYpORp6URYlj+aHC": {
+      "file": "scripts/restored/RestoredComponent_006.ts",
+      "uuid": "5f7f5597-118a-4e46-9e94-458963f9a1c2",
+      "class": "RestoredComponent_006",
+      "legacy": false,
+      "fields": {
+        "btnOpen": [
+          "node"
+        ],
+        "btnClose": [
+          "node"
+        ],
+        "btnJump": [
+          "node"
+        ],
+        "editBox": [
+          "node"
+        ],
+        "pan": [
+          "node"
+        ]
+      }
+    },
+    "67bf2VPib9B17El63LDib8u": {
+      "file": "scripts/restored/RestoredComponent_007.ts",
+      "uuid": "67bf254f-89bf-41d7-b125-eb72c389bf2e",
+      "class": "RestoredComponent_007",
+      "legacy": false,
+      "fields": {}
+    },
+    "6ad69nt3wRDApprbpdjggrp": {
+      "file": "scripts/restored/RestoredComponent_008.ts",
+      "uuid": "6ad699ed-df04-4302-9a6b-6e9763820ae9",
+      "class": "RestoredComponent_008",
+      "legacy": false,
+      "fields": {
+        "bfSp": [
+          "array"
+        ],
+        "bfSp2": [
+          "array"
+        ],
+        "bgNode": [
+          "node"
+        ]
+      }
+    },
+    "86443jbBh1HRrRCVgHLxLg+": {
+      "file": "scripts/restored/RestoredComponent_009.ts",
+      "uuid": "864438db-061d-4746-b442-5601cbc4b83e",
+      "class": "RestoredComponent_009",
+      "legacy": false,
+      "fields": {}
+    },
+    "8dee9CGwE5NrbcsI8oQa6CF": {
+      "file": "scripts/restored/RestoredComponent_010.ts",
+      "uuid": "8dee9086-c04e-4dad-b72c-23ca106ba085",
+      "class": "RestoredComponent_010",
+      "legacy": false,
+      "fields": {}
+    },
+    "920f995b--b39-4-4b-74-8-daf-4fc1f35dea4b": {
+      "file": "scripts/restored/RestoredComponent_011.ts",
+      "uuid": "ac2ca26a-00a3-4316-a23f-a691320f8adf",
+      "class": "RestoredComponent_011",
+      "legacy": "<re.Match object; span=(0, 10), match='920f995b--'>",
+      "fields": {}
+    },
+    "9d992VDm1FECo27GTxJW4Cj": {
+      "file": "scripts/restored/RestoredComponent_012.ts",
+      "uuid": "9d992543-9b51-440a-8dbb-193c495b80a3",
+      "class": "RestoredComponent_012",
+      "legacy": false,
+      "fields": {
+        "spaceY": [
+          "number"
+        ],
+        "delegate": [
+          "node"
+        ],
+        "initFinish": [
+          "node"
+        ],
+        "delegateUpdate": [
+          "node"
+        ],
+        "prefab": [
+          "asset"
+        ]
+      }
+    },
+    "a2e1eTGSSZHyI7JJkoNfs7j": {
+      "file": "scripts/restored/RestoredComponent_013.ts",
+      "uuid": "a2e1e4c6-4926-47c8-8ec9-264a0d7ecee3",
+      "class": "RestoredComponent_013",
+      "legacy": false,
+      "fields": {}
+    },
+    "acf520OJytAxa5ekqX+w531": {
+      "file": "scripts/restored/RestoredComponent_014.ts",
+      "uuid": "acf52d0e-272b-40c5-ae5e-92a5fec39df5",
+      "class": "RestoredComponent_014",
+      "legacy": false,
+      "fields": {
+        "nodeChuizi": [
+          "node"
+        ],
+        "eff": [
+          "node"
+        ]
+      }
+    },
+    "adf6dj1TWpAlLArjFGnbJXf": {
+      "file": "scripts/restored/RestoredComponent_015.ts",
+      "uuid": "adf6d8f5-4d6a-4094-b02b-8c51a76c95df",
+      "class": "RestoredComponent_015",
+      "legacy": false,
+      "fields": {}
+    },
+    "b95ecbzeLNL74WI7+VKg9n8": {
+      "file": "scripts/restored/RestoredComponent_016.ts",
+      "uuid": "b95ec6f3-78b3-4bef-8588-efe54a83d9fc",
+      "class": "RestoredComponent_016",
+      "legacy": false,
+      "fields": {}
+    },
+    "bdfdd713--e66-3-43-95-b-add-e06292781271": {
+      "file": "scripts/restored/RestoredComponent_017.ts",
+      "uuid": "9fb1e300-5488-43c4-a13c-6ad81d824ef9",
+      "class": "RestoredComponent_017",
+      "legacy": "<re.Match object; span=(0, 10), match='bdfdd713--'>",
+      "fields": {
+        "fill": [
+          "node"
+        ]
+      }
+    },
+    "d2634BH/IBDuqK7wdEJOpTl": {
+      "file": "scripts/restored/RestoredComponent_018.ts",
+      "uuid": "d2634047-fc80-43ba-a2bb-c1d1093a94e5",
+      "class": "RestoredComponent_018",
+      "legacy": false,
+      "fields": {
+        "materialAttacked": [
+          "asset"
+        ],
+        "normalMaterial": [
+          "asset"
+        ],
+        "lightMaterial": [
+          "asset"
+        ],
+        "obstaclesRoot": [
+          "node"
+        ],
+        "stakeRoot": [
+          "node"
+        ],
+        "fruits": [
+          "node"
+        ],
+        "numRoot": [
+          "node"
+        ],
+        "effsRoot": [
+          "node"
+        ],
+        "jointGraphics": [
+          "node"
+        ],
+        "jointGearMgr": [
+          "node"
+        ],
+        "FruitDownLayer": [
+          "node"
+        ]
+      }
+    },
+    "d3e05fdK21M8Zf5/QI2/jKz": {
+      "file": "scripts/restored/RestoredComponent_019.ts",
+      "uuid": "d3e057dd-2b6d-4cf1-97f9-fd0236fe32b3",
+      "class": "RestoredComponent_019",
+      "legacy": false,
+      "fields": {}
+    },
+    "e450e6NuSBPTbiyX+vYS/8K": {
+      "file": "scripts/restored/RestoredComponent_020.ts",
+      "uuid": "e450ee8d-b920-4f4d-b8b2-5febd84bff0a",
+      "class": "RestoredComponent_020",
+      "legacy": false,
+      "fields": {
+        "piaoEff": [
+          "node"
+        ],
+        "srps": [
+          "array"
+        ]
+      }
+    },
+    "f5322BTOHxO4pccMz2DMzcP": {
+      "file": "scripts/restored/RestoredComponent_021.ts",
+      "uuid": "f5322053-387c-4ee2-971c-333d8333370f",
+      "class": "RestoredComponent_021",
+      "legacy": false,
+      "fields": {
+        "icon": [
+          "node"
+        ]
+      }
+    },
+    "f80feq1W+9MarJkC21+SmQM": {
+      "file": "scripts/restored/RestoredComponent_022.ts",
+      "uuid": "f80feab5-5bef-4c6a-b264-0b6d7e4a640c",
+      "class": "RestoredComponent_022",
+      "legacy": false,
+      "fields": {
+        "rankImg": [
+          "node"
+        ],
+        "labRank": [
+          "node"
+        ],
+        "headImg": [
+          "node"
+        ],
+        "userName": [
+          "node"
+        ],
+        "level": [
+          "node"
+        ],
+        "parentSprite": [
+          "node"
+        ]
+      }
+    },
+    "f9629AlCotKs5dIJMcaMGhP": {
+      "file": "scripts/restored/RestoredComponent_023.ts",
+      "uuid": "f9629025-0a8b-4ab3-9748-24c71a30684f",
+      "class": "RestoredComponent_023",
+      "legacy": false,
+      "fields": {}
+    }
+  },
+  "launch_scene": "db://assets/res/scene/gameNew.scene",
+  "degraded_notes": [
+    "custom cc.Material/cc.EffectAsset not reconstructed (shader source absent from build); dangling material refs fall back to builtin materials",
+    "SpriteAtlas/AutoAtlas assets are not rebuilt; frames are exported as standalone images with original uuids",
+    "script files are empty property shells (method bodies unavailable in compiled builds)"
+  ]
+}

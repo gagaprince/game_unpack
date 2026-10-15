@@ -1,0 +1,82 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 750,
+      "height": 1334,
+      "fitWidth": true,
+      "fitHeight": true
+    }
+  },
+  "physics2d": {
+    "gravity": {
+      "x": 0,
+      "y": -10
+    },
+    "allowSleep": true,
+    "sleepThreshold": 0.1,
+    "autoSimulation": true,
+    "fixedTimeStep": 0.0166667,
+    "maxSubSteps": 1,
+    "collisionGroups": [
+      {
+        "index": 0,
+        "name": "DEFAULT"
+      },
+      {
+        "index": 1,
+        "name": "fruit"
+      },
+      {
+        "index": 2,
+        "name": "wall"
+      },
+      {
+        "index": 3,
+        "name": "obst"
+      },
+      {
+        "index": 4,
+        "name": "clickFruit"
+      },
+      {
+        "index": 5,
+        "name": "guardrail"
+      }
+    ],
+    "collisionMatrix": [
+      19,
+      31,
+      2,
+      18,
+      59,
+      16,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

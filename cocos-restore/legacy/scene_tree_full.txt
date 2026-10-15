@@ -1,0 +1,90 @@
+- 'gameNew'
+  - 'Canvas'
+    [cc.UITransform]
+    [cc.Canvas]
+    [cc.Widget]
+    [920f995b--b39-4-4b-74-8-daf-4fc1f35dea4b]
+    - 'Camera'
+      [cc.Camera]
+    - 'MAIN'
+      [cc.Widget]
+      [8dee9CGwE5NrbcsI8oQa6CF]
+      [cc.UIOpacity]
+      [cc.UITransform]
+      - 'BG'
+        [cc.Sprite] sf=secondary:(subasset )
+        [cc.Widget]
+        [cc.UIOpacity]
+        [cc.UITransform]
+        - 'bgshade'
+          [cc.Sprite] sf=secondary:(subasset )
+          [cc.Widget]
+          [cc.UIOpacity]
+          [cc.UITransform]
+      - 'Stage'
+        [cc.Widget]
+        [cc.Sprite]
+        [cc.UIOpacity]
+        [cc.UITransform]
+      - 'NodeFps'
+        [cc.UITransform]
+        [d3e05fdK21M8Zf5/QI2/jKz]
+    - 'UI'
+      [cc.Widget]
+      [67bf2VPib9B17El63LDib8u]
+      [cc.UIOpacity]
+      [cc.UITransform]
+      - None
+    - 'UIFade'
+      [cc.Sprite] sf=secondary:(subasset )
+      [cc.Widget]
+      [cc.BlockInputEvents]
+      [b95ecbzeLNL74WI7+VKg9n8]
+      [cc.UIOpacity]
+      [cc.UITransform]
+    - 'BlackInput' [INACTIVE]
+      [cc.BlockInputEvents]
+      [cc.UIOpacity]
+      [cc.UITransform]
+    - 'GbzWaiting' [INACTIVE]
+      [cc.Widget]
+      [cc.UIOpacity]
+      [cc.UITransform]
+      - 'bgshade'
+        [cc.Sprite] sf=secondary:(subasset )
+        [cc.Widget]
+        [cc.BlockInputEvents]
+        [cc.UIOpacity]
+        [cc.UITransform]
+      - 'jiazai'
+        [sp.Skeleton] skin='default' anim='animation'
+        [cc.UIOpacity]
+        [cc.UITransform]
+      - 'New Label'
+        [cc.Label] text='加载中...'
+        [cc.UIOpacity]
+        [cc.UITransform]
+    - 'MASK'
+      [cc.Widget]
+      [cc.UIOpacity]
+      [cc.UITransform]
+      - 'mask_up'
+        [cc.Sprite] sf=secondary:(subasset )
+        [cc.Widget]
+        [cc.UIOpacity]
+        [cc.UITransform]
+      - 'mask_left'
+        [cc.Sprite] sf=secondary:(subasset )
+        [cc.Widget]
+        [cc.UIOpacity]
+        [cc.UITransform]
+      - 'mask_down'
+        [cc.Sprite] sf=secondary:(subasset )
+        [cc.Widget]
+        [cc.UIOpacity]
+        [cc.UITransform]
+      - 'mask_right'
+        [cc.Sprite] sf=secondary:(subasset )
+        [cc.Widget]
+        [cc.UIOpacity]
+        [cc.UITransform]

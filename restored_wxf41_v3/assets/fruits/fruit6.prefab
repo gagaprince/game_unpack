@@ -1,0 +1,229 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "fruit6",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "fruit6",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 10
+      }
+    ],
+    "_level": 1,
+    "_prefab": {
+      "__id__": 12
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -298.625,
+      "y": 154.066,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 0.75
+    },
+    "_layer": 2,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_mobility": 0,
+    "_id": "ooxxEgJsPapw2dkuSUdK5r"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 3
+    },
+    "_customMaterial": {
+      "__uuid__": "fda095cb-831d-4601-ad94-846013963de8"
+    },
+    "_spriteFrame": {
+      "__uuid__": "37bb25af-ded6-453d-9292-a003377100cd@f9941"
+    },
+    "_id": "q326l2lzlI8u3SvtQ9pehy"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "f2d+jYfbBHvKU1zLyDXEQa"
+  },
+  {
+    "__type__": "cc.RigidBody2D",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 5
+    },
+    "enabledContactListener": true,
+    "_id": "SQsghumlEgAqZKcO8pbzB7"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "dfEkej9QRPUqspdrkn1hYA"
+  },
+  {
+    "__type__": "cc.PolygonCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 7
+    },
+    "_points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": 38.2,
+        "y": 67.3
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -9.6,
+        "y": 41.9
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -57.9,
+        "y": 34.4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -69.5,
+        "y": -6.8
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -49.5,
+        "y": -54.1
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -7.5,
+        "y": -68.9
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 33.1,
+        "y": -59
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 68.3,
+        "y": -20.8
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 72.4,
+        "y": 12.1
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 62.7,
+        "y": 57
+      }
+    ],
+    "_id": "emiaKJFS13UZARZ2lgjQMK"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "a4U+gbl6JLYJcKxxSkPZhA"
+  },
+  {
+    "__type__": "cc.UIOpacity",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 9
+    },
+    "_id": "9NIHxxZbUu9BJ0g8eBBcAo"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "46E76GXDRDsrodg6I2zC8Y"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 11
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 149,
+      "height": 143
+    },
+    "_id": "Z91aNRdEO60rRyNWL2t7la"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "2dMMhybnlNgp4HA6ekFfxc"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "64c6d7a7-8470-44b4-93b7-f643b3436e89"
+    },
+    "fileId": "84KfvumhhDAIx26bE2Sc3h"
+  }
+]

@@ -1,0 +1,847 @@
+[
+  {
+    "minLevel": 1,
+    "maxLevel": 3,
+    "rankStr": "青铜"
+  },
+  {
+    "minLevel": 4,
+    "maxLevel": 7,
+    "rankStr": "白银"
+  },
+  {
+    "minLevel": 8,
+    "maxLevel": 12,
+    "rankStr": "黄金"
+  },
+  {
+    "minLevel": 13,
+    "maxLevel": 17,
+    "rankStr": "钻石"
+  },
+  {
+    "minLevel": 18,
+    "maxLevel": 25,
+    "rankStr": "星耀"
+  },
+  {
+    "minLevel": 26,
+    "maxLevel": 32,
+    "rankStr": "王者1"
+  },
+  {
+    "minLevel": 32,
+    "maxLevel": 39,
+    "rankStr": "王者2"
+  },
+  {
+    "minLevel": 40,
+    "maxLevel": 46,
+    "rankStr": "王者3"
+  },
+  {
+    "minLevel": 47,
+    "maxLevel": 53,
+    "rankStr": "王者4"
+  },
+  {
+    "minLevel": 54,
+    "maxLevel": 60,
+    "rankStr": "王者5"
+  },
+  {
+    "minLevel": 61,
+    "maxLevel": 67,
+    "rankStr": "王者6"
+  },
+  {
+    "minLevel": 68,
+    "maxLevel": 74,
+    "rankStr": "王者7"
+  },
+  {
+    "minLevel": 75,
+    "maxLevel": 81,
+    "rankStr": "王者8"
+  },
+  {
+    "minLevel": 82,
+    "maxLevel": 88,
+    "rankStr": "王者9"
+  },
+  {
+    "minLevel": 89,
+    "maxLevel": 95,
+    "rankStr": "王者10"
+  },
+  {
+    "minLevel": 96,
+    "maxLevel": 105,
+    "rankStr": "王者11"
+  },
+  {
+    "minLevel": 106,
+    "maxLevel": 115,
+    "rankStr": "王者12"
+  },
+  {
+    "minLevel": 116,
+    "maxLevel": 125,
+    "rankStr": "王者13"
+  },
+  {
+    "minLevel": 126,
+    "maxLevel": 135,
+    "rankStr": "王者14"
+  },
+  {
+    "minLevel": 136,
+    "maxLevel": 145,
+    "rankStr": "王者15"
+  },
+  {
+    "minLevel": 146,
+    "maxLevel": 155,
+    "rankStr": "王者16"
+  },
+  {
+    "minLevel": 156,
+    "maxLevel": 165,
+    "rankStr": "王者17"
+  },
+  {
+    "minLevel": 166,
+    "maxLevel": 175,
+    "rankStr": "王者18"
+  },
+  {
+    "minLevel": 176,
+    "maxLevel": 185,
+    "rankStr": "王者19"
+  },
+  {
+    "minLevel": 186,
+    "maxLevel": 195,
+    "rankStr": "王者20"
+  },
+  {
+    "minLevel": 196,
+    "maxLevel": 205,
+    "rankStr": "王者21"
+  },
+  {
+    "minLevel": 206,
+    "maxLevel": 215,
+    "rankStr": "王者22"
+  },
+  {
+    "minLevel": 216,
+    "maxLevel": 225,
+    "rankStr": "王者23"
+  },
+  {
+    "minLevel": 226,
+    "maxLevel": 235,
+    "rankStr": "王者24"
+  },
+  {
+    "minLevel": 236,
+    "maxLevel": 245,
+    "rankStr": "王者25"
+  },
+  {
+    "minLevel": 246,
+    "maxLevel": 255,
+    "rankStr": "王者26"
+  },
+  {
+    "minLevel": 256,
+    "maxLevel": 265,
+    "rankStr": "王者27"
+  },
+  {
+    "minLevel": 266,
+    "maxLevel": 275,
+    "rankStr": "王者28"
+  },
+  {
+    "minLevel": 276,
+    "maxLevel": 285,
+    "rankStr": "王者29"
+  },
+  {
+    "minLevel": 286,
+    "maxLevel": 295,
+    "rankStr": "王者30"
+  },
+  {
+    "minLevel": 296,
+    "maxLevel": 305,
+    "rankStr": "王者31"
+  },
+  {
+    "minLevel": 306,
+    "maxLevel": 315,
+    "rankStr": "王者32"
+  },
+  {
+    "minLevel": 316,
+    "maxLevel": 325,
+    "rankStr": "王者33"
+  },
+  {
+    "minLevel": 326,
+    "maxLevel": 335,
+    "rankStr": "王者34"
+  },
+  {
+    "minLevel": 336,
+    "maxLevel": 345,
+    "rankStr": "王者35"
+  },
+  {
+    "minLevel": 346,
+    "maxLevel": 355,
+    "rankStr": "王者36"
+  },
+  {
+    "minLevel": 356,
+    "maxLevel": 365,
+    "rankStr": "王者37"
+  },
+  {
+    "minLevel": 366,
+    "maxLevel": 375,
+    "rankStr": "王者38"
+  },
+  {
+    "minLevel": 376,
+    "maxLevel": 385,
+    "rankStr": "王者39"
+  },
+  {
+    "minLevel": 386,
+    "maxLevel": 395,
+    "rankStr": "王者40"
+  },
+  {
+    "minLevel": 396,
+    "maxLevel": 405,
+    "rankStr": "王者41"
+  },
+  {
+    "minLevel": 406,
+    "maxLevel": 415,
+    "rankStr": "王者42"
+  },
+  {
+    "minLevel": 416,
+    "maxLevel": 425,
+    "rankStr": "王者43"
+  },
+  {
+    "minLevel": 426,
+    "maxLevel": 435,
+    "rankStr": "王者44"
+  },
+  {
+    "minLevel": 436,
+    "maxLevel": 445,
+    "rankStr": "王者45"
+  },
+  {
+    "minLevel": 446,
+    "maxLevel": 455,
+    "rankStr": "王者46"
+  },
+  {
+    "minLevel": 456,
+    "maxLevel": 465,
+    "rankStr": "王者47"
+  },
+  {
+    "minLevel": 466,
+    "maxLevel": 475,
+    "rankStr": "王者48"
+  },
+  {
+    "minLevel": 476,
+    "maxLevel": 485,
+    "rankStr": "王者49"
+  },
+  {
+    "minLevel": 486,
+    "maxLevel": 495,
+    "rankStr": "王者50"
+  },
+  {
+    "minLevel": 496,
+    "maxLevel": 505,
+    "rankStr": "王者51"
+  },
+  {
+    "minLevel": 506,
+    "maxLevel": 515,
+    "rankStr": "王者52"
+  },
+  {
+    "minLevel": 516,
+    "maxLevel": 525,
+    "rankStr": "王者53"
+  },
+  {
+    "minLevel": 526,
+    "maxLevel": 535,
+    "rankStr": "王者54"
+  },
+  {
+    "minLevel": 536,
+    "maxLevel": 545,
+    "rankStr": "王者55"
+  },
+  {
+    "minLevel": 546,
+    "maxLevel": 555,
+    "rankStr": "王者56"
+  },
+  {
+    "minLevel": 556,
+    "maxLevel": 565,
+    "rankStr": "王者57"
+  },
+  {
+    "minLevel": 566,
+    "maxLevel": 575,
+    "rankStr": "王者58"
+  },
+  {
+    "minLevel": 576,
+    "maxLevel": 585,
+    "rankStr": "王者59"
+  },
+  {
+    "minLevel": 586,
+    "maxLevel": 595,
+    "rankStr": "王者60"
+  },
+  {
+    "minLevel": 596,
+    "maxLevel": 605,
+    "rankStr": "王者61"
+  },
+  {
+    "minLevel": 606,
+    "maxLevel": 615,
+    "rankStr": "王者62"
+  },
+  {
+    "minLevel": 616,
+    "maxLevel": 625,
+    "rankStr": "王者63"
+  },
+  {
+    "minLevel": 626,
+    "maxLevel": 635,
+    "rankStr": "王者64"
+  },
+  {
+    "minLevel": 636,
+    "maxLevel": 645,
+    "rankStr": "王者65"
+  },
+  {
+    "minLevel": 646,
+    "maxLevel": 655,
+    "rankStr": "王者66"
+  },
+  {
+    "minLevel": 656,
+    "maxLevel": 665,
+    "rankStr": "王者67"
+  },
+  {
+    "minLevel": 666,
+    "maxLevel": 675,
+    "rankStr": "王者68"
+  },
+  {
+    "minLevel": 676,
+    "maxLevel": 685,
+    "rankStr": "王者69"
+  },
+  {
+    "minLevel": 686,
+    "maxLevel": 695,
+    "rankStr": "王者70"
+  },
+  {
+    "minLevel": 696,
+    "maxLevel": 705,
+    "rankStr": "王者71"
+  },
+  {
+    "minLevel": 706,
+    "maxLevel": 715,
+    "rankStr": "王者72"
+  },
+  {
+    "minLevel": 716,
+    "maxLevel": 725,
+    "rankStr": "王者73"
+  },
+  {
+    "minLevel": 726,
+    "maxLevel": 735,
+    "rankStr": "王者74"
+  },
+  {
+    "minLevel": 736,
+    "maxLevel": 745,
+    "rankStr": "王者75"
+  },
+  {
+    "minLevel": 746,
+    "maxLevel": 755,
+    "rankStr": "王者76"
+  },
+  {
+    "minLevel": 756,
+    "maxLevel": 765,
+    "rankStr": "王者77"
+  },
+  {
+    "minLevel": 766,
+    "maxLevel": 775,
+    "rankStr": "王者78"
+  },
+  {
+    "minLevel": 776,
+    "maxLevel": 785,
+    "rankStr": "王者79"
+  },
+  {
+    "minLevel": 786,
+    "maxLevel": 795,
+    "rankStr": "王者80"
+  },
+  {
+    "minLevel": 796,
+    "maxLevel": 805,
+    "rankStr": "王者81"
+  },
+  {
+    "minLevel": 806,
+    "maxLevel": 815,
+    "rankStr": "王者82"
+  },
+  {
+    "minLevel": 816,
+    "maxLevel": 825,
+    "rankStr": "王者83"
+  },
+  {
+    "minLevel": 826,
+    "maxLevel": 835,
+    "rankStr": "王者84"
+  },
+  {
+    "minLevel": 836,
+    "maxLevel": 845,
+    "rankStr": "王者85"
+  },
+  {
+    "minLevel": 846,
+    "maxLevel": 855,
+    "rankStr": "王者86"
+  },
+  {
+    "minLevel": 856,
+    "maxLevel": 865,
+    "rankStr": "王者87"
+  },
+  {
+    "minLevel": 866,
+    "maxLevel": 875,
+    "rankStr": "王者88"
+  },
+  {
+    "minLevel": 876,
+    "maxLevel": 885,
+    "rankStr": "王者89"
+  },
+  {
+    "minLevel": 886,
+    "maxLevel": 895,
+    "rankStr": "王者90"
+  },
+  {
+    "minLevel": 896,
+    "maxLevel": 905,
+    "rankStr": "王者91"
+  },
+  {
+    "minLevel": 906,
+    "maxLevel": 915,
+    "rankStr": "王者92"
+  },
+  {
+    "minLevel": 916,
+    "maxLevel": 925,
+    "rankStr": "王者93"
+  },
+  {
+    "minLevel": 926,
+    "maxLevel": 935,
+    "rankStr": "王者94"
+  },
+  {
+    "minLevel": 936,
+    "maxLevel": 945,
+    "rankStr": "王者95"
+  },
+  {
+    "minLevel": 946,
+    "maxLevel": 955,
+    "rankStr": "王者96"
+  },
+  {
+    "minLevel": 956,
+    "maxLevel": 965,
+    "rankStr": "王者97"
+  },
+  {
+    "minLevel": 966,
+    "maxLevel": 975,
+    "rankStr": "王者98"
+  },
+  {
+    "minLevel": 976,
+    "maxLevel": 985,
+    "rankStr": "王者99"
+  },
+  {
+    "minLevel": 986,
+    "maxLevel": 995,
+    "rankStr": "王者100"
+  },
+  {
+    "minLevel": 996,
+    "maxLevel": 1005,
+    "rankStr": "王者101"
+  },
+  {
+    "minLevel": 1006,
+    "maxLevel": 1015,
+    "rankStr": "王者102"
+  },
+  {
+    "minLevel": 1016,
+    "maxLevel": 1025,
+    "rankStr": "王者103"
+  },
+  {
+    "minLevel": 1026,
+    "maxLevel": 1035,
+    "rankStr": "王者104"
+  },
+  {
+    "minLevel": 1036,
+    "maxLevel": 1045,
+    "rankStr": "王者105"
+  },
+  {
+    "minLevel": 1046,
+    "maxLevel": 1055,
+    "rankStr": "王者106"
+  },
+  {
+    "minLevel": 1056,
+    "maxLevel": 1065,
+    "rankStr": "王者107"
+  },
+  {
+    "minLevel": 1066,
+    "maxLevel": 1075,
+    "rankStr": "王者108"
+  },
+  {
+    "minLevel": 1076,
+    "maxLevel": 1085,
+    "rankStr": "王者109"
+  },
+  {
+    "minLevel": 1086,
+    "maxLevel": 1095,
+    "rankStr": "王者110"
+  },
+  {
+    "minLevel": 1096,
+    "maxLevel": 1105,
+    "rankStr": "王者111"
+  },
+  {
+    "minLevel": 1106,
+    "maxLevel": 1115,
+    "rankStr": "王者112"
+  },
+  {
+    "minLevel": 1116,
+    "maxLevel": 1125,
+    "rankStr": "王者113"
+  },
+  {
+    "minLevel": 1126,
+    "maxLevel": 1135,
+    "rankStr": "王者114"
+  },
+  {
+    "minLevel": 1136,
+    "maxLevel": 1145,
+    "rankStr": "王者115"
+  },
+  {
+    "minLevel": 1146,
+    "maxLevel": 1155,
+    "rankStr": "王者116"
+  },
+  {
+    "minLevel": 1156,
+    "maxLevel": 1165,
+    "rankStr": "王者117"
+  },
+  {
+    "minLevel": 1166,
+    "maxLevel": 1175,
+    "rankStr": "王者118"
+  },
+  {
+    "minLevel": 1176,
+    "maxLevel": 1185,
+    "rankStr": "王者119"
+  },
+  {
+    "minLevel": 1186,
+    "maxLevel": 1195,
+    "rankStr": "王者120"
+  },
+  {
+    "minLevel": 1196,
+    "maxLevel": 1205,
+    "rankStr": "王者121"
+  },
+  {
+    "minLevel": 1206,
+    "maxLevel": 1215,
+    "rankStr": "王者122"
+  },
+  {
+    "minLevel": 1216,
+    "maxLevel": 1225,
+    "rankStr": "王者123"
+  },
+  {
+    "minLevel": 1226,
+    "maxLevel": 1235,
+    "rankStr": "王者124"
+  },
+  {
+    "minLevel": 1236,
+    "maxLevel": 1245,
+    "rankStr": "王者125"
+  },
+  {
+    "minLevel": 1246,
+    "maxLevel": 1255,
+    "rankStr": "王者126"
+  },
+  {
+    "minLevel": 1256,
+    "maxLevel": 1265,
+    "rankStr": "王者127"
+  },
+  {
+    "minLevel": 1266,
+    "maxLevel": 1275,
+    "rankStr": "王者128"
+  },
+  {
+    "minLevel": 1276,
+    "maxLevel": 1285,
+    "rankStr": "王者129"
+  },
+  {
+    "minLevel": 1286,
+    "maxLevel": 1295,
+    "rankStr": "王者130"
+  },
+  {
+    "minLevel": 1296,
+    "maxLevel": 1305,
+    "rankStr": "王者131"
+  },
+  {
+    "minLevel": 1306,
+    "maxLevel": 1315,
+    "rankStr": "王者132"
+  },
+  {
+    "minLevel": 1316,
+    "maxLevel": 1325,
+    "rankStr": "王者133"
+  },
+  {
+    "minLevel": 1326,
+    "maxLevel": 1335,
+    "rankStr": "王者134"
+  },
+  {
+    "minLevel": 1336,
+    "maxLevel": 1345,
+    "rankStr": "王者135"
+  },
+  {
+    "minLevel": 1346,
+    "maxLevel": 1355,
+    "rankStr": "王者136"
+  },
+  {
+    "minLevel": 1356,
+    "maxLevel": 1365,
+    "rankStr": "王者137"
+  },
+  {
+    "minLevel": 1366,
+    "maxLevel": 1375,
+    "rankStr": "王者138"
+  },
+  {
+    "minLevel": 1376,
+    "maxLevel": 1385,
+    "rankStr": "王者139"
+  },
+  {
+    "minLevel": 1386,
+    "maxLevel": 1395,
+    "rankStr": "王者140"
+  },
+  {
+    "minLevel": 1396,
+    "maxLevel": 1405,
+    "rankStr": "王者141"
+  },
+  {
+    "minLevel": 1406,
+    "maxLevel": 1415,
+    "rankStr": "王者142"
+  },
+  {
+    "minLevel": 1416,
+    "maxLevel": 1425,
+    "rankStr": "王者143"
+  },
+  {
+    "minLevel": 1426,
+    "maxLevel": 1435,
+    "rankStr": "王者144"
+  },
+  {
+    "minLevel": 1436,
+    "maxLevel": 1445,
+    "rankStr": "王者145"
+  },
+  {
+    "minLevel": 1446,
+    "maxLevel": 1455,
+    "rankStr": "王者146"
+  },
+  {
+    "minLevel": 1456,
+    "maxLevel": 1465,
+    "rankStr": "王者147"
+  },
+  {
+    "minLevel": 1466,
+    "maxLevel": 1475,
+    "rankStr": "王者148"
+  },
+  {
+    "minLevel": 1476,
+    "maxLevel": 1485,
+    "rankStr": "王者149"
+  },
+  {
+    "minLevel": 1486,
+    "maxLevel": 1495,
+    "rankStr": "王者150"
+  },
+  {
+    "minLevel": 1496,
+    "maxLevel": 1505,
+    "rankStr": "王者151"
+  },
+  {
+    "minLevel": 1506,
+    "maxLevel": 1515,
+    "rankStr": "王者152"
+  },
+  {
+    "minLevel": 1516,
+    "maxLevel": 1525,
+    "rankStr": "王者153"
+  },
+  {
+    "minLevel": 1526,
+    "maxLevel": 1535,
+    "rankStr": "王者154"
+  },
+  {
+    "minLevel": 1536,
+    "maxLevel": 1545,
+    "rankStr": "王者155"
+  },
+  {
+    "minLevel": 1546,
+    "maxLevel": 1555,
+    "rankStr": "王者156"
+  },
+  {
+    "minLevel": 1556,
+    "maxLevel": 1565,
+    "rankStr": "王者157"
+  },
+  {
+    "minLevel": 1566,
+    "maxLevel": 1575,
+    "rankStr": "王者158"
+  },
+  {
+    "minLevel": 1576,
+    "maxLevel": 1585,
+    "rankStr": "王者159"
+  },
+  {
+    "minLevel": 1586,
+    "maxLevel": 1595,
+    "rankStr": "王者160"
+  },
+  {
+    "minLevel": 1596,
+    "maxLevel": 1605,
+    "rankStr": "王者161"
+  },
+  {
+    "minLevel": 1606,
+    "maxLevel": 1615,
+    "rankStr": "王者162"
+  },
+  {
+    "minLevel": 1616,
+    "maxLevel": 1625,
+    "rankStr": "王者163"
+  },
+  {
+    "minLevel": 1626,
+    "maxLevel": 1635,
+    "rankStr": "王者164"
+  }
+]

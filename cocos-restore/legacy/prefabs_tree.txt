@@ -1,0 +1,850 @@
+
+### [game] prefab/eff/landEff0
+- landEff0 :: ParticleSystem2D plist=None | UIOpacity | UITransform
+
+### [game] prefab/game/cloud4
+- cloud4 :: Sprite sf=secondary: | UIOpacity | UITransform
+
+### [game] prefab/game/blackBox
+- blackBox :: Sprite sf=game:sprite/关卡界面/icons/未知/spriteFrame | UIOpacity | UITransform
+
+### [game] prefab/eff/landEff3
+- landEff3 :: ParticleSystem2D plist=None | UIOpacity | UITransform
+
+### [game] prefab/game/ice
+- ice :: Sprite sf=game:resUI/texture/fruitIce0/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform | SCRIPT:03816qQeA1F2r9hRCq/fvhw
+    * CUSTOM 03816qQeA1F2r9hRCq/fvhw {}
+
+### [game] prefab/game/star
+- star :: ParticleSystem2D plist=<game:> | UIOpacity | UITransform
+  - xingxing :: Sprite sf=secondary: | UIOpacity | UITransform
+
+### [game] prefab/game/obs1
+- obs1 :: Sprite sf=game:resUI/texture/obs1/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [game] prefab/game/finger
+- finger :: Sprite sf=secondary: | UIOpacity | UITransform
+
+### [game] prefab/game/getItemTip
+- getItemTip :: Sprite sf=secondary: | UIOpacity | UITransform
+  - New Label :: Label='消除道具x2' | UIOpacity | UITransform
+
+### [game] prefab/game/xingxing
+- xingxing :: Sprite sf=secondary: | UIOpacity | UITransform
+  - New Particle :: ParticleSystem2D plist=<game:> | UIOpacity | UITransform
+
+### [game] prefab/game/stake
+- stake :: Sprite sf=game:resUI/texture/stake/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [game] prefab/game/cloud2
+- cloud2 :: Sprite sf=secondary: | UIOpacity | UITransform
+
+### [game] prefab/game/obs2
+- obs2 :: Sprite sf=game:resUI/texture/obs2/spriteFrame | RigidBody2D | CircleCollider2D | UIOpacity | UITransform
+
+### [game] prefab/game/cloud1
+- cloud1 :: Sprite sf=secondary: | UIOpacity | UITransform
+
+### [game] prefab/game/effPr
+- effPr :: UIOpacity | UITransform
+  - eff0 :: Sprite sf=game:resUI/eff/eff0/spriteFrame | UIOpacity | UITransform
+  - eff1 :: Sprite sf=game:resUI/eff/eff1/spriteFrame | UIOpacity | UITransform
+  - eff2 :: Sprite sf=game:resUI/eff/eff2/spriteFrame | UIOpacity | UITransform
+  - eff3 :: Sprite sf=game:resUI/eff/eff3/spriteFrame | UIOpacity | UITransform
+  - eff4 :: Sprite sf=game:resUI/eff/eff4/spriteFrame | UIOpacity | UITransform
+  - eff5 :: Sprite sf=game:resUI/eff/eff5/spriteFrame | UIOpacity | UITransform
+  - eff6 :: Sprite sf=game:resUI/eff/eff6/spriteFrame | UIOpacity | UITransform
+
+### [game] prefab/game/streak
+- streak :: MotionStreak | UIOpacity | UITransform
+
+### [game] prefab/eff/landEff2
+- landEff2 :: ParticleSystem2D plist=None | UIOpacity | UITransform
+
+### [game] prefab/game/jointPoint
+- jointPoint :: RigidBody2D | CircleCollider2D | DistanceJoint2D | UIOpacity | UITransform
+
+### [game] prefab/game/GbzLvCommon
+- GbzLvCommon :: Widget | SCRIPT:d2634BH/IBDuqK7wdEJOpTl | SafeArea | UIOpacity | UITransform
+    * CUSTOM d2634BH/IBDuqK7wdEJOpTl {obstaclesRoot={...}; stakeRoot={...}; fruits={...}; numRoot={...}; effsRoot={...}; jointGraphics={...}; jointGearMgr={...}; FruitDownLayer={...}; materialAttacked=<secondary:>; normalMaterial=<vegetable:>; lightMaterial=<secondary:>}
+  - game :: Widget | UIOpacity | UITransform
+    - Bg :: Sprite sf=game:sprite/关卡界面/bgs/水果主题背景/spriteFrame | Widget | UIOpacity | UITransform | SCRIPT:0ff578h29lFgpVQKY68qLZB
+        * CUSTOM 0ff578h29lFgpVQKY68qLZB {bg={...}}
+    - walls :: Widget | UIOpacity | UITransform
+      - line :: Sprite sf=game:resUI/line/spriteFrame | Widget | UIOpacity | UITransform
+      - btnFirstWall :: Sprite sf=game:sprite/关卡界面/场景/水果解锁砖/spriteFrame | RigidBody2D | BoxCollider2D | Widget | UIOpacity | UITransform
+        - New Sprite :: Sprite sf=secondary: | SCRIPT:f5322BTOHxO4pccMz2DMzcP | UIOpacity | UITransform
+            * CUSTOM f5322BTOHxO4pccMz2DMzcP {icon={...}}
+        - New Sprite-001 :: Sprite sf=secondary: | UIOpacity | UITransform
+      - btnSecondWall :: Sprite sf=game:sprite/关卡界面/场景/水果砖/spriteFrame | RigidBody2D | BoxCollider2D | Widget | UIOpacity | UITransform
+        - New Sprite INACTIVE :: Sprite sf=secondary: | SCRIPT:f5322BTOHxO4pccMz2DMzcP | UIOpacity | UITransform
+            * CUSTOM f5322BTOHxO4pccMz2DMzcP {icon={...}}
+        - New Sprite-001 INACTIVE :: Sprite sf=secondary: | UIOpacity | UITransform
+      - wallBottom :: Sprite sf=game:sprite/关卡界面/场景/水果砖/spriteFrame | Widget | UIOpacity | UITransform
+        - New Sprite INACTIVE :: Sprite sf=secondary: | SCRIPT:f5322BTOHxO4pccMz2DMzcP | UIOpacity | UITransform
+            * CUSTOM f5322BTOHxO4pccMz2DMzcP {icon={...}}
+        - New Sprite INACTIVE :: Sprite sf=secondary: | UIOpacity | UITransform
+      - wall :: Sprite sf=game:sprite/关卡界面/bgs/floor/spriteFrame | Widget | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform | SCRIPT:6ad69nt3wRDApprbpdjggrp
+          * CUSTOM 6ad69nt3wRDApprbpdjggrp {bfSp=[<game:sprite/关卡界面/bgs/floor/spriteFrame>,<game:sprite/关卡界面/bgs/floor_season1_1/spriteFrame>,<game:sprite/关卡界面/bgs/floor_season2_1/spriteFrame>,<game:sprite/关卡界面/bgs/floor_season3_1/spriteFrame>]; bfSp2=[<game:sprite/关卡界面/bgs/floor/spriteFrame>,<game:sprite/关卡界面/bgs/floor_season1/spriteFrame>,<game:sprite/关卡界面/bgs/floor_season2/spriteFrame>,<game:sprite/关卡界面/bgs/floor_season3/spriteFrame>]; bgNode={...}}
+      - bottomBg INACTIVE :: Sprite | Widget | UIOpacity | UITransform
+      - left :: RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - right :: RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - dropLeft :: RigidBody2D | BoxCollider2D | Widget | UIOpacity | UITransform
+      - dropRight :: RigidBody2D | BoxCollider2D | Widget | UIOpacity | UITransform
+      - floor :: Widget | RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - canCheck :: RigidBody2D | BoxCollider2D | Widget | UIOpacity | UITransform
+      - top :: Widget | RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - bottom :: Widget | RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - bottom copy :: Widget | RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - bottom copy :: Widget | RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - middleBox INACTIVE :: RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+    - fruitTextBg :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+      - labFruit :: Label='0' | UIOpacity | UITransform
+      - New Sprite :: Sprite sf=secondary: | UIOpacity | UITransform
+    - progressBg :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+      - fillBg :: Sprite | Widget | UIOpacity | UITransform
+      - fillImg :: Sprite | Widget | UIOpacity | UITransform
+      - labProgress :: Label='0%' | UIOpacity | UITransform
+    - btnRemove INACTIVE :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+    - btnDisturb INACTIVE :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+    - basket02 :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+    - obstaclesRoot :: Widget | UIOpacity | UITransform
+    - stakeRoot :: Widget | UIOpacity | UITransform
+    - graphics :: Graphics | UIOpacity | UITransform
+    - fruits :: Widget | UIOpacity | UITransform
+    - piaoEff :: UITransform | ParticleSystem2D plist=None | SCRIPT:e450e6NuSBPTbiyX+vYS/8K
+        * CUSTOM e450e6NuSBPTbiyX+vYS/8K {piaoEff={...}; srps=[<secondary:>,<secondary:>,<secondary:>,<secondary:>]}
+    - numRoot :: Widget | UIOpacity | UITransform
+    - levelBg :: Sprite | Widget | Layout | UIOpacity | UITransform
+      - img :: Sprite sf=game:sprite/关卡界面/icons/小雪/spriteFrame | UIOpacity | UITransform
+      - labLevel :: Label='第 25 关' | LabelOutline | UIOpacity | UITransform
+        - labLevel copy :: Label='第 25 关' | LabelOutline | UIOpacity | UITransform
+    - firstLevel :: Widget | UIOpacity | UITransform
+      - pos1 :: UIOpacity | UITransform
+        - pos1 :: Sprite | UIOpacity | UITransform
+        - pos2 :: Sprite | UIOpacity | UITransform
+        - pos3 :: Sprite | UIOpacity | UITransform
+        - pos4 :: Sprite | UIOpacity | UITransform
+      - pos2 :: UIOpacity | UITransform
+        - pos1 :: Sprite | UIOpacity | UITransform
+        - pos2 :: Sprite | UIOpacity | UITransform
+        - pos3 :: Sprite | UIOpacity | UITransform
+        - pos4 :: Sprite | UIOpacity | UITransform
+      - pos3 :: UIOpacity | UITransform
+        - pos1 :: Sprite | UIOpacity | UITransform
+        - pos2 :: Sprite | UIOpacity | UITransform
+        - pos3 :: Sprite | UIOpacity | UITransform
+        - pos4 :: Sprite | UIOpacity | UITransform
+    - btnOption INACTIVE :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+    - boundaryLine :: Sprite | Widget | UIOpacity | UITransform
+    - basket01 :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+      - New Sprite INACTIVE :: Sprite | UIOpacity | UITransform
+    - effsRoot :: UIOpacity | UITransform
+    - leaderTip INACTIVE :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+      - roundone :: UIOpacity | UITransform
+        - lab :: Label='2个' | UIOpacity | UITransform
+        - lab copy :: Label='相同' | UIOpacity | UITransform
+        - lab copy :: Label='的水果会消除' | UIOpacity | UITransform
+      - roundtwo INACTIVE :: UIOpacity | UITransform
+        - lab :: Label='2个' | UIOpacity | UITransform
+        - lab copy :: Label='相同' | UIOpacity | UITransform
+        - lab copy :: Label='的磁铁会消除' | UIOpacity | UITransform
+        - lab copy :: Label='一组水果' | UIOpacity | UITransform
+    - dirtectionTip :: Sprite sf=secondary: | UIOpacity | UITransform
+      - dirImg :: Sprite sf=game:sprite/关卡界面/icons/向左大/spriteFrame | UIOpacity | UITransform
+      - dirLab :: Label='水果从左往右移动' | UIOpacity | UITransform
+    - full :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+      - New Label :: Label='装不下啦' | UIOpacity | UITransform | LabelOutline
+  - FruitDownLayer INACTIVE :: SCRIPT:262778VlvxPEKK1dLw7LFiu | UIOpacity | UITransform | PrefabLink
+      * CUSTOM 262778VlvxPEKK1dLw7LFiu {createPoint={...}}
+    - Bg :: Sprite sf=secondary:resUI/bgwin/spriteFrame | Widget | UIOpacity | UITransform
+    - walls :: Widget | UIOpacity | UITransform
+      - left :: RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - right :: RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+      - floor :: Widget | RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+    - New Node :: Widget | UIOpacity | UITransform
+  - JointGearMgr :: SCRIPT:f9629AlCotKs5dIJMcaMGhP | UIOpacity | UITransform
+      * CUSTOM f9629AlCotKs5dIJMcaMGhP {}
+
+### [game] prefab/game/fruitBook
+- fruitBook :: Sprite | SCRIPT:28ebf3XjF1IfIgnSzzCjMhD | UIOpacity | UITransform
+    * CUSTOM 28ebf3XjF1IfIgnSzzCjMhD {fruit={...}; fruitName={...}; fruitSprite={...}; noNum={...}; newTip={...}; parent={...}}
+  - parent :: Sprite sf=secondary:resUI/图鉴/图鉴底框/spriteFrame | UIOpacity | UITransform
+    - fruit :: Sprite sf=fruits:水果图标/人参果/spriteFrame | UIOpacity | UITransform
+    - fruitName :: Label='人参果' | Widget | UIOpacity | UITransform
+    - num :: Label='No.175' | Widget | UIOpacity | UITransform
+    - newTip :: Sprite sf=secondary:resUI/图鉴/1e7a17799_0006_图层-8/spriteFrame | Widget | UIOpacity | UITransform
+
+### [game] prefab/ui/GbzMainLayer
+- GbzMainLayer :: Widget | UIOpacity | UITransform
+  - btn_exit :: Sprite sf=secondary: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+    - Sprite :: UITransform | Sprite sf=game:
+  - btn_Win INACTIVE :: Sprite | Widget | Button | UIOpacity | UITransform
+    - btnWin :: Label='通关' | UIOpacity | UITransform
+  - levelTips INACTIVE :: Sprite sf=secondary: | Widget | Layout | UIOpacity | UITransform
+    - labLevel :: Label='第 1 关' | LabelOutline | UIOpacity | UITransform
+    - New Sprite :: Sprite sf=game:sprite/关卡界面/icons/xiangxia/spriteFrame | UIOpacity | UITransform
+  - ticket INACTIVE :: Sprite | Widget | UIOpacity | UITransform
+    - quan :: Sprite | UIOpacity | UITransform
+    - ticket_num :: Label='0' | UIOpacity | UITransform
+  - timer INACTIVE :: Label='03:00' | Widget | UIOpacity | UITransform
+  - c_item INACTIVE :: Widget | UIOpacity | UITransform
+    - light :: Sprite | Animation clips=['None'] | UIOpacity | UITransform
+      - light copy :: Sprite | UIOpacity | UITransform
+    - proBg :: Sprite | UIOpacity | UITransform
+    - proBar :: Sprite | UIOpacity | UITransform
+    - proLbl :: Label='进度0%' | UIOpacity | UITransform
+  - skills :: Layout | Widget | UIOpacity | UITransform
+    - btn_skill_core :: Sprite sf=secondary: | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+        * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - ad :: Sprite sf=secondary: | UIOpacity | UITransform
+      - propNumLbl INACTIVE :: Label='x2' | LabelOutline | UIOpacity | UITransform
+    - btn_skill_board :: Sprite sf=secondary: | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+        * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - ad :: Sprite sf=secondary: | UIOpacity | UITransform
+      - propNumLbl INACTIVE :: Label='x2' | LabelOutline | UIOpacity | UITransform
+  - levelBg INACTIVE :: Sprite sf=secondary: | Widget | Layout | UIOpacity | UITransform
+    - labLevel :: Label='第 25 关' | LabelOutline | UIOpacity | UITransform
+    - New Sprite :: Sprite sf=game:sprite/关卡界面/icons/xiangxia/spriteFrame | UIOpacity | UITransform
+  - animNodes INACTIVE :: UIOpacity | UITransform
+    - animbg :: Sprite sf=secondary: | BlockInputEvents | UIOpacity | UITransform
+    - animNode0 INACTIVE :: UIOpacity | UITransform
+      - bg :: Sprite sf=secondary: | UIOpacity | UITransform
+      - New Label :: Label='难度提升' | UIOpacity | UITransform
+    - animNode1 :: UIOpacity | UITransform
+      - icons :: UIOpacity | UITransform
+        - xiangxia :: Sprite sf=game:sprite/关卡界面/icons/xiangxia/spriteFrame | UIOpacity | UITransform
+        - 向左 :: Sprite sf=game:sprite/关卡界面/icons/向左/spriteFrame | UIOpacity | UITransform
+        - 向右 INACTIVE :: Sprite sf=game:sprite/关卡界面/icons/向右/spriteFrame | UIOpacity | UITransform
+      - dir :: Label='会向右移动' | UIOpacity | UITransform
+  - lightningNode INACTIVE :: UIOpacity | UITransform
+    - animbg :: Sprite sf=secondary: | BlockInputEvents | UIOpacity | UITransform
+    - anim :: Sprite sf=secondary: | Animation clips=['<game:resUI/lightning/anim>'] | UIOpacity | UITransform
+  - jumpLv :: Widget | SCRIPT:5f7f5WXEYpORp6URYlj+aHC | UIOpacity | UITransform
+      * CUSTOM 5f7f5WXEYpORp6URYlj+aHC {btnOpen={...}; btnClose={...}; btnJump={...}; editBox={...}; pan={...}}
+    - New Button :: Button | UIOpacity | UITransform
+      - Background :: Sprite | Widget | UIOpacity | UITransform
+        - Label :: Label='跳关' | LabelOutline | UIOpacity | UITransform
+    - jumpPan INACTIVE :: Sprite sf=game:resUI/主界面/图层 1/spriteFrame | UIOpacity | UITransform
+      - edi :: EditBox | UIOpacity | UITransform
+        - BACKGROUND_SPRITE :: Sprite sf=game: | Widget | UIOpacity | UITransform
+        - TEXT_LABEL INACTIVE :: Label='' | Widget | UIOpacity | UITransform
+        - PLACEHOLDER_LABEL :: Label='输入关卡' | Widget | UIOpacity | UITransform
+      - New Label :: Label='跳关' | UIOpacity | UITransform
+      - jump :: Button | UIOpacity | UITransform
+        - Background :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+          - Label :: Label='跳' | UIOpacity | UITransform
+      - close :: Button | UIOpacity | UITransform
+        - Background :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+    - btn_cf1 :: Sprite sf=game: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+        * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - Label :: UITransform | Label='原关卡'
+    - btn_cf2 :: Sprite sf=game: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+        * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - Label :: UITransform | Label='简单'
+    - btn_cf3 :: Sprite sf=game: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+        * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - Label :: UITransform | Label='困难'
+  - linearDamping INACTIVE :: UITransform | Sprite sf=game: | EditBox | Widget
+    - TEXT_LABEL INACTIVE :: UITransform | Label=''
+    - PLACEHOLDER_LABEL :: UITransform | Label='Enter text here...'
+    - btn :: UITransform | Sprite sf=secondary: | Button
+      - Label :: UITransform | Label='button'
+
+### [game] prefab/eff/chuizi
+- chuizi :: UITransform | SCRIPT:acf520OJytAxa5ekqX+w531
+    * CUSTOM acf520OJytAxa5ekqX+w531 {nodeChuizi={...}; eff={...}}
+  - chuizi :: UITransform | Sprite sf=game:sprite/关卡界面/场景/hammer/spriteFrame
+  - eff :: UITransform | ParticleSystem2D plist=<game:>
+
+### [game] prefab/game/obs3
+- obs3 :: Sprite sf=game:resUI/texture/obs3/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [game] prefab/game/iceLab
+- iceLab :: Sprite sf=game:resUI/texture/fruitIce0/spriteFrame | UIOpacity | UITransform
+  - count :: Label='32' | UIOpacity | UITransform | LabelOutline
+
+### [game] prefab/game/car
+- car :: Animation clips=['<secondary:>'] | Widget | UIOpacity | UITransform
+  - car :: UIOpacity | UITransform
+    - 图层 8 :: Sprite sf=secondary:resUI/car/图层 29/spriteFrame | UIOpacity | UITransform
+    - 图层 3 :: Sprite sf=secondary:resUI/car/图层 3/spriteFrame | UIOpacity | UITransform
+    - New Sprite :: Sprite sf=secondary:resUI/car/图层 2/spriteFrame | UIOpacity | UITransform
+    - New Sprite copy :: Sprite sf=secondary:resUI/car/图层 8/spriteFrame | UIOpacity | UITransform
+    - New Sprite copy2 :: Sprite sf=secondary:resUI/car/图层 28/spriteFrame | UIOpacity | UITransform
+    - New Sprite copy3 :: Sprite sf=secondary:resUI/car/图层 5/spriteFrame | UIOpacity | UITransform
+    - 图层 17 :: Sprite sf=secondary:resUI/car/图层 17/spriteFrame | UIOpacity | UITransform
+    - 图层 16 :: Sprite sf=secondary:resUI/car/图层 16/spriteFrame | UIOpacity | UITransform
+    - 图层 21 :: Sprite sf=secondary:resUI/car/图层 21/spriteFrame | UIOpacity | UITransform
+    - 图层 18 :: Sprite sf=secondary:resUI/car/图层 18/spriteFrame | UIOpacity | UITransform
+    - 图层 22 :: Sprite sf=secondary:resUI/car/图层 22/spriteFrame | UIOpacity | UITransform
+    - 图层 24 :: Sprite sf=secondary:resUI/car/图层 24/spriteFrame | UIOpacity | UITransform
+    - 图层 19 :: Sprite sf=secondary:resUI/car/图层 19/spriteFrame | UIOpacity | UITransform
+    - 图层 23 :: Sprite sf=secondary:resUI/car/图层 23/spriteFrame | UIOpacity | UITransform
+    - 图层 23 copy1 :: Sprite sf=secondary:resUI/car/图层 23/spriteFrame | UIOpacity | UITransform
+    - 图层 23 copy2 :: Sprite sf=secondary:resUI/car/图层 23/spriteFrame | UIOpacity | UITransform
+    - 图层 3 copy :: Sprite sf=secondary:resUI/car/图层 3/spriteFrame | UIOpacity | UITransform
+  - New Particle :: ParticleSystem2D plist=None | UIOpacity | UITransform
+  - New Particle copy :: ParticleSystem2D plist=None | UIOpacity | UITransform
+
+### [game] prefab/game/holeBg
+- holeBg :: Sprite sf=game:sprite/关卡界面/icons/黑洞/spriteFrame | RigidBody2D | CircleCollider2D | UIOpacity | UITransform | SCRIPT:a2e1eTGSSZHyI7JJkoNfs7j
+    * CUSTOM a2e1eTGSSZHyI7JJkoNfs7j {}
+
+### [game] prefab/game/data
+- data :: Sprite | UIOpacity | UITransform | SCRIPT:f80feq1W+9MarJkC21+SmQM
+    * CUSTOM f80feq1W+9MarJkC21+SmQM {rankImg={...}; labRank={...}; headImg={...}; userName={...}; level={...}; parentSprite={...}}
+  - parent :: Sprite sf=secondary:sprite/Home/排行榜/别人/spriteFrame | UIOpacity | UITransform
+    - rankImg :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/第一/spriteFrame
+    - LabRank :: UITransform | Label='4'
+    - headBg :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/头像框/spriteFrame
+      - HeadImg :: UITransform | Sprite sf=fruits:水果图标/人参果/spriteFrame
+    - userName :: UITransform | Label='一只会飞的猪'
+    - level :: UITransform | Label='100关'
+
+### [game] prefab/ui/GbzMenuLayer
+- GbzMenuLayer :: Widget | UIOpacity | UITransform
+  - bg :: Sprite sf=game:resUI/主界面底/spriteFrame | Widget | UIOpacity | UITransform | SCRIPT:0ff578h29lFgpVQKY68qLZB
+      * CUSTOM 0ff578h29lFgpVQKY68qLZB {bg={...}}
+  - bg_notice :: Sprite | Widget | SCRIPT:11693VhkEJPOrhUFuX9JSB1 | UIOpacity | UITransform
+      * CUSTOM 11693VhkEJPOrhUFuX9JSB1 {logoFrames=[<game:sprite/logo/消个水果/spriteFrame>,<game:sprite/logo/闯关乐消除/spriteFrame>,<game:sprite/logo/解压水果消/spriteFrame>]; icon={...}}
+  - main :: Widget | UIOpacity | UITransform
+    - btn_start :: Sprite sf=game:resUI/主界面/图层 1/spriteFrame | Button | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+        * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - 开始游戏字 :: Sprite sf=game:resUI/主界面/开始游戏字/spriteFrame | UIOpacity | UITransform
+      - level :: Layout | UIOpacity | UITransform
+        - New Sprite :: Sprite sf=secondary: | UIOpacity | UITransform
+        - labLevel :: Label='28' | UIOpacity | UITransform
+        - New Sprite copy :: Sprite sf=secondary: | UIOpacity | UITransform
+  - btn_setting :: Sprite sf=secondary: | Button | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+  - btn_Theme INACTIVE :: Sprite sf=game:resUI/主界面/主题/spriteFrame | Button | Widget | UIOpacity | UITransform
+    - New Sprite :: Sprite sf=game: | UIOpacity | UITransform
+  - btn_fans :: Sprite sf=game:resUI/主界面/粉丝群/spriteFrame | Button | Widget | UIOpacity | UITransform
+  - btn_advise INACTIVE :: Sprite sf=game:resUI/主界面/意见反馈/spriteFrame | Button | Widget | UIOpacity | UITransform
+  - btn_fruitBook :: Sprite sf=secondary:sprite/Home/主界面/图层 16/spriteFrame | Button | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+    - New Sprite :: Sprite sf=secondary:resUI/图鉴/1e7a17799_0006_图层-8/spriteFrame | UIOpacity | UITransform
+    - Sprite INACTIVE :: UITransform | Sprite sf=secondary:sprite/Home/图鉴进度条/spriteFrame
+    - Sprite-001 INACTIVE :: UITransform | Sprite sf=secondary:sprite/Home/主界面/图鉴进度条-1/spriteFrame
+  - btn_cbl INACTIVE :: Sprite sf=game:resUI/主界面/入口有奖/spriteFrame | Button | Widget | UIOpacity | UITransform
+  - btn_request INACTIVE :: Sprite sf=game:resUI/主界面/订阅有奖入口/spriteFrame | Button | Widget | UIOpacity | UITransform
+  - btn_addShortcut INACTIVE :: Sprite sf=game:resUI/主界面/添加有礼/spriteFrame | Button | Widget | UIOpacity | UITransform
+  - btn_gameClub :: Sprite sf=secondary:sprite/Home/主界面/游戏圈/spriteFrame | Button | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+  - btn_Service :: Sprite sf=secondary:sprite/Home/主界面/客服/spriteFrame | Button | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+  - btn_rank :: Sprite sf=secondary:sprite/Home/主界面/排行榜/spriteFrame | Button | Widget | UIOpacity | UITransform
+  - btn_share :: Sprite sf=game:resUI/主界面/喊人/spriteFrame | Button | Widget | UIOpacity | UITransform
+
+### [game] prefab/game/cloud3
+- cloud3 :: Sprite sf=secondary: | UIOpacity | UITransform
+
+### [game] prefab/game/holeCount
+- holeCount :: Sprite sf=secondary: | UIOpacity | UITransform
+  - New Label :: Label='16' | UIOpacity | UITransform
+
+### [game] prefab/eff/landEff1
+- landEff1 :: ParticleSystem2D plist=None | UIOpacity | UITransform
+
+### [game] prefab/eff/boxBoom
+- boxBoom :: ParticleSystem2D plist=None | UIOpacity | UITransform
+
+### [game] prefab/eff/effMagnet
+- effMagnet :: ParticleSystem2D plist=<game:> | UIOpacity | UITransform
+  - New Particle copy :: ParticleSystem2D plist=<game:> | UIOpacity | UITransform
+
+### [secondary] prefab/Game/GbzGetItemLayer
+- GbzGetItemLayer :: Widget | UIOpacity | UITransform
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | UIOpacity | UITransform
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Widget | UIOpacity | UITransform
+      - bg :: Sprite sf=secondary:resUI/通用/设置面板/spriteFrame | Widget | UIOpacity | UITransform
+        - btnClose :: Sprite sf=secondary: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - propIcon0 :: Sprite sf=secondary: | UIOpacity | UITransform
+        - propIcon1 :: Sprite sf=secondary: | UIOpacity | UITransform
+        - titleLa0 :: Sprite sf=secondary:resUI/PropSpecial/消除字/spriteFrame | UIOpacity | UITransform
+        - titleLa1 :: Sprite sf=secondary:resUI/PropSpecial/打乱/spriteFrame | UIOpacity | UITransform
+        - videobtn_get :: Sprite sf=secondary: | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+          - 视频 INACTIVE :: Sprite sf=secondary: | SCRIPT:f5322BTOHxO4pccMz2DMzcP | UIOpacity | UITransform
+              * CUSTOM f5322BTOHxO4pccMz2DMzcP {icon={...}}
+          - 使用 INACTIVE :: Sprite sf=secondary:resUI/PropSpecial/使用/spriteFrame | UIOpacity | UITransform
+        - propInfo0 :: UITransform | Sprite sf=secondary:resUI/PropSpecial/propInfo1/spriteFrame
+        - propInfo1 :: UITransform | Sprite sf=secondary:resUI/PropSpecial/propInfo2/spriteFrame
+
+### [secondary] prefab/Game/GbzFruitDownLayer
+- GbzFruitDownLayer :: Widget | SCRIPT:d2634BH/IBDuqK7wdEJOpTl | SafeArea | UIOpacity | UITransform
+    * CUSTOM d2634BH/IBDuqK7wdEJOpTl {materialAttacked=<secondary:>; normalMaterial=<vegetable:>; lightMaterial=<secondary:>}
+  - Bg :: Sprite | Widget | UIOpacity | UITransform
+  - walls :: Widget | UIOpacity | UITransform
+    - left :: RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+    - right :: RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+    - floor :: Widget | RigidBody2D | BoxCollider2D | UIOpacity | UITransform
+
+### [secondary] prefab/Game/GbzLoseFullLayer
+- GbzLoseFullLayer :: Widget | UIOpacity | UITransform
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+  - style :: Widget | UIOpacity | UITransform
+    - panel INACTIVE :: Sprite | Widget | UIOpacity | UITransform
+      - btn_close2 :: Button | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - icon :: Sprite sf=secondary:resUI/复活/复活/spriteFrame | Widget | UIOpacity | UITransform
+      - UI_db3 :: Sprite sf=secondary:resUI/复活/心/spriteFrame | Widget | UIOpacity | UITransform
+      - labInfos :: Widget | Layout | UIOpacity | UITransform
+        - lab :: Label='还剩' | UIOpacity | UITransform
+        - labNum :: Label='60' | UIOpacity | UITransform
+        - info :: Label='个水果过关' | UIOpacity | UITransform
+      - lab copy :: Label='复活吗?' | Widget | UIOpacity | UITransform
+      - btn_relive :: Sprite sf=secondary: | Button | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - ad :: Sprite sf=secondary: | SCRIPT:f5322BTOHxO4pccMz2DMzcP | UIOpacity | UITransform
+            * CUSTOM f5322BTOHxO4pccMz2DMzcP {icon={...}}
+        - New Sprite :: Sprite sf=secondary:resUI/复活/复活02/spriteFrame | UIOpacity | UITransform
+      - lbl :: Label='点击空白处关闭' | Widget | UIOpacity | UITransform
+    - lose_panel :: Sprite | Widget | UIOpacity | UITransform
+      - title :: Sprite sf=secondary:resUI/胜利失败/失败/spriteFrame | Widget | UIOpacity | UITransform
+      - labs :: Widget | Layout | UIOpacity | UITransform
+        - New Label :: Label='本关已挑战' | UIOpacity | UITransform | LabelOutline
+        - challengeCount :: Label='10' | UIOpacity | UITransform | LabelOutline
+        - New Label copy :: Label='次' | UIOpacity | UITransform | LabelOutline
+      - icon :: Sprite sf=secondary:resUI/胜利失败/ku/spriteFrame | Widget | UIOpacity | UITransform
+      - btn_restart :: Sprite sf=secondary: | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform | Widget
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - btn_back :: Sprite sf=secondary: | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform | Widget
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - btnShare :: UITransform | Sprite sf=secondary: | Widget | Button
+
+### [secondary] prefab/Game/GbzExitLayer
+- GbzExitLayer :: Widget | UIOpacity | UITransform
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Sprite sf=secondary:resUI/通用/设置面板/spriteFrame | Widget | UIOpacity | UITransform
+      - title :: Sprite sf=secondary:resUI/通用/设置/spriteFrame | UIOpacity | UITransform | Widget
+      - btn_close :: Sprite sf=secondary: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - buttons2 :: Layout | UIOpacity | UITransform
+        - btn_submit :: Sprite sf=secondary: | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - btn_restart INACTIVE :: Sprite sf=secondary:resUI/设置/重新开始/spriteFrame | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - btn_continue INACTIVE :: Sprite sf=secondary:resUI/设置/继续游戏/spriteFrame | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - buttons :: Widget | Layout | UIOpacity | UITransform
+        - btn_music :: Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+          - 音乐 :: Sprite sf=secondary:resUI/设置/声音/spriteFrame | UIOpacity | UITransform
+          - on :: Sprite sf=secondary:resUI/设置/开/spriteFrame | UIOpacity | UITransform
+            - Sprite INACTIVE :: UITransform | Sprite sf=secondary:resUI/设置/setUI8/spriteFrame | Widget
+          - off INACTIVE :: Sprite sf=secondary:resUI/设置/关/spriteFrame | UIOpacity | UITransform
+            - Sprite INACTIVE :: UITransform | Sprite sf=secondary:resUI/设置/setUI8/spriteFrame | Widget
+        - btn_sound :: Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+          - 音乐 :: Sprite sf=secondary:resUI/设置/音效/spriteFrame | UIOpacity | UITransform
+          - on :: Sprite sf=secondary:resUI/设置/开/spriteFrame | UIOpacity | UITransform
+            - Sprite INACTIVE :: UITransform | Sprite sf=secondary:resUI/设置/setUI8/spriteFrame | Widget
+          - off INACTIVE :: Sprite sf=secondary:resUI/设置/关/spriteFrame | UIOpacity | UITransform
+            - Sprite INACTIVE :: UITransform | Sprite sf=secondary:resUI/设置/setUI8/spriteFrame | Widget
+        - btn_vibrate :: Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+          - 音乐 :: Sprite sf=secondary:resUI/设置/震动/spriteFrame | UIOpacity | UITransform
+          - on :: Sprite sf=secondary:resUI/设置/开/spriteFrame | UIOpacity | UITransform
+            - Sprite INACTIVE :: UITransform | Sprite sf=secondary:resUI/设置/setUI8/spriteFrame | Widget
+          - off INACTIVE :: Sprite sf=secondary:resUI/设置/关/spriteFrame | UIOpacity | UITransform
+            - Sprite INACTIVE :: UITransform | Sprite sf=secondary:resUI/设置/setUI8/spriteFrame | Widget
+
+### [secondary] prefab/Home/GbzGetRewLayer
+- GbzGetRewLayer :: Widget | SCRIPT:86443jbBh1HRrRCVgHLxLg+ | UIOpacity | UITransform
+    * CUSTOM 86443jbBh1HRrRCVgHLxLg+ {}
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | Button | UIOpacity | UITransform
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Widget | UIOpacity | UITransform
+      - light :: Sprite sf=secondary:resUI/通用/图层 15/spriteFrame | UIOpacity | UITransform
+      - New Sprite :: Sprite | UIOpacity | UITransform
+      - btn_get :: Sprite sf=secondary: | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - New Sprite :: Sprite sf=secondary:sprite/Home/主界面/获得奖励/spriteFrame | UIOpacity | UITransform
+
+### [secondary] prefab/Home/GbzSettingLayer
+- GbzSettingLayer :: Widget | UIOpacity | UITransform
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Sprite sf=secondary:resUI/通用/设置面板/spriteFrame | Widget | UIOpacity | UITransform
+      - title :: Sprite sf=secondary:resUI/通用/设置/spriteFrame | UIOpacity | UITransform
+      - buttons :: Widget | Layout | UIOpacity | UITransform
+        - btn_music :: Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+          - 音乐 :: Sprite sf=secondary:resUI/设置/声音/spriteFrame | UIOpacity | UITransform
+          - on :: Sprite sf=secondary:resUI/设置/开/spriteFrame | UIOpacity | UITransform
+          - off :: Sprite sf=secondary:resUI/设置/关/spriteFrame | UIOpacity | UITransform
+        - btn_sound :: Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+          - 音乐 :: Sprite sf=secondary:resUI/设置/音效/spriteFrame | UIOpacity | UITransform
+          - on :: Sprite sf=secondary:resUI/设置/开/spriteFrame | UIOpacity | UITransform
+          - off INACTIVE :: Sprite sf=secondary:resUI/设置/关/spriteFrame | UIOpacity | UITransform
+        - btn_vibrate :: Button | UIOpacity | UITransform
+          - 音乐 :: Sprite sf=secondary:resUI/设置/震动/spriteFrame | UIOpacity | UITransform
+          - on :: Sprite sf=secondary:resUI/设置/开/spriteFrame | UIOpacity | UITransform
+          - off :: Sprite sf=secondary:resUI/设置/关/spriteFrame | UIOpacity | UITransform
+        - btn_zhuxiao INACTIVE :: Sprite | Button | UIOpacity | UITransform
+      - btnShowText INACTIVE :: Label='《隐私政策》' | LabelOutline | Button | UIOpacity | UITransform
+      - New Sprite :: Sprite sf=secondary:resUI/设置/分割线/spriteFrame | UIOpacity | UITransform
+      - btn_close :: Sprite sf=secondary: | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - New Sprite :: Sprite sf=secondary:resUI/通用/确定/spriteFrame | UIOpacity | UITransform
+
+### [secondary] prefab/Home/GbzRankLayer
+- GbzRankLayer :: Widget | UIOpacity | UITransform
+  - btnBgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | Button | UIOpacity | UITransform
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Sprite sf=secondary:sprite/Home/排行榜/底板01/spriteFrame | Widget | UIOpacity | UITransform
+      - bg :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/底板02/spriteFrame | Widget
+      - changeBg :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/矩形 5/spriteFrame
+        - wordBg :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/世界榜1/spriteFrame
+        - wordBg-001 :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/好友榜1/spriteFrame
+        - btnWordShow :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/图层 2/spriteFrame
+          - wordBg-002 :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/世界榜0/spriteFrame
+        - btnFriendShow INACTIVE :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/图层 2/spriteFrame
+          - wordBg-002 :: UITransform | Sprite sf=secondary:sprite/Home/排行榜/好友榜0/spriteFrame
+        - btnWord :: UITransform | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - btnFriend :: UITransform | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - New Sprite copy :: Sprite sf=secondary:sprite/Home/排行榜/paihang/spriteFrame | UIOpacity | UITransform
+      - btn_Close :: Sprite sf=secondary: | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform | Button
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - wordRank :: Widget | UIOpacity | UITransform
+        - list :: Mask | ScrollView | Widget | SCRIPT:9d992VDm1FECo27GTxJW4Cj | UIOpacity | UITransform | Graphics
+            * CUSTOM 9d992VDm1FECo27GTxJW4Cj {spaceY=10; delegate={...}; initFinish={...}; delegateUpdate={...}; prefab=<secondary:>}
+          - view :: Mask | Widget | UIOpacity | UITransform | Graphics
+            - content :: Widget | Layout | UIOpacity | UITransform
+        - None :: 
+      - friendRank :: Mask | Widget | UIOpacity | UITransform | Graphics | SubContextView
+
+### [secondary] prefab/Game/GbzCarMoveLayer
+- GbzCarMoveLayer :: Widget | SafeArea | UIOpacity | UITransform
+  - Bg :: Sprite sf=secondary:resUI/bgwin/spriteFrame | Widget | UIOpacity | UITransform
+  - shan :: Widget | UIOpacity | UITransform
+    - sahn5 :: Sprite sf=secondary:resUI/胜利失败/sahn5/spriteFrame | UIOpacity | UITransform
+    - shan2 :: Sprite sf=secondary:resUI/胜利失败/shan2/spriteFrame | UIOpacity | UITransform
+    - shan23 :: Sprite sf=secondary:resUI/胜利失败/shan23/spriteFrame | UIOpacity | UITransform
+    - shan1 :: Sprite sf=secondary:resUI/胜利失败/shan1/spriteFrame | UIOpacity | UITransform
+    - shan4 :: Sprite sf=secondary:resUI/胜利失败/shan4/spriteFrame | UIOpacity | UITransform
+  - daolu :: Sprite sf=secondary:resUI/胜利失败/daolu/spriteFrame | Widget | UIOpacity | UITransform
+  - carStart :: Widget | UIOpacity | UITransform
+  - carEnd :: Widget | UIOpacity | UITransform
+  - cao :: Widget | UIOpacity | UITransform
+    - cao1 :: Sprite sf=secondary:resUI/胜利失败/cao1/spriteFrame | UIOpacity | UITransform
+    - cao3 :: Sprite sf=secondary:resUI/胜利失败/cao3/spriteFrame | UIOpacity | UITransform
+    - cao4 :: Sprite sf=secondary:resUI/胜利失败/cao4/spriteFrame | UIOpacity | UITransform
+    - cao2 :: Sprite sf=secondary:resUI/胜利失败/cao2/spriteFrame | UIOpacity | UITransform
+    - cao2 copy :: Sprite sf=secondary:resUI/胜利失败/cao2/spriteFrame | UIOpacity | UITransform
+    - zhanpai :: Sprite sf=secondary:resUI/胜利失败/zhanpai/spriteFrame | UIOpacity | UITransform
+      - lv :: Label='广坎达' | UIOpacity | UITransform
+    - cao2 copy :: Sprite sf=secondary:resUI/胜利失败/cao2/spriteFrame | UIOpacity | UITransform
+    - cao3 copy :: Sprite sf=secondary:resUI/胜利失败/cao3/spriteFrame | UIOpacity | UITransform
+  - car :: Animation clips=['<secondary:>'] | Widget | UIOpacity | UITransform
+    - car :: UIOpacity | UITransform
+      - 图层 8 :: Sprite sf=secondary:resUI/car/图层 29/spriteFrame | UIOpacity | UITransform
+      - 图层 3 :: Sprite sf=secondary:resUI/car/图层 3/spriteFrame | UIOpacity | UITransform
+      - New Sprite :: Sprite sf=secondary:resUI/car/图层 2/spriteFrame | UIOpacity | UITransform
+      - New Sprite copy :: Sprite sf=secondary:resUI/car/图层 8/spriteFrame | UIOpacity | UITransform
+      - New Sprite copy2 :: Sprite sf=secondary:resUI/car/图层 28/spriteFrame | UIOpacity | UITransform
+      - New Sprite copy3 :: Sprite sf=secondary:resUI/car/图层 5/spriteFrame | UIOpacity | UITransform
+      - 图层 17 :: Sprite sf=secondary:resUI/car/图层 17/spriteFrame | UIOpacity | UITransform
+      - 图层 16 :: Sprite sf=secondary:resUI/car/图层 16/spriteFrame | UIOpacity | UITransform
+      - 图层 21 :: Sprite sf=secondary:resUI/car/图层 21/spriteFrame | UIOpacity | UITransform
+      - 图层 18 :: Sprite sf=secondary:resUI/car/图层 18/spriteFrame | UIOpacity | UITransform
+      - 图层 22 :: Sprite sf=secondary:resUI/car/图层 22/spriteFrame | UIOpacity | UITransform
+      - 图层 24 :: Sprite sf=secondary:resUI/car/图层 24/spriteFrame | UIOpacity | UITransform
+      - 图层 19 :: Sprite sf=secondary:resUI/car/图层 19/spriteFrame | UIOpacity | UITransform
+      - 图层 23 :: Sprite sf=secondary:resUI/car/图层 23/spriteFrame | UIOpacity | UITransform
+      - 图层 23 copy1 :: Sprite sf=secondary:resUI/car/图层 23/spriteFrame | UIOpacity | UITransform
+      - 图层 23 copy2 :: Sprite sf=secondary:resUI/car/图层 23/spriteFrame | UIOpacity | UITransform
+      - 图层 3 copy :: Sprite sf=secondary:resUI/car/图层 3/spriteFrame | UIOpacity | UITransform
+    - New Particle :: ParticleSystem2D plist=None | UIOpacity | UITransform
+    - New Particle copy :: ParticleSystem2D plist=None | UIOpacity | UITransform
+
+### [secondary] prefab/Game/GbzWin2Layer
+- GbzWin2Layer :: Widget | UIOpacity | UITransform
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | UIOpacity | UITransform
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Sprite | Widget | UIOpacity | UITransform
+      - btn_close2 :: Button | Widget | UIOpacity | UITransform
+        - lbl INACTIVE :: Label='返回主页' | UIOpacity | UITransform
+      - title :: Sprite sf=secondary:resUI/胜利失败/shengli/spriteFrame | UIOpacity | UITransform
+      - guang :: Sprite | Animation clips=['<secondary:>'] | UIOpacity | UITransform
+        - guang :: Sprite sf=secondary:resUI/胜利失败/特效/spriteFrame | UIOpacity | UITransform
+        - icon :: Sprite | UIOpacity | UITransform
+      - info :: Sprite sf=secondary:resUI/胜利失败/budeliao/spriteFrame | UIOpacity | UITransform
+      - proBg :: Sprite sf=secondary:resUI/胜利失败/进度底/spriteFrame | UIOpacity | UITransform
+        - proBg_fill :: Sprite sf=secondary:resUI/胜利失败/进度/spriteFrame | Widget | UIOpacity | UITransform
+        - lv :: RichText | UIOpacity | UITransform
+        - build :: Sprite sf=secondary:resUI/胜利失败/jianzu/spriteFrame | UIOpacity | UITransform
+        - car :: Sprite sf=secondary:resUI/胜利失败/car/spriteFrame | UIOpacity | UITransform
+      - buttons :: Layout | UIOpacity | UITransform
+        - btn_restart :: Sprite sf=secondary:resUI/胜利失败/next/spriteFrame | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+          - btn_restart-001 :: Sprite sf=secondary: | UIOpacity | UITransform
+          - btn_restart-002 :: Sprite sf=secondary:resUI/胜利失败/next/spriteFrame | UIOpacity | UITransform
+      - btnshare :: Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - Background :: Sprite sf=secondary: | Widget | UIOpacity | UITransform
+
+### [secondary] prefab/Home/GbzFansLayer
+- GbzFansLayer :: Widget | SCRIPT:adf6dj1TWpAlLArjFGnbJXf | UIOpacity | UITransform
+    * CUSTOM adf6dj1TWpAlLArjFGnbJXf {}
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | UIOpacity | UITransform
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Widget | UIOpacity | UITransform
+      - bg :: Sprite sf=secondary:resUI/通用/设置面板/spriteFrame | Widget | UIOpacity | UITransform
+        - btnClose :: Sprite sf=secondary: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - img :: Sprite sf=secondary:resUI/通用/玩家社区/spriteFrame | Widget | UIOpacity | UITransform
+        - er :: Sprite | Widget | UIOpacity | UITransform
+        - New Label :: Label='点击保存并扫描二维码，\n加入玩家社区' | Widget | UIOpacity | UITransform
+
+### [secondary] prefab/Game/GbzPropSpecialLayer
+- GbzPropSpecialLayer :: Widget | UIOpacity | UITransform
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | UIOpacity | UITransform
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Widget | UIOpacity | UITransform
+      - bg :: Sprite sf=secondary:resUI/通用/设置面板/spriteFrame | Widget | UIOpacity | UITransform
+        - btnClose :: Sprite sf=secondary: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - propIcon0 :: Sprite sf=secondary: | UIOpacity | UITransform
+        - propIcon1 :: Sprite sf=secondary: | UIOpacity | UITransform
+        - titleLa0 :: Sprite sf=secondary:resUI/PropSpecial/解锁所有/spriteFrame | UIOpacity | UITransform
+        - titleLa1 :: Sprite sf=secondary:resUI/PropSpecial/消除多组/spriteFrame | UIOpacity | UITransform
+        - titleLa2 :: Sprite sf=secondary:resUI/PropSpecial/解锁槽位/spriteFrame | UIOpacity | UITransform
+        - videobtn_get :: Sprite sf=secondary: | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+          - 视频 INACTIVE :: Sprite sf=secondary: | SCRIPT:f5322BTOHxO4pccMz2DMzcP | UIOpacity | UITransform
+              * CUSTOM f5322BTOHxO4pccMz2DMzcP {icon={...}}
+          - 使用 INACTIVE :: Sprite sf=secondary:resUI/PropSpecial/使用/spriteFrame | UIOpacity | UITransform
+        - dirLa :: Label='解锁所有槽位' | Widget | UIOpacity | UITransform | LabelOutline
+
+### [secondary] prefab/Home/GbzFruitBookLayer
+- GbzFruitBookLayer :: Widget | UIOpacity | UITransform
+  - btnBgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | Button | UIOpacity | UITransform
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Sprite sf=secondary:resUI/通用/设置面板/spriteFrame | Widget | UIOpacity | UITransform
+      - layoutPro :: Layout | UIOpacity | UITransform
+        - New Label :: Label='收集进度:' | UIOpacity | UITransform
+        - level :: Label='1' | UIOpacity | UITransform
+        - allLable :: Label='/175' | UIOpacity | UITransform
+      - New Sprite :: Sprite sf=secondary:resUI/图鉴/1e7a17799_0003_图层-4/spriteFrame | UIOpacity | UITransform
+      - New Sprite copy :: Sprite sf=secondary:resUI/图鉴/1e7a17799_0004_图层-5/spriteFrame | UIOpacity | UITransform
+      - btn_Close :: Sprite sf=secondary: | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+          * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+      - list :: Mask | ScrollView | Widget | SCRIPT:9d992VDm1FECo27GTxJW4Cj | UIOpacity | UITransform | Graphics
+          * CUSTOM 9d992VDm1FECo27GTxJW4Cj {spaceY=28; delegate={...}; initFinish={...}; delegateUpdate={...}; prefab=<secondary:>}
+        - view :: Mask | Widget | UIOpacity | UITransform | Graphics
+          - content :: Widget | Layout | UIOpacity | UITransform
+
+### [secondary] prefab/Game/GbzResurgenceLayer
+- GbzResurgenceLayer :: Widget | UIOpacity | UITransform
+  - bgshade :: Sprite sf=secondary: | Widget | BlockInputEvents | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+      * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+  - style :: Widget | UIOpacity | UITransform
+    - panel :: Sprite | Widget | UIOpacity | UITransform
+      - Bg :: UITransform | Sprite sf=secondary:resUI/通用/设置面板/spriteFrame | Widget
+        - icon :: Sprite sf=secondary:resUI/复活/reviveUI3/spriteFrame | Widget | UIOpacity | UITransform
+        - UI_db3 :: Sprite sf=secondary:resUI/复活/心/spriteFrame | Widget | UIOpacity | UITransform
+        - labInfos :: Widget | Layout | UIOpacity | UITransform
+          - lab :: Label='还剩' | UIOpacity | UITransform | LabelOutline | LabelOutline
+          - labNum :: Label='248' | UIOpacity | UITransform | LabelOutline
+          - info :: Label='个水果过关' | UIOpacity | UITransform | LabelOutline | LabelOutline
+        - lab copy :: Label='复活吗?' | Widget | UIOpacity | UITransform | LabelOutline
+        - btn_relive :: Sprite sf=secondary:resUI/胜利失败/reviveUI1/spriteFrame | Button | Widget | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+        - btn_close :: Sprite sf=secondary: | Widget | Button | SCRIPT:43bb6fKayNBYbX8U1vE9wAT | UIOpacity | UITransform
+            * CUSTOM 43bb6fKayNBYbX8U1vE9wAT {}
+
+### [fruits] fruit1
+- fruit1 :: Sprite sf=fruits:水果图标/西瓜/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit21
+- fruit21 :: Sprite sf=fruits:水果图标/杨梅/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit31
+- fruit31 :: Sprite sf=fruits:水果图标/南瓜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit2
+- fruit2 :: Sprite sf=fruits:水果图标/火龙果/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit4
+- fruit4 :: Sprite sf=fruits:水果图标/葡萄/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit10
+- fruit10 :: Sprite sf=fruits:水果图标/柠檬/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit13
+- fruit13 :: Sprite sf=fruits:水果图标/榴莲/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit32
+- fruit32 :: Sprite sf=fruits:水果图标/黄彩椒/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit5
+- fruit5 :: Sprite sf=fruits:水果图标/桃子/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit28
+- fruit28 :: Sprite sf=fruits:水果图标/贝贝南瓜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit12
+- fruit12 :: Sprite sf=fruits:水果图标/蓝莓/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit6
+- fruit6 :: Sprite sf=fruits:水果图标/香蕉/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit17
+- fruit17 :: Sprite sf=fruits:水果图标/芒果/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit3
+- fruit3 :: Sprite sf=fruits:水果图标/包菜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit19
+- fruit19 :: Sprite sf=fruits:水果图标/橘子/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit8
+- fruit8 :: Sprite sf=fruits:水果图标/车厘子/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit14
+- fruit14 :: Sprite sf=fruits:水果图标/桂圆/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit25
+- fruit25 :: Sprite sf=fruits:水果图标/人参果/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit9
+- fruit9 :: Sprite sf=fruits:水果图标/草莓/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit24
+- fruit24 :: Sprite sf=fruits:水果图标/山竹/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit27
+- fruit27 :: Sprite sf=fruits:水果图标/哈密瓜/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit22
+- fruit22 :: Sprite sf=fruits:水果图标/红甘蓝/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit26
+- fruit26 :: Sprite sf=fruits:水果图标/椰子/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit20
+- fruit20 :: Sprite sf=fruits:水果图标/冬枣/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit18
+- fruit18 :: Sprite sf=fruits:水果图标/树莓/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit11
+- fruit11 :: Sprite sf=fruits:水果图标/石榴/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit33
+- fruit33 :: Sprite sf=fruits:水果图标/荔枝/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit23
+- fruit23 :: Sprite sf=fruits:水果图标/花菜/spriteFrame | RigidBody2D | UIOpacity | UITransform | PolygonCollider2D
+
+### [fruits] fruit29
+- fruit29 :: Sprite sf=fruits:水果图标/土豆/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit15
+- fruit15 :: Sprite sf=fruits:水果图标/柿子/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit7
+- fruit7 :: Sprite sf=fruits:水果图标/西红柿/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit16
+- fruit16 :: Sprite sf=fruits:水果图标/茄子/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [fruits] fruit30
+- fruit30 :: Sprite sf=fruits:水果图标/桑葚/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable8
+- vegetable8 :: Sprite sf=vegetable:蔬菜/朝天椒/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable20
+- vegetable20 :: Sprite sf=vegetable:蔬菜/莲藕/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable22
+- vegetable22 :: Sprite sf=vegetable:蔬菜/菜瓜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable6
+- vegetable6 :: Sprite sf=vegetable:蔬菜/大蒜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable5
+- vegetable5 :: Sprite sf=vegetable:蔬菜/大白菜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable15
+- vegetable15 :: Sprite sf=vegetable:蔬菜/胡萝卜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable24
+- vegetable24 :: Sprite | RigidBody2D | CircleCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable23
+- vegetable23 :: Sprite sf=vegetable:蔬菜/西兰花/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable25
+- vegetable25 :: Sprite sf=vegetable:蔬菜/贝贝南瓜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable19
+- vegetable19 :: Sprite sf=vegetable:蔬菜/荸荠/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable10
+- vegetable10 :: Sprite sf=vegetable:蔬菜/玉米/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable12
+- vegetable12 :: Sprite sf=vegetable:蔬菜/生菜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable18
+- vegetable18 :: Sprite sf=vegetable:蔬菜/茄子/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable21
+- vegetable21 :: Sprite sf=vegetable:蔬菜/菜心/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable9
+- vegetable9 :: Sprite sf=vegetable:蔬菜/洋葱/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable26
+- vegetable26 :: Sprite sf=vegetable:蔬菜/香菇/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable7
+- vegetable7 :: Sprite sf=vegetable:蔬菜/小红萝卜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable27
+- vegetable27 :: Sprite sf=vegetable:蔬菜/黄彩椒/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable17
+- vegetable17 :: Sprite sf=vegetable:蔬菜/苦瓜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable11
+- vegetable11 :: Sprite sf=vegetable:蔬菜/生姜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable4
+- vegetable4 :: Sprite sf=vegetable:蔬菜/土豆/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable28
+- vegetable28 :: Sprite sf=vegetable:蔬菜/黄瓜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable2
+- vegetable2 :: Sprite sf=vegetable:蔬菜/包菜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable13
+- vegetable13 :: Sprite sf=vegetable:蔬菜/竹笋/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable3
+- vegetable3 :: Sprite sf=vegetable:蔬菜/南瓜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable1
+- vegetable1 :: Sprite sf=vegetable:蔬菜/冬瓜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable16
+- vegetable16 :: Sprite sf=vegetable:蔬菜/花菜/spriteFrame | RigidBody2D | PolygonCollider2D | UIOpacity | UITransform
+
+### [vegetable] vegetable14
+- vegetable14 :: Sprite sf=vegetable:蔬菜/红甘蓝/spriteFrame | RigidBody2D | CircleCollider2D | UIOpacity | UITransform

@@ -1,0 +1,221 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "fruit4",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "fruit4",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 10
+      }
+    ],
+    "_level": 1,
+    "_prefab": {
+      "__id__": 12
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 108.856,
+      "y": 316.198,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_layer": 2,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_mobility": 0,
+    "_id": "rfHDdD1V6V5EgEWrR1rZOp"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 3
+    },
+    "_customMaterial": {
+      "__uuid__": "fda095cb-831d-4601-ad94-846013963de8"
+    },
+    "_spriteFrame": {
+      "__uuid__": "2e065fcf-d42b-495a-a465-c447dd3f424c@f9941"
+    },
+    "_id": "87Fk3GbjJREpfsle3Fs8xC"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "c2B2jfmPdEHajuIwENMzFn"
+  },
+  {
+    "__type__": "cc.RigidBody2D",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 5
+    },
+    "enabledContactListener": true,
+    "_id": "68pinhi5SRu7tL3Lmafyqy"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "61sE21nAZNJYnLMY9e0h62"
+  },
+  {
+    "__type__": "cc.PolygonCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 7
+    },
+    "_friction": 0,
+    "_restitution": 0.1,
+    "_points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": -68.2,
+        "y": 53.3
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -71.8,
+        "y": -16.4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -46.2,
+        "y": -79.6
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 7.1,
+        "y": -74
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 58.8,
+        "y": -48.5
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 68.9,
+        "y": -3.3
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 59.8,
+        "y": 33.6
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 17.4,
+        "y": 79.6
+      }
+    ],
+    "_id": "RlNVoEDS9iHp6pdRJwD1yc"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "fauVjX1ARCEJDkuAOdQRsl"
+  },
+  {
+    "__type__": "cc.UIOpacity",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 9
+    },
+    "_id": "5v2ClHZvgb8LBwLORYCTIP"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "c8bYnAIHxJdKkGIwkW0JAU"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 11
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 145,
+      "height": 179
+    },
+    "_id": "KCnv6erw5nnFEqOALRwCCj"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "1b3sbiLlhKlYfGGMvtJXV7"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "1582113b-184a-40b4-be35-c6b8daca950a"
+    },
+    "fileId": "94Z+Ss2fVEl5L7676TCXuV"
+  }
+]

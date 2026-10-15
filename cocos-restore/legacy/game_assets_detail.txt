@@ -1,0 +1,78 @@
+#################### game
+== cc.Prefab: 33
+  prefab/eff/landEff0 | subpackages/game/import/0d/0db58ff1-2ac8-4407-a7f1-f916d9612a7f.json
+  prefab/game/cloud4 | subpackages/game/import/0e/0ee53a89-981e-4fde-984e-224b7d29cd8b.json
+  prefab/game/blackBox | subpackages/game/import/14/149a15cb-297a-44b7-8384-93db1cb2e1ec.json
+  prefab/eff/landEff3 | subpackages/game/import/1d/1d7d658a-60a3-457f-996a-ede0898e9ebc.json
+  prefab/game/ice | subpackages/game/import/1f/1ff1d2e2-86bf-4713-baa5-50b88d84230f.json
+  prefab/game/star | pack:05c09eb89
+  prefab/game/obs1 | subpackages/game/import/34/3480488c-86b0-4ec3-813a-6d5509b25746.json
+  prefab/game/finger | subpackages/game/import/39/39f2d48e-f381-450c-8df5-01633284e898.json
+  prefab/game/getItemTip | subpackages/game/import/4b/4b089487-c290-4f54-a85d-1acac5df0501.json
+  prefab/game/xingxing | subpackages/game/import/52/52aff0bc-2462-4794-8863-1816e70cf9f5.json
+  prefab/game/stake | subpackages/game/import/52/52edd66d-4a44-49a8-bf9b-5ab8c2ed5833.json
+  prefab/game/cloud2 | subpackages/game/import/57/57458a5b-fbeb-4c12-a5e7-68ec13741982.json
+  prefab/game/obs2 | subpackages/game/import/5f/5f42149f-dbac-4125-a7c8-2c146d0146fa.json
+  prefab/game/cloud1 | subpackages/game/import/60/605ed7a9-8477-4cf3-a1f9-8b2dd772c2a6.json
+  prefab/game/effPr | subpackages/game/import/27/27b82d5b-1e79-4595-ae8f-03396c4382ee.json
+  prefab/game/streak | subpackages/game/import/6a/6ab9c73d-b507-412e-b3eb-328490ab9772.json
+  prefab/eff/landEff2 | subpackages/game/import/6b/6b1c29e2-ec8f-4814-ae40-f41b6f4e3124.json
+  prefab/game/jointPoint | subpackages/game/import/6b/6bebd4ab-6f1f-490a-96e2-fd8ee338d648.json
+  prefab/game/GbzLvCommon | pack:0d785ed53
+  prefab/game/fruitBook | pack:08cb88a9b
+  prefab/ui/GbzMainLayer | pack:05a2909d9
+  prefab/eff/chuizi | pack:04b4a92a9
+  prefab/game/obs3 | subpackages/game/import/bf/bfef0df9-aca8-4f9b-9d53-f3cf60584c9a.json
+  prefab/game/iceLab | subpackages/game/import/c1/c16c5ea1-6941-4297-aa51-850165f412a2.json
+  prefab/game/car | pack:0d7de5000
+  prefab/game/holeBg | subpackages/game/import/d5/d5a734ea-cc94-448e-80dc-9389bddf0953.json
+  prefab/game/data | subpackages/game/import/dc/dccf7e21-1e4a-4aaa-976e-8cf118ba25c3.json
+  prefab/ui/GbzMenuLayer | pack:0de4192ed
+  prefab/game/cloud3 | subpackages/game/import/8b/8b48b054-f95f-4cf3-92f9-ee0fd8c930e4.json
+  prefab/game/holeCount | subpackages/game/import/90/901aa9a3-fbf4-4f1b-99b0-c8f2ad67f17d.json
+  prefab/eff/landEff1 | subpackages/game/import/ab/abebe84d-ef14-46ba-aa76-3e7663c02544.json
+  prefab/eff/boxBoom | subpackages/game/import/b2/b2f56abe-d832-4b9f-b1a2-8abad8d6edbb.json
+  prefab/eff/effMagnet | subpackages/game/import/e4/e489139b-4b57-47b3-a043-1451a015cabc.json
+== cc.JsonAsset: 1
+  json_encrypt/rangkingConfig | subpackages/game/import/9d/9d46f4cc-bb04-4a8d-9767-70d1381abf3e.json
+== cc.SpriteAtlas: 10
+  sprite/关卡界面/场景/AutoAtlas | pack:04e1cdfc0
+  sprite/通用/AutoAtlas | pack:093f7d5c1
+  resUI/texture/AutoAtlas | pack:057dd490e
+  resUI/关卡界面/AutoAtlas | pack:0b83b75b7
+  resUI/lightning/AutoAtlas | pack:0521be4ca
+  resUI/eff/AutoAtlas | pack:04773ea91
+  sprite/关卡界面/icons/AutoAtlas | pack:029757e53
+  resUI/主界面/AutoAtlas | pack:06e827f07
+  resUI/加载页/AutoAtlas | subpackages/game/import/b1/b141145d-4108-41aa-810d-96be1dadf9d6.json
+  resUI/通用/AutoAtlas | pack:05022141f
+== native .plist: ['subpackages/game/native/86/86f25d5c-9de5-454f-a5f9-ee16603e6701.plist', 'subpackages/game/native/e1/e17b4526-57a2-48d3-acc9-cf09f30aa138.plist']
+#################### secondary
+== cc.Prefab: 13
+  prefab/Game/GbzGetItemLayer | pack:0dd512c85
+  prefab/Game/GbzFruitDownLayer | pack:0838d4908
+  prefab/Game/GbzLoseFullLayer | subpackages/secondary/import/4c/4cdd4ecd-41b3-460d-8f19-1a1c383c631c.json
+  prefab/Game/GbzExitLayer | subpackages/secondary/import/3c/3c95b151-697e-4b49-860d-925dd792a35d.json
+  prefab/Home/GbzGetRewLayer | subpackages/secondary/import/63/633aa7e5-4d6f-4cd7-94aa-5a302003a78f.json
+  prefab/Home/GbzSettingLayer | subpackages/secondary/import/94/949acee1--0e2-8-49-42-b-123-f403805d1cc8.json
+  prefab/Home/GbzRankLayer | pack:0f7393dfc
+  prefab/Game/GbzCarMoveLayer | pack:015c5c071
+  prefab/Game/GbzWin2Layer | pack:061315c16
+  prefab/Home/GbzFansLayer | subpackages/secondary/import/d1/d1c1a66d-0bfc-4a9b-81c6-7e5512f746a6.json
+  prefab/Game/GbzPropSpecialLayer | pack:0257e119c
+  prefab/Home/GbzFruitBookLayer | pack:042d26726
+  prefab/Game/GbzResurgenceLayer | subpackages/secondary/import/f3/f3f54626-56b2-4851-8f8a-f3723bdfd4fc.json
+== cc.JsonAsset: 0
+== cc.SpriteAtlas: 6
+  resUI/主题/AutoAtlas | pack:08d849683
+  resUI/设置/AutoAtlas | pack:07d2a86ef
+  resUI/复活/AutoAtlas | pack:061a59923
+  sprite/Home/主界面/AutoAtlas | pack:0a2e48348
+  resUI/通用/AutoAtlas | pack:0ed7d1ce1
+  resUI/胜利失败/AutoAtlas | pack:0ef03f2a0
+== native .plist: []
+#################### start-scene
+== cc.Prefab: 0
+== cc.JsonAsset: 0
+== cc.SpriteAtlas: 0
+== native .plist: []

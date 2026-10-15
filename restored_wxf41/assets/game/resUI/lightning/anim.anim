@@ -1,0 +1,113 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "anim",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_native": "",
+    "sample": 60,
+    "speed": 0.3,
+    "wrapMode": 1,
+    "enableTrsBlending": false,
+    "_duration": 0.15,
+    "_hash": 500763545,
+    "_tracks": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_exoticAnimation": null,
+    "_events": [],
+    "_embeddedPlayers": [],
+    "_additiveSettings": {
+      "__id__": 6
+    },
+    "_auxiliaryCurveEntries": []
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      },
+      "proxy": null
+    },
+    "_channel": {
+      "__id__": 4
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0,
+      0.016666666666666666,
+      0.03333333333333333,
+      0.05,
+      0.06666666666666667,
+      0.08333333333333333,
+      0.1,
+      0.11666666666666667,
+      0.13333333333333333
+    ],
+    "_values": [
+      {
+        "__uuid__": "83ae70c7-d096-4017-b6c3-40a05dc74fae@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "fb6ab73d-b608-499c-a028-ba54f14b467b@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "16ebeddd-a356-4489-b568-a2462f7b6514@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "ffedf586-58e4-4d32-8be8-c2b75b37bd65@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "fb6ab73d-b608-499c-a028-ba54f14b467b@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "16ebeddd-a356-4489-b568-a2462f7b6514@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "83ae70c7-d096-4017-b6c3-40a05dc74fae@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      null,
+      {
+        "__uuid__": "ffedf586-58e4-4d32-8be8-c2b75b37bd65@f9941",
+        "__expectedType__": "cc.Asset"
+      }
+    ]
+  },
+  {
+    "__type__": "cc.AnimationClipAdditiveSettings",
+    "enabled": false,
+    "refClip": null
+  }
+]
